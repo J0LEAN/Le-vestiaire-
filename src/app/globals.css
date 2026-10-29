@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Palette "noir & blanc pur" du Vestiaire.
+   Pour changer l'ambiance du site, il suffit de modifier ces couleurs. */
+@theme {
+  --color-ink: #000000; /* texte principal, boutons */
+  --color-paper: #ffffff; /* fond */
+  --color-mist: #f4f4f4; /* fond des collages et encadrés */
+  --color-line: #e5e5e5; /* bordures fines */
+  --color-muted: #666666; /* texte secondaire */
+  --color-danger: #b91c1c; /* erreurs (admin) */
+  --color-success: #15803d; /* succès (admin) */
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+/* Styles réutilisables (boutons, champs de formulaire…) */
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 border border-ink px-5 py-3 text-sm font-medium tracking-wide transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-ink text-paper hover:bg-paper hover:text-ink;
+}
+@utility btn-secondary {
+  @apply btn bg-paper text-ink hover:bg-ink hover:text-paper;
+}
+@utility eyebrow {
+  @apply text-xs font-medium tracking-[0.2em] uppercase;
+}
+@utility field {
+  @apply w-full border border-line bg-paper px-3 py-2 text-sm outline-none focus:border-ink;
 }
