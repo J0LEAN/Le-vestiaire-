@@ -1,0 +1,62 @@
+// Schéma de la base de données du Vestiaire.
+// SQLite est utilisé pour démarrer : la base est un simple fichier.
+// Pour passer à PostgreSQL plus tard : changer `provider` en "postgresql",
+// mettre à jour DATABASE_URL, puis recréer les migrations.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Une tenue complète (un "look").
+model Outfit {
+  id          Int       @id @default(autoincrement())
+  slug        String    @unique // morceau d'URL : /tenues/<slug>
+  title       String
+  description String
+  whyItWorks  String // conseil "pourquoi ça marche"
+  style       String // voir src/lib/constants.ts (STYLES)
+  occasion    String // voir OCCASIONS
+  season      String // voir SEASONS
+  budget      Int? // budget indicatif en euros (si vide : somme des prix)
+  mainImage   String? // image principale (optionnelle)
+  status      String    @default("brouillon") // "brouillon" ou "publiee"
+  featured    Boolean   @default(false) // affichée "à la une" sur l'accueil
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  items       Item[]
+
+  @@index([status, publishedAt])
+}
+
+// Un article (vêtement, chaussures, accessoire…) appartenant à une tenue.
+model Item {
+  id            Int       @id @default(autoincrement())
+  outfitId      Int
+  outfit        Outfit    @relation(fields: [outfitId], references: [id], onDelete: Cascade)
+  position      Int       @default(0) // ordre d'affichage dans la tenue
+  name          String
+  category      String // voir CATEGORIES
+  brand         String?
+  price         Float?
+  imageUrl      String?
+  url           String // lien d'achat
+  isAffiliate   Boolean   @default(false)
+  linkStatus    String    @default("inconnu") // "inconnu", "ok", "casse" ou "erreur"
+  linkError     String? // détail du problème détecté
+  linkCheckedAt DateTime? // date de dernière vérification du lien
+
+  @@index([outfitId])
+}
+
+// Une inscription à la newsletter.
+model Subscriber {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}
