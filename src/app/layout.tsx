@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
-import { SITE } from "@/lib/site";
+import { OG_DEFAULTS, SITE } from "@/lib/site";
 import "./globals.css";
 
 // Toutes les pages lisent la base de données à chaque visite
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: { default: `${SITE.name} — ${SITE.tagline}`, template: `%s | ${SITE.name}` },
   description: SITE.description,
-  openGraph: { siteName: SITE.name, locale: "fr_FR", type: "website" },
+  openGraph: { ...OG_DEFAULTS, type: "website" },
   twitter: { card: "summary_large_image" },
 };
 

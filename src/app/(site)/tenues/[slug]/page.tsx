@@ -9,6 +9,7 @@ import { OutfitVisual } from "@/components/OutfitVisual";
 import { PinterestButton } from "@/components/PinterestButton";
 import { CATEGORIES, OCCASIONS, SEASONS, STYLES, labelOf } from "@/lib/constants";
 import { formatPrice, outfitBudget } from "@/lib/format";
+import { OG_DEFAULTS } from "@/lib/site";
 import { getOutfitBySlug, getPublishedOutfits } from "@/lib/queries";
 
 // Balises SEO propres à chaque tenue (titre, description, image de partage).
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: PageProps<"/tenues/[slug]">):
     title: outfit.title,
     description: outfit.description,
     alternates: { canonical: `/tenues/${slug}` },
-    openGraph: { title: outfit.title, description: outfit.description, type: "article", images: [{ url: image, width: 1200, height: 630 }] },
+    openGraph: { ...OG_DEFAULTS, title: outfit.title, description: outfit.description, type: "article", images: [{ url: image, width: 1200, height: 630 }] },
     twitter: { title: outfit.title, description: outfit.description, images: [image] },
   };
 }

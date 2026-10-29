@@ -1,9 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { FilterBar } from "@/components/FilterBar";
 import { OutfitGrid } from "@/components/OutfitCard";
 import { OutfitVisual } from "@/components/OutfitVisual";
 import { OCCASIONS, labelOf } from "@/lib/constants";
+import { OG_DEFAULTS } from "@/lib/site";
 import { getFeaturedOutfits, getPublishedOutfits, readFilters } from "@/lib/queries";
+
+// Image de partage de l'accueil : le visuel de la tenue à la une la plus récente.
+export async function generateMetadata(): Promise<Metadata> {
+  const [first] = await getFeaturedOutfits();
+  return {
+    alternates: { canonical: "/" },
+    openGraph: first ? { ...OG_DEFAULTS, type: "website", images: [{ url: `/visuels/${first.slug}?format=og`, width: 1200, height: 630 }] } : undefined,
+  };
+}
 
 export default async function HomePage({ searchParams }: PageProps<"/">) {
   const filters = readFilters(await searchParams);

@@ -13,3 +13,6 @@ export function absoluteUrl(path: string): string {
   if (/^https?:\/\//.test(path)) return path;
   return `${SITE.url}${path.startsWith("/") ? "" : "/"}${path}`;
 }
+
+/** Infos Open Graph communes (à répéter : Next.js ne fusionne pas les objets openGraph). */
+export const OG_DEFAULTS = { siteName: SITE.name, locale: "fr_FR" };
