@@ -1,5 +1,7 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
+import { requireAdmin } from "@/lib/auth";
 import { db } from "@/lib/db";
 
 export type NewsletterState = { ok: boolean; message: string } | null;
@@ -15,4 +17,11 @@ export async function subscribe(_prev: NewsletterState, formData: FormData): Pro
   }
   await db.subscriber.upsert({ where: { email }, update: {}, create: { email } });
   return { ok: true, message: "Merci, c'est noté ! À bientôt dans votre boîte mail." };
+}
+
+/** Suppression d'un abonné (admin uniquement, ex. demande de désinscription). */
+export async function deleteSubscriber(formData: FormData) {
+  await requireAdmin();
+  await db.subscriber.delete({ where: { id: Number(formData.get("id")) } }).catch(() => null);
+  revalidatePath("/admin/newsletter");
 }
