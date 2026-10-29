@@ -1,0 +1,33 @@
+{
+  "tenues": [
+    {
+      "titre": "Afterwork en jupe midi",
+      "description": "Une tenue qui passe du bureau au bar sans détour par la maison.",
+      "pourquoi_ca_marche": "La jupe midi est féminine sans être trop habillée. Le pull fin rentré dans la taille marque la silhouette, et les bottines noires ancrent la tenue pour qu'elle reste pratique.",
+      "style": "chic",
+      "occasion": "travail",
+      "saison": "automne",
+      "budget": 180,
+      "image": "",
+      "a_la_une": false,
+      "articles": [
+        { "nom": "Pull fin col rond gris", "categorie": "haut", "marque": "Marque A", "prix": 35.9, "image": "/exemples/pull-gris.svg", "lien": "https://www.exemple-boutique.fr/pull-fin", "affilie": false },
+        { "nom": "Jupe midi plissée noire", "categorie": "bas", "marque": "Marque B", "prix": 49, "image": "", "lien": "https://www.exemple-boutique.fr/jupe-midi", "affilie": true },
+        { "nom": "Bottines noires", "categorie": "chaussures", "marque": "Marque C", "prix": 79, "image": "/exemples/bottines-noires.svg", "lien": "https://www.exemple-boutique.fr/bottines", "affilie": true }
+      ]
+    },
+    {
+      "titre": "Vacances à la mer",
+      "description": "Légère et facile à porter, pour flâner du marché à la plage.",
+      "pourquoi_ca_marche": "Le blanc et le naturel (paille, beige) évoquent l'été et vont avec tout. Les sandales plates permettent de marcher longtemps.",
+      "style": "Bohème",
+      "occasion": "Vacances",
+      "saison": "Été",
+      "articles": [
+        { "nom": "T-shirt blanc en lin", "categorie": "haut", "prix": "25,00 €", "image": "/exemples/tshirt-blanc.svg", "lien": "https://www.exemple-boutique.fr/tshirt-lin" },
+        { "nom": "Sandales nude", "categorie": "chaussures", "prix": 45, "image": "/exemples/sandales-nude.svg", "lien": "https://www.exemple-boutique.fr/sandales", "affilie": "oui" },
+        { "nom": "Cabas en paille", "categorie": "sac", "prix": 30, "image": "/exemples/cabas-paille.svg", "lien": "https://www.exemple-boutique.fr/cabas" }
+      ]
+    }
+  ]
+}

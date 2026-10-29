@@ -53,12 +53,15 @@ function parseJson(text: string): ImportResult {
   try {
     data = JSON.parse(text);
   } catch (e) {
-    const detail = e instanceof Error ? e.message : String(e);
+    // Le message d'origine est en anglais : on n'en garde que la position de l'erreur.
+    const pos = (e instanceof Error ? e.message : "").match(/line (\d+) column (\d+)/);
+    const where = pos ? ` (vers la ligne ${pos[1]}, colonne ${pos[2]})` : "";
     return {
       ok: false,
       errors: [
-        `Le fichier JSON est mal formé (${detail}). Vérifie les virgules, les guillemets et les accolades. ` +
-          `Astuce : colle le contenu sur https://jsonlint.com pour trouver la ligne fautive.`,
+        `Le fichier JSON est mal formé${where}. Vérifiez les virgules, les guillemets et les accolades ` +
+          `(une virgule en trop avant } ou ] est l'erreur la plus fréquente). ` +
+          `Astuce : collez le contenu sur https://jsonlint.com pour trouver la ligne fautive.`,
       ],
     };
   }
@@ -82,7 +85,9 @@ function parseCsv(text: string): ImportResult {
     transformHeader: (h) => slugify(h).replace(/-/g, "_"), // "Prix (€)" → "prix"
   });
   if (parsed.errors.length) {
-    const errs = parsed.errors.slice(0, 5).map((e) => `CSV, ligne ${(e.row ?? 0) + 2} : ${e.message}`);
+    const errs = parsed.errors
+      .slice(0, 5)
+      .map((e) => `CSV, ligne ${(e.row ?? 0) + 2} : format incorrect (souvent un guillemet \" non fermé ou un nombre de colonnes différent de l'en-tête).`);
     return { ok: false, errors: errs };
   }
   const rows = parsed.data;
