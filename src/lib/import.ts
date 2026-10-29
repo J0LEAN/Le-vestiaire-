@@ -121,7 +121,7 @@ function parseCsv(text: string): ImportResult {
 
 // ---------------------------------------------------------------- Vérification
 
-function validateOutfits(list: Raw[]): ImportResult {
+export function validateOutfits(list: Raw[]): ImportResult {
   const errors: string[] = [];
   const outfits: ParsedOutfit[] = [];
 
