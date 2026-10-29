@@ -3,6 +3,9 @@ import { STYLES } from "@/lib/constants";
 import { db } from "@/lib/db";
 import { SITE } from "@/lib/site";
 
+// Calculé à chaque visite (toujours à jour, et pas besoin de la base pendant la construction).
+export const dynamic = "force-dynamic";
+
 // Plan du site pour Google : /sitemap.xml
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const outfits = await db.outfit.findMany({

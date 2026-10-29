@@ -2,6 +2,7 @@
 // Lancement : npm run db:seed
 // Par sécurité, ne fait rien si la base contient déjà des tenues,
 // sauf avec l'option --force (qui EFFACE toutes les tenues existantes).
+// Avec --auto, ne fait quelque chose que si la variable SEED_EXEMPLES vaut "oui".
 
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -12,6 +13,8 @@ import { createOutfits } from "../src/lib/outfits";
 const db = new PrismaClient();
 
 async function main() {
+  // Mode automatique (au démarrage sur Railway) : seulement si SEED_EXEMPLES=oui
+  if (process.argv.includes("--auto") && process.env.SEED_EXEMPLES !== "oui") return;
   const force = process.argv.includes("--force");
   const count = await db.outfit.count();
   if (count > 0 && !force) {
