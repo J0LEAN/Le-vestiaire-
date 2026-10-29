@@ -44,13 +44,13 @@ Tapez ces commandes une par une dans le terminal.
 1. Télécharger le projet :
 
 ```bash
-git clone https://github.com/j0lean/buy-my-dress.git
+git clone https://github.com/J0LEAN/Buy-my-dress.git
 ```
 
 2. Entrer dans le dossier du projet :
 
 ```bash
-cd buy-my-dress
+cd Buy-my-dress
 ```
 
 3. Installer les bibliothèques dont le site a besoin (1 à 2 minutes) :
@@ -146,7 +146,7 @@ Sur le site, les liens affiliés affichent automatiquement la mention **« Lien 
 ### Étape 1 : créer le projet
 
 1. Créez un compte sur [railway.com](https://railway.com) en vous connectant avec votre compte GitHub.
-2. Cliquez sur **New Project**, puis **Deploy from GitHub repo**, et choisissez le dépôt `buy-my-dress`.
+2. Cliquez sur **New Project**, puis **Deploy from GitHub repo**, et choisissez le dépôt `Buy-my-dress`.
 3. Railway lance une première construction du site. Elle échouera ou le site ne fonctionnera pas encore : c'est normal, il manque les réglages des étapes suivantes.
 
 ### Étape 2 : ajouter le disque permanent (volume)
