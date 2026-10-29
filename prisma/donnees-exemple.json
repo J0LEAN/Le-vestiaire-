@@ -1,0 +1,95 @@
+{
+  "tenues": [
+    {
+      "titre": "Le blazer marine du lundi matin",
+      "description": "Une tenue de bureau qui rassure : structurée sans être rigide, elle passe aussi bien en réunion qu'au déjeuner d'équipe.",
+      "pourquoi_ca_marche": "Le blazer marine est plus doux que le noir et va à presque tout le monde. La chemise blanche éclaire le visage, et le jean brut casse le côté trop formel. La ceinture et les mocassins cognac, de la même famille de couleur, relient le tout.",
+      "style": "classique",
+      "occasion": "travail",
+      "saison": "automne",
+      "a_la_une": true,
+      "articles": [
+        { "nom": "Blazer droit en laine", "categorie": "manteau", "marque": "Atelier Nord", "prix": 129, "image": "/exemples/blazer-marine.svg", "lien": "https://www.example.com/blazer-marine", "affilie": false },
+        { "nom": "Chemise en popeline blanche", "categorie": "haut", "marque": "Basique & Co", "prix": 39.9, "image": "/exemples/chemise-blanche.svg", "lien": "https://www.example.com/chemise-blanche", "affilie": false },
+        { "nom": "Jean droit brut", "categorie": "bas", "marque": "Denim Fabrique", "prix": 69, "image": "/exemples/jean-brut.svg", "lien": "https://www.example.com/jean-brut", "affilie": false },
+        { "nom": "Mocassins en cuir cognac", "categorie": "chaussures", "marque": "Maison Lune", "prix": 89, "image": "/exemples/mocassins-cognac.svg", "lien": "https://www.example.com/mocassins", "affilie": false },
+        { "nom": "Ceinture en cuir lisse", "categorie": "accessoire", "marque": "Maison Lune", "prix": 29, "image": "/exemples/ceinture-cuir.svg", "lien": "https://www.example.com/ceinture", "affilie": false }
+      ]
+    },
+    {
+      "titre": "La petite robe noire réinventée",
+      "description": "La valeur sûre des soirées, rehaussée de touches dorées pour un effet habillé sans effort.",
+      "pourquoi_ca_marche": "Une robe noire simple est une toile vierge : ce sont les accessoires qui font la tenue. Ici, une seule couleur d'accent (le doré) se répète sur la pochette et les boucles d'oreilles, ce qui donne un ensemble cohérent et lumineux.",
+      "style": "chic",
+      "occasion": "soirée",
+      "saison": "toutes",
+      "a_la_une": true,
+      "articles": [
+        { "nom": "Robe fourreau noire", "categorie": "robe", "marque": "Maison Lune", "prix": 79, "image": "/exemples/robe-noire.svg", "lien": "https://www.example.com/robe-noire", "affilie": false },
+        { "nom": "Escarpins noirs à talon moyen", "categorie": "chaussures", "marque": "Pas de Deux", "prix": 65, "image": "/exemples/escarpins-noirs.svg", "lien": "https://www.example.com/escarpins", "affilie": false },
+        { "nom": "Pochette dorée", "categorie": "sac", "marque": "Atelier Nord", "prix": 45, "image": "/exemples/pochette-doree.svg", "lien": "https://www.example.com/pochette", "affilie": false },
+        { "nom": "Boucles d'oreilles gouttes", "categorie": "bijou", "marque": "Éclat", "prix": 25, "image": "/exemples/boucles-dorees.svg", "lien": "https://www.example.com/boucles", "affilie": false }
+      ]
+    },
+    {
+      "titre": "Dimanche au marché",
+      "description": "Le trio t-shirt, jean, baskets, version soignée : confortable pour marcher, joli pour le café en terrasse.",
+      "pourquoi_ca_marche": "Le t-shirt blanc et les baskets blanches encadrent la silhouette d'une couleur claire et fraîche. Le jean clair garde l'ensemble léger, et le cabas en paille et les lunettes écaille ajoutent une touche de vacances sans en faire trop.",
+      "style": "casual",
+      "occasion": "week-end",
+      "saison": "printemps",
+      "a_la_une": true,
+      "articles": [
+        { "nom": "T-shirt col rond en coton épais", "categorie": "haut", "marque": "Basique & Co", "prix": 19.9, "image": "/exemples/tshirt-blanc.svg", "lien": "https://www.example.com/tshirt-blanc", "affilie": false },
+        { "nom": "Jean mom délavé", "categorie": "bas", "marque": "Denim Fabrique", "prix": 55, "image": "/exemples/jean-clair.svg", "lien": "https://www.example.com/jean-mom", "affilie": false },
+        { "nom": "Baskets blanches en cuir", "categorie": "chaussures", "marque": "Pas de Deux", "prix": 75, "image": "/exemples/baskets-blanches.svg", "lien": "https://www.example.com/baskets", "affilie": false },
+        { "nom": "Cabas en paille", "categorie": "sac", "marque": "Soleil d'Été", "prix": 35, "image": "/exemples/cabas-paille.svg", "lien": "https://www.example.com/cabas", "affilie": false },
+        { "nom": "Lunettes de soleil écaille", "categorie": "accessoire", "marque": "Éclat", "prix": 22, "image": "/exemples/lunettes-ecaille.svg", "lien": "https://www.example.com/lunettes", "affilie": false }
+      ]
+    },
+    {
+      "titre": "Invitée à un mariage champêtre",
+      "description": "Une tenue douce et lumineuse pour un mariage en plein air, élégante mais pensée pour danser toute la soirée.",
+      "pourquoi_ca_marche": "Le rose poudré est festif sans voler la vedette à la mariée. Les sandales nude allongent la jambe et sont plus stables qu'un talon fin sur l'herbe. Le sac crème et le collier discret restent dans des tons doux pour une silhouette harmonieuse.",
+      "style": "romantique",
+      "occasion": "mariage",
+      "saison": "été",
+      "articles": [
+        { "nom": "Robe midi fluide rose poudré", "categorie": "robe", "marque": "Soleil d'Été", "prix": 95, "image": "/exemples/robe-fleurie.svg", "lien": "https://www.example.com/robe-rose", "affilie": false },
+        { "nom": "Sandales à talon carré nude", "categorie": "chaussures", "marque": "Pas de Deux", "prix": 59, "image": "/exemples/sandales-nude.svg", "lien": "https://www.example.com/sandales", "affilie": false },
+        { "nom": "Petit sac crème", "categorie": "sac", "marque": "Atelier Nord", "prix": 49, "image": "/exemples/sac-creme.svg", "lien": "https://www.example.com/sac-creme", "affilie": false },
+        { "nom": "Collier pendentif fin", "categorie": "bijou", "marque": "Éclat", "prix": 29, "image": "/exemples/collier-perle.svg", "lien": "https://www.example.com/collier", "affilie": false }
+      ]
+    },
+    {
+      "titre": "Entretien d'embauche en confiance",
+      "description": "Sobre, net et professionnel : une tenue qui laisse toute la place à ce que vous avez à dire.",
+      "pourquoi_ca_marche": "Peu de couleurs (écru et noir) donnent une image calme et maîtrisée. La chemise écrue est plus douce qu'un blanc éclatant. Le pantalon noir à pinces et les bottines forment une ligne continue qui allonge la silhouette.",
+      "style": "minimaliste",
+      "occasion": "entretien",
+      "saison": "toutes",
+      "budget": 250,
+      "articles": [
+        { "nom": "Chemise fluide écrue", "categorie": "haut", "marque": "Basique & Co", "prix": 45, "image": "/exemples/chemise-ecrue.svg", "lien": "https://www.example.com/chemise-ecrue", "affilie": false },
+        { "nom": "Pantalon noir à pinces", "categorie": "bas", "marque": "Atelier Nord", "prix": 69, "image": "/exemples/pantalon-noir.svg", "lien": "https://www.example.com/pantalon-noir", "affilie": false },
+        { "nom": "Bottines noires à petit talon", "categorie": "chaussures", "marque": "Pas de Deux", "prix": 85, "image": "/exemples/bottines-noires.svg", "lien": "https://www.example.com/bottines-noires", "affilie": false },
+        { "nom": "Sac porté main noir", "categorie": "sac", "marque": "Maison Lune", "prix": 59, "image": "/exemples/sac-noir.svg", "lien": "https://www.example.com/sac-noir", "affilie": false }
+      ]
+    },
+    {
+      "titre": "Cocooning chic en ville",
+      "description": "Chaud, confortable et pourtant élégant : la tenue idéale pour les journées froides en ville.",
+      "pourquoi_ca_marche": "Le manteau camel est la pièce maîtresse : il réchauffe le gris et le noir, qui restent neutres. L'écharpe à carreaux apporte la seule touche de couleur, près du visage, là où le regard se pose en premier.",
+      "style": "casual",
+      "occasion": "quotidien",
+      "saison": "hiver",
+      "articles": [
+        { "nom": "Manteau long camel", "categorie": "manteau", "marque": "Atelier Nord", "prix": 159, "image": "/exemples/manteau-camel.svg", "lien": "https://www.example.com/manteau-camel", "affilie": false },
+        { "nom": "Pull col rond gris chiné", "categorie": "haut", "marque": "Basique & Co", "prix": 39, "image": "/exemples/pull-gris.svg", "lien": "https://www.example.com/pull-gris", "affilie": false },
+        { "nom": "Jean slim noir", "categorie": "bas", "marque": "Denim Fabrique", "prix": 59, "image": "/exemples/jean-noir.svg", "lien": "https://www.example.com/jean-noir", "affilie": false },
+        { "nom": "Bottines en daim marron", "categorie": "chaussures", "marque": "Pas de Deux", "prix": 95, "image": "/exemples/bottines-marron.svg", "lien": "https://www.example.com/bottines-marron", "affilie": false },
+        { "nom": "Écharpe à carreaux", "categorie": "accessoire", "marque": "Maison Lune", "prix": 29, "image": "/exemples/echarpe-ecossaise.svg", "lien": "https://www.example.com/echarpe", "affilie": false }
+      ]
+    }
+  ]
+}
