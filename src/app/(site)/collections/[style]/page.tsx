@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FilterBar } from "@/components/FilterBar";
-import { OutfitGrid } from "@/components/OutfitCard";
+import { PagedOutfitGrid } from "@/components/OutfitCard";
 import { STYLES } from "@/lib/constants";
 import { getPublishedOutfits, readFilters } from "@/lib/queries";
 
@@ -22,7 +22,8 @@ export default async function CollectionPage({ params, searchParams }: PageProps
   const s = STYLES.find((x) => x.value === style);
   if (!s) notFound();
 
-  const filters = { ...readFilters(await searchParams), style: s.value };
+  const sp = await searchParams;
+  const filters = { ...readFilters(sp), style: s.value };
   const outfits = await getPublishedOutfits(filters);
 
   return (
@@ -33,7 +34,7 @@ export default async function CollectionPage({ params, searchParams }: PageProps
       </h1>
       <p className="mt-3 max-w-xl text-lg text-ink-soft">{s.description}</p>
       <FilterBar basePath={`/collections/${s.value}`} current={filters} hideStyle />
-      <OutfitGrid outfits={outfits} />
+      <PagedOutfitGrid outfits={outfits} searchParams={sp} basePath={`/collections/${s.value}`} />
     </div>
   );
 }

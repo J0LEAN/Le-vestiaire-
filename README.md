@@ -74,7 +74,7 @@ Ouvrez ensuite le fichier `.env` avec un éditeur de texte et remplacez `change-
 npx prisma migrate dev
 ```
 
-6. (Facultatif) Ajouter les 6 tenues d'exemple (de vrais produits, voir plus bas) :
+6. (Facultatif) Ajouter les 106 tenues d'exemple (de vrais produits, voir plus bas) :
 
 ```bash
 npm run db:seed
@@ -118,7 +118,7 @@ Le format complet (JSON et CSV, champs obligatoires, valeurs autorisées) est d�
 
 ### Les tenues d'exemple
 
-Les 6 tenues fournies avec le site sont composées de **vrais produits** de marques françaises (Balzac Paris, Make My Lemonade, Patine, Rive Droite), relevés le 31 octobre 2026 dans le catalogue que ces boutiques publient ouvertement. Leurs photos sont enregistrées dans `public/produits/`, fond blanchi et recadrées. Les liens sont des liens normaux (non affiliés). Les prix et les stocks changent : lancez **Vérifier les liens** de temps en temps et remplacez les pièces qui ne sont plus disponibles.
+Les **106 tenues** fournies avec le site (toutes saisons, tous budgets, de moins de 100 € à plus de 1 000 €) sont composées de **vrais produits** de marques françaises et européennes (Balzac Paris, Pimkie, Jott, Patine, Rouje, Make My Lemonade, Émoi Émoi, Soeur, Mya Bay, Rive Droite), relevés fin octobre 2026 dans le catalogue que ces boutiques publient ouvertement. Leurs photos sont enregistrées dans `public/produits/`, fond blanchi et recadrées. Les liens sont des liens normaux (non affiliés). Les prix et les stocks changent : lancez **Vérifier les liens** de temps en temps et remplacez les pièces qui ne sont plus disponibles.
 
 ---
 
@@ -181,7 +181,7 @@ Dans l'onglet **Variables** du service, ajoutez :
 | `ADMIN_PASSWORD` | un long mot de passe | Le mot de passe de `/admin`. Choisissez-en un vrai, qui ne sert nulle part ailleurs. |
 | `SITE_URL` | l'adresse de l'étape 3 (sans `/` à la fin) | Sert au sitemap, à Pinterest et aux aperçus de partage. |
 | `IMAGES_DIR` | *(rien à faire)* | Les copies des photos vont automatiquement dans `/data/images`, sur le volume. Ne remplissez cette variable que pour choisir un autre dossier. |
-| `SEED_EXEMPLES` | `oui` *(facultatif)* | Ajoute les 6 tenues d'exemple **si la base est vide** : de vrais produits de Balzac Paris, Make My Lemonade, Patine et Rive Droite. Vous pourrez les modifier ou les supprimer depuis l'admin. |
+| `SEED_EXEMPLES` | `oui` *(facultatif)* | Ajoute les 106 tenues d'exemple **si la base est vide** : de vrais produits de marques françaises et européennes. Vous pourrez les modifier ou les supprimer depuis l'admin. |
 
 Railway redéploie automatiquement le site après chaque changement de variable.
 
@@ -254,7 +254,7 @@ prisma/
   schema.prisma          ← description de la base de données (tenues, articles, abonnés)
   migrations/            ← historique des changements de structure de la base
   seed.ts                ← script qui charge les tenues d'exemple
-  donnees-exemple.json   ← les 6 tenues d'exemple (vrais produits)
+  donnees-exemple.json   ← les 106 tenues d'exemple (vrais produits)
 public/
   exemple-import.json    ← modèles de fichiers d'import
   exemple-import.csv

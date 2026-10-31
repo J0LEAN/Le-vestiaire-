@@ -1,4 +1,4 @@
-// Remplit la base avec les 6 tenues d'exemple (fichier donnees-exemple.json).
+// Remplit la base avec les tenues d'exemple (fichier donnees-exemple.json).
 // Lancement : npm run db:seed
 // Par sécurité, ne fait rien si la base contient déjà des tenues,
 // sauf avec l'option --force (qui EFFACE toutes les tenues existantes).

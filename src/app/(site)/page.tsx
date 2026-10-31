@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FilterBar } from "@/components/FilterBar";
 import { HomeHero, type HeroOutfit } from "@/components/HomeHero";
-import { HangingOutfits, OutfitGrid } from "@/components/OutfitCard";
+import { HangingOutfits, PagedOutfitGrid } from "@/components/OutfitCard";
 import { formatPrice, outfitBudget } from "@/lib/format";
 import { getFeaturedOutfits, getPublishedOutfits, readFilters, type OutfitWithItems } from "@/lib/queries";
 import { OG_DEFAULTS } from "@/lib/site";
@@ -33,7 +33,8 @@ const toHero = (o: OutfitWithItems): HeroOutfit => ({
 });
 
 export default async function HomePage({ searchParams }: PageProps<"/">) {
-  const filters = readFilters(await searchParams);
+  const sp = await searchParams;
+  const filters = readFilters(sp);
   const filtered = Object.values(filters).some(Boolean);
   const [featured, outfits, all] = await Promise.all([
     getFeaturedOutfits(),
@@ -87,7 +88,7 @@ export default async function HomePage({ searchParams }: PageProps<"/">) {
           </span>
         </div>
         <FilterBar basePath="/" current={filters} anchor="#tenues" />
-        <OutfitGrid outfits={outfits} />
+        <PagedOutfitGrid outfits={outfits} searchParams={sp} basePath="/" anchor="#tenues" />
       </section>
 
       {/* Pourquoi ça marche : extrait du conseil d'une tenue à la une */}
