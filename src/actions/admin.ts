@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { checkPassword, endSession, requireAdmin, startSession } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { archiveImages } from "@/lib/images";
 import { validateOutfits } from "@/lib/import";
 import { uniqueSlug } from "@/lib/outfits";
 
@@ -73,6 +74,8 @@ export async function saveOutfit(_prev: SaveState, formData: FormData): Promise<
         // L'adresse est figée dès la première publication (pour ne pas casser les liens partagés).
         slug: existing.publishedAt || existing.title === o.title ? existing.slug : await uniqueSlug(db, o.title, id),
         publishedAt: status === "publiee" ? existing.publishedAt ?? new Date() : existing.publishedAt,
+        // nouvelle image principale : l'ancienne copie ne correspond plus
+        ...(existing.mainImage !== o.mainImage ? { mainImageFile: null, mainImageError: null } : {}),
       },
     });
     // Articles : on supprime ceux retirés, on met à jour les autres, on crée les nouveaux.
@@ -90,6 +93,8 @@ export async function saveOutfit(_prev: SaveState, formData: FormData): Promise<
             position,
             // un nouveau lien n'a pas encore été vérifié
             ...(urlChanged ? { linkStatus: "inconnu", linkError: null, linkCheckedAt: null } : {}),
+            // une nouvelle photo doit être recopiée
+            ...(before.imageUrl !== item.imageUrl ? { imageFile: null, imageError: null } : {}),
           },
         });
       } else {
@@ -108,8 +113,12 @@ export async function saveOutfit(_prev: SaveState, formData: FormData): Promise<
     outfitId = created.id;
   }
 
+  // Copie des nouvelles photos sur le site
+  const images = await archiveImages(db, { outfitIds: [outfitId!] });
+  const note = images.failed ? ` ${images.failed} image(s) n'ont pas pu être copiées : voir Images.` : "";
+
   revalidatePath("/", "layout");
-  redirect(`/admin?ok=${encodeURIComponent(`Tenue « ${o.title} » enregistrée.`)}#tenue-${outfitId}`);
+  redirect(`/admin?ok=${encodeURIComponent(`Tenue « ${o.title} » enregistrée.${note}`)}#tenue-${outfitId}`);
 }
 
 export async function setOutfitStatus(formData: FormData) {

@@ -20,14 +20,15 @@ export async function uniqueSlug(db: PrismaClient, title: string, ignoreId?: num
   return `${base}-${n}`;
 }
 
-/** Crée des tenues (et leurs articles) à partir de données vérifiées. */
+/** Crée des tenues (et leurs articles) à partir de données vérifiées ; renvoie leurs identifiants. */
 export async function createOutfits(
   db: PrismaClient,
   outfits: ParsedOutfit[],
   status: "brouillon" | "publiee",
-): Promise<number> {
+): Promise<number[]> {
+  const ids: number[] = [];
   for (const o of outfits) {
-    await db.outfit.create({
+    const created = await db.outfit.create({
       data: {
         slug: await uniqueSlug(db, o.title),
         title: o.title,
@@ -44,6 +45,7 @@ export async function createOutfits(
         items: { create: o.items.map((item, position) => ({ ...item, position })) },
       },
     });
+    ids.push(created.id);
   }
-  return outfits.length;
+  return ids;
 }

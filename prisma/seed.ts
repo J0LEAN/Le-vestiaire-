@@ -30,7 +30,7 @@ async function main() {
     console.error("Le fichier d'exemple contient des erreurs :\n- " + result.errors.join("\n- "));
     process.exit(1);
   }
-  const created = await createOutfits(db, result.outfits, "publiee");
+  const created = (await createOutfits(db, result.outfits, "publiee")).length;
   console.log(`${created} tenues d'exemple ajoutées et publiées.`);
 }
 

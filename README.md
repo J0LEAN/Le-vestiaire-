@@ -108,7 +108,11 @@ Le site vous prévient si une tenue du fichier porte le même titre qu'une tenue
 
 Le format complet (JSON et CSV, champs obligatoires, valeurs autorisées) est décrit dans [`IMPORT.md`](IMPORT.md). Les fichiers modèles `exemple-import.json` et `exemple-import.csv` sont dans le dossier `public/`, et vous pouvez aussi les télécharger depuis la page d'import.
 
-**Images.** Si une tenue n'a pas d'« image principale », le site crée automatiquement un **collage** des photos de ses articles. Les photos de produits sur fond blanc donnent le meilleur résultat. Une version de ce collage est aussi générée pour Pinterest et pour les aperçus sur les réseaux sociaux. Elle accepte les images JPG, PNG et GIF ; les images WebP sont simplement ignorées dans cette version.
+**Images.** Si une tenue n'a pas d'« image principale », le site crée automatiquement un **collage** des photos de ses articles. Les photos de produits sur fond blanc donnent le meilleur résultat. Une version de ce collage est aussi générée pour Pinterest et pour les aperçus sur les réseaux sociaux. 
+
+**Copies des photos.** Les produits, surtout en édition limitée, disparaissent vite des boutiques, et leur photo avec eux. Le site garde donc **sa propre copie** de chaque photo d'article (et de chaque image principale), automatiquement, à l'import et à l'enregistrement d'une tenue. Certaines boutiques bloquent ces copies : la page **Admin › Images** liste alors les photos concernées. Enregistrez l'image sur votre ordinateur (clic droit › « Enregistrer l'image ») puis envoyez-la depuis cette page.
+
+**Liens affiliés facultatifs.** Un article peut avoir un lien normal : cochez « affilié » seulement si c'en est un, et la mention « Lien affilié » s'affichera.
 
 ---
 
@@ -170,6 +174,7 @@ Dans l'onglet **Variables** du service, ajoutez :
 | `DATABASE_URL` | `file:/data/vestiaire.db` | Emplacement de la base, sur le volume. |
 | `ADMIN_PASSWORD` | un long mot de passe | Le mot de passe de `/admin`. Choisissez-en un vrai, qui ne sert nulle part ailleurs. |
 | `SITE_URL` | l'adresse de l'étape 3 (sans `/` à la fin) | Sert au sitemap, à Pinterest et aux aperçus de partage. |
+| `IMAGES_DIR` | *(rien à faire)* | Les copies des photos vont automatiquement dans `/data/images`, sur le volume. Ne remplissez cette variable que pour choisir un autre dossier. |
 | `SEED_EXEMPLES` | `oui` *(facultatif)* | Ajoute les 6 tenues d'exemple **si la base est vide**. Vous pourrez les supprimer depuis l'admin. |
 
 Railway redéploie automatiquement le site après chaque changement de variable.
@@ -180,11 +185,11 @@ Le fichier [`railway.json`](railway.json) indique à Railway quoi faire :
 - **Construction** : `npm run build`.
 - **Démarrage** : `npm run start:railway`. Cette commande met à jour la structure de la base si besoin (migrations), ajoute les exemples si `SEED_EXEMPLES=oui` et que la base est vide, puis démarre le site.
 
-À chaque fois que vous (ou Claude) envoyez du code sur la branche principale de GitHub, Railway met le site à jour tout seul. Vos tenues sont conservées, car elles sont sur le volume.
+À chaque fois que vous (ou Claude) envoyez du code sur la branche principale de GitHub, Railway met le site à jour tout seul. Vos tenues et les copies de leurs photos sont conservées, car elles sont sur le volume.
 
 ### Sauvegardes
 
-Toutes vos tenues sont dans le fichier `/data/vestiaire.db`. Activez les **sauvegardes du volume** dans Railway (onglet du volume → **Backups**), surtout une fois que vous aurez publié beaucoup de tenues.
+Toutes vos tenues sont dans le fichier `/data/vestiaire.db`, et les copies des photos dans le dossier `/data/images`. Activez les **sauvegardes du volume** dans Railway (onglet du volume → **Backups**), surtout une fois que vous aurez publié beaucoup de tenues.
 
 > Avec SQLite, gardez **une seule instance** du site (le réglage par défaut de Railway). Si un jour le site a beaucoup de trafic, il pourra passer à PostgreSQL (voir la section 7).
 

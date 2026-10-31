@@ -6,19 +6,23 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
+import sharp from "sharp";
 import { db } from "@/lib/db";
 import { COLLAGE_BG, COLLAGE_PADDING, collageItems, collageLayout } from "@/lib/collage";
+import { readImage, withSavedImages } from "@/lib/images";
 import { SITE } from "@/lib/site";
 
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const isOg = new URL(request.url).searchParams.get("format") === "og";
 
-  const outfit = await db.outfit.findFirst({
+  const row = await db.outfit.findFirst({
     where: { slug, status: "publiee" },
     include: { items: true },
   });
-  if (!outfit) return new Response("Tenue introuvable", { status: 404 });
+  if (!row) return new Response("Tenue introuvable", { status: 404 });
+
+  const outfit = withSavedImages(row);
 
   // Dimensions : le collage est un cadre 4:5.
   const W = isOg ? 1200 : 1000;
@@ -27,11 +31,11 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   const boxH = isOg ? 630 : 1250;
 
   // Charge les images (celles qui échouent sont simplement ignorées).
-  const main = outfit.mainImage ? await toDataUri(outfit.mainImage) : null;
+  const main = outfit.mainImage ? await toDataUri(outfit.mainImage, false) : null;
   const pieces: string[] = [];
   if (!main) {
     for (const item of collageItems(outfit.items)) {
-      const uri = await toDataUri(item.imageUrl!);
+      const uri = await toDataUri(item.imageUrl!, true);
       if (uri) pieces.push(uri);
     }
   }
@@ -100,29 +104,44 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   );
 }
 
-// Formats d'image que le générateur sait lire.
-const SUPPORTED = ["image/png", "image/jpeg", "image/gif", "image/svg+xml"];
-
-/** Lit une image (locale ou distante) et la renvoie sous forme "data:…", ou null en cas d'échec. */
-async function toDataUri(src: string): Promise<string | null> {
+/**
+ * Lit une image (copie du site, fichier du dossier public/ ou adresse distante)
+ * et la renvoie en PNG sous forme "data:…", ou null en cas d'échec.
+ * Avec `blend`, l'image est fondue dans le fond rose pâle (effet « multiply »,
+ * comme sur le site) : le générateur d'images ne sait pas le faire lui-même.
+ */
+async function toDataUri(src: string, blend: boolean): Promise<string | null> {
   try {
     let buffer: Buffer;
-    let type: string;
-    if (src.startsWith("/")) {
+    if (src.startsWith("/images/")) {
+      // Copie enregistrée par le site
+      const copy = await readImage(src.slice("/images/".length));
+      if (!copy) return null;
+      buffer = copy;
+    } else if (src.startsWith("/")) {
       // Image du dossier public/ du site (on refuse de sortir de ce dossier)
       const publicDir = join(process.cwd(), "public");
       const file = join(publicDir, src);
       if (!file.startsWith(publicDir + "/")) return null;
       buffer = await readFile(file);
-      type = src.endsWith(".svg") ? "image/svg+xml" : src.endsWith(".png") ? "image/png" : "image/jpeg";
     } else {
       const res = await fetch(src, { signal: AbortSignal.timeout(5000), headers: { "User-Agent": "Mozilla/5.0" } });
       if (!res.ok) return null;
-      type = (res.headers.get("content-type") ?? "").split(";")[0].trim();
       buffer = Buffer.from(await res.arrayBuffer());
     }
-    if (!SUPPORTED.includes(type)) return null; // ex. WebP : non pris en charge, on ignore
-    return `data:${type};base64,${buffer.toString("base64")}`;
+    // Conversion en PNG (le générateur ne lit ni le WebP ni l'AVIF), taille raisonnable
+    const { data, info } = await sharp(buffer, { failOn: "none" })
+      .resize(1000, 1000, { fit: "inside", withoutEnlargement: true })
+      .flatten({ background: "#ffffff" })
+      .png()
+      .toBuffer({ resolveWithObject: true });
+    const png = blend
+      ? await sharp({ create: { width: info.width, height: info.height, channels: 3, background: COLLAGE_BG } })
+          .composite([{ input: data, blend: "multiply" }])
+          .png()
+          .toBuffer()
+      : data;
+    return `data:image/png;base64,${png.toString("base64")}`;
   } catch {
     return null;
   }

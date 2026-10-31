@@ -46,3 +46,6 @@ next-env.d.ts
 
 # fichier d exemple des variables : on le garde
 !.env.example
+
+# copies des images des articles (en local)
+/storage

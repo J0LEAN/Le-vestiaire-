@@ -2,6 +2,7 @@
 import { BUDGETS } from "./constants";
 import { db } from "./db";
 import { outfitBudget } from "./format";
+import { withSavedImages } from "./images";
 
 export type Filters = { style?: string; occasion?: string; season?: string; budget?: string };
 
@@ -13,7 +14,7 @@ export function readFilters(sp: Record<string, string | string[] | undefined>): 
 
 /** Tenues publiées, des plus récentes aux plus anciennes, avec filtres. */
 export async function getPublishedOutfits(filters: Filters = {}) {
-  const outfits = await db.outfit.findMany({
+  const rows = await db.outfit.findMany({
     where: {
       status: "publiee",
       style: filters.style,
@@ -24,6 +25,7 @@ export async function getPublishedOutfits(filters: Filters = {}) {
     include: { items: { orderBy: { position: "asc" } } },
     orderBy: [{ publishedAt: "desc" }, { id: "desc" }],
   });
+  const outfits = rows.map(withSavedImages);
 
   // Le budget peut être calculé (somme des prix) : on filtre donc ici.
   const range = BUDGETS.find((b) => b.value === filters.budget);
@@ -38,18 +40,20 @@ export type OutfitWithItems = Awaited<ReturnType<typeof getPublishedOutfits>>[nu
 
 /** Tenues mises "à la une" (au plus 3). */
 export async function getFeaturedOutfits() {
-  return db.outfit.findMany({
+  const rows = await db.outfit.findMany({
     where: { status: "publiee", featured: true },
     include: { items: { orderBy: { position: "asc" } } },
     orderBy: [{ publishedAt: "desc" }, { id: "desc" }],
     take: 3,
   });
+  return rows.map(withSavedImages);
 }
 
 /** Une tenue publiée par son URL. */
 export async function getOutfitBySlug(slug: string) {
-  return db.outfit.findFirst({
+  const outfit = await db.outfit.findFirst({
     where: { slug, status: "publiee" },
     include: { items: { orderBy: { position: "asc" } } },
   });
+  return outfit && withSavedImages(outfit);
 }

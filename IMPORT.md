@@ -61,9 +61,9 @@ Fichiers modèles : [`public/exemple-import.json`](public/exemple-import.json) e
 | `categorie` | oui | Une des valeurs de la liste ci-dessous. |
 | `marque` | non | Marque. |
 | `prix` | non | Prix en euros : `49.9`, `"49,90"` ou `"49,90 €"` sont acceptés. |
-| `image` | non | Adresse de la photo du produit (de préférence sur fond blanc, en JPG ou PNG). |
+| `image` | non | Adresse **de la photo elle-même** (pas de la page produit), de préférence sur fond blanc. Le site en garde une copie : la photo reste visible même si le produit disparaît de la boutique. JPG, PNG, WebP et AVIF acceptés. |
 | `lien` | oui | Lien d'achat, commençant par `https://`. |
-| `affilie` | non | `true` (ou `"oui"`) si c'est un lien affilié. Par défaut : non. |
+| `affilie` | non | `true` (ou `"oui"`) seulement si c'est un lien affilié. Un lien normal convient très bien : par défaut, le lien n'est pas affilié. |
 
 ### Valeurs autorisées
 
@@ -109,7 +109,7 @@ d'un fichier JSON valide respectant exactement ce format :
   "titre": "...", "description": "2-3 phrases", "pourquoi_ca_marche": "le conseil de style, 2-4 phrases",
   "style": "...", "occasion": "...", "saison": "...", "budget": 150,
   "articles": [ { "nom": "...", "categorie": "...", "marque": "...", "prix": 49.9,
-                  "image": "https://... (photo produit)", "lien": "https://... (page produit)", "affilie": false } ]
+                  "image": "https://... (adresse directe de la photo)", "lien": "https://... (page produit)", "affilie": false } ]
 } ] }
 
 Valeurs autorisées :
@@ -120,5 +120,7 @@ Valeurs autorisées :
 
 Règles : textes en français, ton bienveillant et pédagogique, « pourquoi ça marche »
 explique concrètement les couleurs, les coupes et les proportions. Les liens doivent
-pointer vers la page exacte du produit. Pas de commentaire en dehors du JSON.
+pointer vers la page exacte du produit. "image" doit être l'adresse directe de la photo
+du produit (clic droit sur la photo › « Copier l'adresse de l'image »), qui se termine
+souvent par .jpg, .png ou .webp. Pas de commentaire en dehors du JSON.
 ```

@@ -23,7 +23,9 @@ model Outfit {
   occasion    String // voir OCCASIONS
   season      String // voir SEASONS
   budget      Int? // budget indicatif en euros (si vide : somme des prix)
-  mainImage   String? // image principale (optionnelle)
+  mainImage   String? // image principale (optionnelle) : adresse d'origine
+  mainImageFile  String? // copie enregistrée sur le site (voir src/lib/images.ts)
+  mainImageError String? // raison si la copie a échoué
   status      String    @default("brouillon") // "brouillon" ou "publiee"
   featured    Boolean   @default(false) // affichée "à la une" sur l'accueil
   publishedAt DateTime?
@@ -44,7 +46,9 @@ model Item {
   category      String // voir CATEGORIES
   brand         String?
   price         Float?
-  imageUrl      String?
+  imageUrl      String? // adresse d'origine de la photo
+  imageFile     String? // copie enregistrée sur le site (voir src/lib/images.ts)
+  imageError    String? // raison si la copie a échoué
   url           String // lien d'achat
   isAffiliate   Boolean   @default(false)
   linkStatus    String    @default("inconnu") // "inconnu", "ok", "casse" ou "erreur"

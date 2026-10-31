@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { requireAdmin } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { parseImportFile, type ParsedOutfit } from "@/lib/import";
+import { archiveImages } from "@/lib/images";
 import { createOutfits } from "@/lib/outfits";
 
 export type PreviewResult =
@@ -27,7 +28,13 @@ export async function confirmImport(text: string, fileName: string): Promise<{ o
   await requireAdmin();
   const result = parseImportFile(text, fileName); // on revérifie côté serveur
   if (!result.ok) return { ok: false, message: "Le fichier contient des erreurs : relancez l'aperçu." };
-  const count = await createOutfits(db, result.outfits, "brouillon");
+  const ids = await createOutfits(db, result.outfits, "brouillon");
+  const count = ids.length;
+  // Copie des photos sur le site (au cas où les produits disparaîtraient des boutiques)
+  const images = await archiveImages(db, { outfitIds: ids });
   revalidatePath("/admin");
-  return { ok: true, message: `${count} tenue${count > 1 ? "s" : ""} importée${count > 1 ? "s" : ""} en brouillon.` };
+  let message = `${count} tenue${count > 1 ? "s" : ""} importée${count > 1 ? "s" : ""} en brouillon.`;
+  if (images.saved) message += ` ${images.saved} image${images.saved > 1 ? "s" : ""} copiée${images.saved > 1 ? "s" : ""} sur le site.`;
+  if (images.failed) message += ` ${images.failed} image${images.failed > 1 ? "s n'ont" : " n'a"} pas pu être copiée${images.failed > 1 ? "s" : ""} : voir Admin › Images.`;
+  return { ok: true, message };
 }

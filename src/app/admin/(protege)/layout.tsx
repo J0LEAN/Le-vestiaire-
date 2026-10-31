@@ -7,6 +7,7 @@ const NAV = [
   ["/admin/tenues/nouvelle", "+ Nouvelle tenue"],
   ["/admin/import", "Import en lot"],
   ["/admin/liens", "Vérifier les liens"],
+  ["/admin/images", "Images"],
   ["/admin/affiliation", "Liens affiliés"],
   ["/admin/newsletter", "Newsletter"],
 ];

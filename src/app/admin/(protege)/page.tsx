@@ -6,6 +6,7 @@ import { OutfitVisual } from "@/components/OutfitVisual";
 import { OCCASIONS, STYLES, labelOf } from "@/lib/constants";
 import { db } from "@/lib/db";
 import { formatDate } from "@/lib/format";
+import { withSavedImages } from "@/lib/images";
 
 const TABS = [
   ["", "Toutes"],
@@ -18,11 +19,13 @@ export default async function AdminHome({ searchParams }: PageProps<"/admin">) {
   const status = typeof sp.statut === "string" ? sp.statut : "";
   const ok = typeof sp.ok === "string" ? sp.ok : null;
 
-  const outfits = await db.outfit.findMany({
-    where: status ? { status } : undefined,
-    include: { items: true },
-    orderBy: [{ status: "asc" }, { createdAt: "desc" }],
-  });
+  const outfits = (
+    await db.outfit.findMany({
+      where: status ? { status } : undefined,
+      include: { items: true },
+      orderBy: [{ status: "asc" }, { createdAt: "desc" }],
+    })
+  ).map(withSavedImages);
 
   return (
     <div>
