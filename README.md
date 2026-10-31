@@ -2,7 +2,8 @@
 
 **Des tenues complètes, prêtes à copier.** Le Vestiaire est un magazine en ligne de tenues : chaque tenue est composée de plusieurs articles (haut, bas, chaussures, accessoires…), avec un lien pour acheter chacun d'eux, un conseil « pourquoi ça marche » et un visuel généré automatiquement à partir des photos des produits.
 
-- Site public : accueil avec tenues à la une, filtres (style, occasion, saison, budget), pages tenues, collections par style, pages légales, newsletter.
+- Site public : accueil avec tenues à la une et bouton « Surprenez-moi », filtres (occasion, style, saison, budget), pages tenues avec progression « Je l'ai déjà ? » et barre « Tout acheter », collections par style, **Mon portant** (tenues mises de côté), pages légales, newsletter.
+- Design « verre liquide, rose & cerise », avec les tenues suspendues sur des cintres (maquettes de Claude Design dans le dossier [`design/`](design/)).
 - Espace admin (`/admin`) : créer et modifier des tenues, **importer des tenues en lot** (JSON ou CSV), vérifier les liens, gérer les liens affiliés, exporter la newsletter.
 
 Technologies : Next.js 16, TypeScript, Tailwind CSS, Prisma et SQLite. Le site est prévu pour être hébergé sur **Railway**.
@@ -209,9 +210,16 @@ Toutes vos tenues sont dans le fichier `/data/vestiaire.db`. Activez les **sauve
 | Je veux changer… | Fichier |
 |---|---|
 | Le nom du site, le slogan, la description | `src/lib/site.ts` |
-| Les couleurs | `src/app/globals.css` (bloc `@theme`) |
+| Les couleurs, arrondis et effets de verre | `src/app/globals.css` (bloc `@theme`) |
+| Les animations | `src/app/animations.css` (elles se coupent seules si l'appareil demande moins de mouvement) |
+| Les messages du bandeau défilant | `src/components/SiteHeader.tsx` |
+| Les polices | `src/app/layout.tsx` |
 | Les styles, occasions, saisons, catégories, tranches de budget | `src/lib/constants.ts` |
 | Les textes de la page d'accueil | `src/app/(site)/page.tsx` |
+
+**Mon portant** : sans comptes utilisateurs, les tenues mises de côté sont gardées dans le navigateur de chaque visiteuse (elles ne suivent pas d'un téléphone à l'autre). Quand les comptes arriveront (phase 2), il suffira de remplacer `src/components/portant/store.ts` par un enregistrement en base.
+
+**L'application mobile** est annoncée « bientôt disponible » (en-tête et encart rose du pied de page), sans lien. Quand elle existera, ajoutez les liens App Store et Google Play dans `src/components/SiteFooter.tsx` et `src/components/SiteHeader.tsx`.
 
 **Passer à PostgreSQL plus tard** : dans `prisma/schema.prisma`, remplacez `provider = "sqlite"` par `provider = "postgresql"`, ajoutez une base PostgreSQL dans Railway, mettez son adresse dans `DATABASE_URL`, puis recréez les migrations. C'est une opération à faire avec l'aide d'un développeur ou de Claude.
 
