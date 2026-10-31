@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FilterBar } from "@/components/FilterBar";
 import { OutfitGrid } from "@/components/OutfitCard";
@@ -25,10 +26,12 @@ export default async function CollectionPage({ params, searchParams }: PageProps
   const outfits = await getPublishedOutfits(filters);
 
   return (
-    <div className="mx-auto max-w-6xl px-4 pt-12">
-      <p className="eyebrow text-muted">Collection</p>
-      <h1 className="mt-2 font-serif text-4xl md:text-5xl">{s.label}</h1>
-      <p className="mt-3 mb-10 max-w-xl text-muted">{s.description}</p>
+    <div className="pt-12">
+      <Link href="/collections" className="pill">← Collections</Link>
+      <h1 className="mt-4 font-serif text-[44px] leading-none tracking-[-0.02em] md:text-[64px]">
+        Tenues <em>{s.label.toLowerCase()}</em>
+      </h1>
+      <p className="mt-3 max-w-xl text-lg text-ink-soft">{s.description}</p>
       <FilterBar basePath={`/collections/${s.value}`} current={filters} hideStyle />
       <OutfitGrid outfits={outfits} />
     </div>
