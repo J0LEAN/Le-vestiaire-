@@ -5,6 +5,7 @@ import { createContext, useContext, useState } from "react";
 import { ArrowUpRightIcon } from "@/components/icons";
 import { AffiliateBadge, itemRel } from "@/components/ItemLink";
 import { usePortant } from "@/components/portant/PortantProvider";
+import { productImageClass } from "@/lib/collage";
 import { formatPrice } from "@/lib/format";
 
 export type Piece = {
@@ -79,7 +80,7 @@ export function PiecesList() {
           return (
             <li key={p.id} className="lv-card glass flex items-center gap-3 rounded-[26px] py-2 pr-3 pl-2">
               <div className="h-24 w-[84px] flex-none rounded-[20px] bg-mist p-3">
-                {p.imageUrl && <img src={p.imageUrl} alt={p.name} loading="lazy" className="h-full w-full object-contain mix-blend-multiply" />}
+                {p.imageUrl && <img src={p.imageUrl} alt={p.name} loading="lazy" className={`h-full w-full object-contain ${productImageClass(p.imageUrl)}`} />}
               </div>
               <div className="flex min-w-0 flex-1 flex-col gap-0.5">
                 <span className="text-xs font-bold text-ink-muted">

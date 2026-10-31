@@ -63,3 +63,21 @@ export function collageLayout(count: number): Tile[] {
 
 /** Couleur de fond des collages. */
 export const COLLAGE_BG = "#FBF4F7";
+
+/**
+ * Photo « détourée » (produit seul sur fond transparent), comme celles de
+ * public/produits/. On ne la fond pas dans le décor : on lui ajoute une ombre
+ * douce, pour qu'un vêtement blanc reste visible sur le fond clair.
+ */
+export function isCutout(src: string | null): boolean {
+  return !!src && src.startsWith("/produits/") && /\.(webp|png)$/i.test(src);
+}
+
+/**
+ * Classes CSS d'une photo produit dans le collage et les vignettes :
+ * - détourée : ombre douce autour de la pièce ;
+ * - sur fond blanc : « multiply » fond le blanc dans le rose pâle.
+ */
+export function productImageClass(src: string | null): string {
+  return isCutout(src) ? "drop-shadow-[0_3px_6px_rgba(110,30,80,0.22)]" : "mix-blend-multiply";
+}

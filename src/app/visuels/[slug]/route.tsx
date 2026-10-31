@@ -107,8 +107,9 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
 /**
  * Lit une image (copie du site, fichier du dossier public/ ou adresse distante)
  * et la renvoie en PNG sous forme "data:…", ou null en cas d'échec.
- * Avec `blend`, l'image est fondue dans le fond rose pâle (effet « multiply »,
- * comme sur le site) : le générateur d'images ne sait pas le faire lui-même.
+ * Avec `blend`, l'image est posée sur le fond rose pâle comme sur le site
+ * (le générateur d'images ne sait pas le faire lui-même) : ombre douce pour une
+ * photo détourée, effet « multiply » pour une photo sur fond blanc.
  */
 async function toDataUri(src: string, blend: boolean): Promise<string | null> {
   try {
@@ -130,17 +131,36 @@ async function toDataUri(src: string, blend: boolean): Promise<string | null> {
       buffer = Buffer.from(await res.arrayBuffer());
     }
     // Conversion en PNG (le générateur ne lit ni le WebP ni l'AVIF), taille raisonnable
-    const { data, info } = await sharp(buffer, { failOn: "none" })
-      .resize(1000, 1000, { fit: "inside", withoutEnlargement: true })
-      .flatten({ background: "#ffffff" })
-      .png()
-      .toBuffer({ resolveWithObject: true });
-    const png = blend
-      ? await sharp({ create: { width: info.width, height: info.height, channels: 3, background: COLLAGE_BG } })
-          .composite([{ input: data, blend: "multiply" }])
-          .png()
-          .toBuffer()
-      : data;
+    const resized = sharp(buffer, { failOn: "none" }).resize(1000, 1000, { fit: "inside", withoutEnlargement: true });
+    const { hasAlpha } = await resized.clone().metadata();
+    let png: Buffer;
+    if (blend && hasAlpha) {
+      // Photo détourée (fond transparent) : posée sur le fond rose avec une ombre douce,
+      // pour qu'un vêtement blanc reste visible
+      const { data, info } = await resized.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+      const { width, height } = info;
+      // Ombre : la silhouette du produit (sa transparence), floutée et très légère
+      const alpha = Buffer.alloc(width * height);
+      for (let i = 0; i < alpha.length; i++) alpha[i] = data[i * 4 + 3];
+      const blurred = await sharp(alpha, { raw: { width, height, channels: 1 } }).blur(14).extractChannel(0).raw().toBuffer();
+      const shadow = Buffer.alloc(width * height * 4);
+      for (let i = 0; i < blurred.length; i++) {
+        shadow.set([0x6e, 0x1e, 0x50, Math.round(blurred[i] * 0.22)], i * 4);
+      }
+      const raw = { width, height, channels: 4 as const };
+      png = await sharp({ create: { width, height, channels: 3, background: COLLAGE_BG } })
+        .composite([{ input: shadow, raw }, { input: data, raw }])
+        .png()
+        .toBuffer();
+    } else {
+      const { data, info } = await resized.flatten({ background: "#ffffff" }).png().toBuffer({ resolveWithObject: true });
+      png = blend
+        ? await sharp({ create: { width: info.width, height: info.height, channels: 3, background: COLLAGE_BG } })
+            .composite([{ input: data, blend: "multiply" }])
+            .png()
+            .toBuffer()
+        : data;
+    }
     return `data:image/png;base64,${png.toString("base64")}`;
   } catch {
     return null;

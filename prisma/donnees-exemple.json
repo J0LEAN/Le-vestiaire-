@@ -14,7 +14,7 @@
           "categorie": "manteau",
           "marque": "Make My Lemonade",
           "prix": 195.0,
-          "image": "/produits/veste-dan-marron-rayures-bleues.jpg",
+          "image": "/produits/veste-dan-marron-rayures-bleues.webp",
           "lien": "https://www.makemylemonade.com/products/veste-dan-marron-rayures-bleues",
           "affilie": false
         },
@@ -23,7 +23,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/chemise-lois-blanc-naturel.jpg",
+          "image": "/produits/chemise-lois-blanc-naturel.webp",
           "lien": "https://www.balzac-paris.fr/products/chemise-lois-blanc-naturel",
           "affilie": false
         },
@@ -32,7 +32,7 @@
           "categorie": "bas",
           "marque": "Balzac Paris",
           "prix": 125.0,
-          "image": "/produits/jean-jonah-bleu-brut.jpg",
+          "image": "/produits/jean-jonah-bleu-brut.webp",
           "lien": "https://www.balzac-paris.fr/products/jean-jonah-bleu-brut",
           "affilie": false
         },
@@ -41,7 +41,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 160.0,
-          "image": "/produits/mocassins-alban-pony-chocolat.jpg",
+          "image": "/produits/mocassins-alban-pony-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/mocassins-alban-pony-chocolat",
           "affilie": false
         },
@@ -50,7 +50,7 @@
           "categorie": "accessoire",
           "marque": "Balzac Paris",
           "prix": 90.0,
-          "image": "/produits/ceinture-basma-vernis-embosse-camel.jpg",
+          "image": "/produits/ceinture-basma-vernis-embosse-camel.webp",
           "lien": "https://www.balzac-paris.fr/products/ceinture-basma-vernis-embosse-camel",
           "affilie": false
         },
@@ -59,7 +59,7 @@
           "categorie": "sac",
           "marque": "Rive Droite",
           "prix": 75.0,
-          "image": "/produits/charlot-xs-le-sac-a-main-polycoton-recycle-camel.jpg",
+          "image": "/produits/charlot-xs-le-sac-a-main-polycoton-recycle-camel.webp",
           "lien": "https://www.rivedroite-paris.com/products/charlot-xs-le-sac-a-main-polycoton-recycle-camel",
           "affilie": false
         }
@@ -79,7 +79,7 @@
           "categorie": "robe",
           "marque": "Make My Lemonade",
           "prix": 140.0,
-          "image": "/produits/robe-lucy-noir.jpg",
+          "image": "/produits/robe-lucy-noir.webp",
           "lien": "https://www.makemylemonade.com/products/robe-lucy-noir",
           "affilie": false
         },
@@ -88,7 +88,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 150.0,
-          "image": "/produits/escarpins-ode-dore-craquele.jpg",
+          "image": "/produits/escarpins-ode-dore-craquele.webp",
           "lien": "https://www.balzac-paris.fr/products/escarpins-ode-dore-craquele",
           "affilie": false
         },
@@ -97,7 +97,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 360.0,
-          "image": "/produits/sac-mae-noir.jpg",
+          "image": "/produits/sac-mae-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-mae-noir",
           "affilie": false
         },
@@ -106,7 +106,7 @@
           "categorie": "bijou",
           "marque": "Balzac Paris",
           "prix": 65.0,
-          "image": "/produits/boucles-doreille-soline-dore.jpg",
+          "image": "/produits/boucles-doreille-soline-dore.webp",
           "lien": "https://www.balzac-paris.fr/products/boucles-doreille-soline-dore",
           "affilie": false
         }
@@ -125,7 +125,7 @@
           "categorie": "haut",
           "marque": "Make My Lemonade",
           "prix": 140.0,
-          "image": "/produits/pull-carolina-vermillon.jpg",
+          "image": "/produits/pull-carolina-vermillon.webp",
           "lien": "https://www.makemylemonade.com/products/pull-carolina-vermillon",
           "affilie": false
         },
@@ -134,7 +134,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium.jpg",
+          "image": "/produits/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium.webp",
           "lien": "https://www.patine.fr/products/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium",
           "affilie": false
         },
@@ -143,7 +143,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 165.0,
-          "image": "/produits/baskets-quinn-croute-de-cuir-rouge.jpg",
+          "image": "/produits/baskets-quinn-croute-de-cuir-rouge.webp",
           "lien": "https://www.balzac-paris.fr/products/baskets-quinn-croute-de-cuir-rouge",
           "affilie": false
         },
@@ -152,7 +152,7 @@
           "categorie": "sac",
           "marque": "Rive Droite",
           "prix": 90.0,
-          "image": "/produits/richelieu-le-sac-hobo-polycoton-recycle-camel.jpg",
+          "image": "/produits/richelieu-le-sac-hobo-polycoton-recycle-camel.webp",
           "lien": "https://www.rivedroite-paris.com/products/richelieu-le-sac-hobo-polycoton-recycle-camel",
           "affilie": false
         },
@@ -161,7 +161,7 @@
           "categorie": "accessoire",
           "marque": "Balzac Paris",
           "prix": 35.0,
-          "image": "/produits/foulard-paros-leopard.jpg",
+          "image": "/produits/foulard-paros-leopard.webp",
           "lien": "https://www.balzac-paris.fr/products/foulard-paros-leopard",
           "affilie": false
         }
@@ -180,7 +180,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 160.0,
-          "image": "/produits/pull-ariana-taupe.jpg",
+          "image": "/produits/pull-ariana-taupe.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-ariana-taupe",
           "affilie": false
         },
@@ -189,7 +189,7 @@
           "categorie": "bas",
           "marque": "Make My Lemonade",
           "prix": 140.0,
-          "image": "/produits/pantalon-eli-marron.jpg",
+          "image": "/produits/pantalon-eli-marron.webp",
           "lien": "https://www.makemylemonade.com/products/pantalon-eli-marron",
           "affilie": false
         },
@@ -198,7 +198,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 140.0,
-          "image": "/produits/bottines-isidora-sable.jpg",
+          "image": "/produits/bottines-isidora-sable.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-isidora-sable",
           "affilie": false
         },
@@ -207,7 +207,7 @@
           "categorie": "sac",
           "marque": "Rive Droite",
           "prix": 90.0,
-          "image": "/produits/richelieu-le-sac-hobo-polycoton-recycle-beige.jpg",
+          "image": "/produits/richelieu-le-sac-hobo-polycoton-recycle-beige.webp",
           "lien": "https://www.rivedroite-paris.com/products/richelieu-le-sac-hobo-polycoton-recycle-beige",
           "affilie": false
         },
@@ -216,7 +216,7 @@
           "categorie": "bijou",
           "marque": "Balzac Paris",
           "prix": 95.0,
-          "image": "/produits/collier-medaille-poisson-dore.jpg",
+          "image": "/produits/collier-medaille-poisson-dore.webp",
           "lien": "https://www.balzac-paris.fr/products/collier-medaille-poisson-dore",
           "affilie": false
         }
@@ -236,7 +236,7 @@
           "categorie": "manteau",
           "marque": "Balzac Paris",
           "prix": 395.0,
-          "image": "/produits/manteau-marcella-chataigne.jpg",
+          "image": "/produits/manteau-marcella-chataigne.webp",
           "lien": "https://www.balzac-paris.fr/products/manteau-marcella-chataigne",
           "affilie": false
         },
@@ -245,7 +245,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 135.0,
-          "image": "/produits/pull-anouk-rayures-marine-et-ecru.jpg",
+          "image": "/produits/pull-anouk-rayures-marine-et-ecru.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-anouk-rayures-marine-et-ecru",
           "affilie": false
         },
@@ -254,7 +254,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/le-jean-stretch-classic-donna-noir-new.jpg",
+          "image": "/produits/le-jean-stretch-classic-donna-noir-new.webp",
           "lien": "https://www.patine.fr/products/le-jean-stretch-classic-donna-noir-new",
           "affilie": false
         },
@@ -263,7 +263,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 205.0,
-          "image": "/produits/bottines-lea-noir.jpg",
+          "image": "/produits/bottines-lea-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-lea-noir",
           "affilie": false
         },
@@ -272,7 +272,7 @@
           "categorie": "accessoire",
           "marque": "Balzac Paris",
           "prix": 115.0,
-          "image": "/produits/echarpe-public-tartan-vert-et-bleu.jpg",
+          "image": "/produits/echarpe-public-tartan-vert-et-bleu.webp",
           "lien": "https://www.balzac-paris.fr/products/echarpe-public-tartan-vert-et-bleu",
           "affilie": false
         },
@@ -281,7 +281,7 @@
           "categorie": "sac",
           "marque": "Rive Droite",
           "prix": 95.0,
-          "image": "/produits/mini-charlot-le-sac-crossbody-polyester-recycle-noir.jpg",
+          "image": "/produits/mini-charlot-le-sac-crossbody-polyester-recycle-noir.webp",
           "lien": "https://www.rivedroite-paris.com/products/mini-charlot-le-sac-crossbody-polyester-recycle-noir",
           "affilie": false
         }
@@ -300,7 +300,7 @@
           "categorie": "robe",
           "marque": "Make My Lemonade",
           "prix": 150.0,
-          "image": "/produits/robe-madison-vintages-roses.jpg",
+          "image": "/produits/robe-madison-vintages-roses.webp",
           "lien": "https://www.makemylemonade.com/products/robe-madison-vintages-roses",
           "affilie": false
         },
@@ -309,7 +309,7 @@
           "categorie": "haut",
           "marque": "Make My Lemonade",
           "prix": 170.0,
-          "image": "/produits/gilet-django-bordeaux.jpg",
+          "image": "/produits/gilet-django-bordeaux.webp",
           "lien": "https://www.makemylemonade.com/products/gilet-django-bordeaux",
           "affilie": false
         },
@@ -318,7 +318,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 250.0,
-          "image": "/produits/bottes-leona-croute-de-cuir-moka.jpg",
+          "image": "/produits/bottes-leona-croute-de-cuir-moka.webp",
           "lien": "https://www.balzac-paris.fr/products/bottes-leona-croute-de-cuir-moka",
           "affilie": false
         },
@@ -327,7 +327,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/sac-sofia-tresse-bordeaux-interieur-bleu-ciel.jpg",
+          "image": "/produits/sac-sofia-tresse-bordeaux-interieur-bleu-ciel.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-sofia-tresse-bordeaux-interieur-bleu-ciel",
           "affilie": false
         },
@@ -336,7 +336,7 @@
           "categorie": "bijou",
           "marque": "Balzac Paris",
           "prix": 95.0,
-          "image": "/produits/boucles-doreille-olivia.jpg",
+          "image": "/produits/boucles-doreille-olivia.webp",
           "lien": "https://www.balzac-paris.fr/products/boucles-doreilles-olivia-poisson-dore",
           "affilie": false
         }
@@ -356,7 +356,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 185.0,
-          "image": "/produits/doudoune-grand-froid-puffer-brillante-marine-quinn-shiny.jpg",
+          "image": "/produits/doudoune-grand-froid-puffer-brillante-marine-quinn-shiny.webp",
           "lien": "https://www.jott.com/products/doudoune-grand-froid-puffer-brillante-marine-quinn-shiny",
           "affilie": false
         },
@@ -365,7 +365,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 135.0,
-          "image": "/produits/pull-anouk-rayures-marine-et-ecru.jpg",
+          "image": "/produits/pull-anouk-rayures-marine-et-ecru.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-anouk-rayures-marine-et-ecru",
           "affilie": false
         },
@@ -374,7 +374,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/jean-barrel-taille-haute-142536682a06.jpg",
+          "image": "/produits/jean-barrel-taille-haute-142536682a06.webp",
           "lien": "https://www.pimkie.fr/products/jean-barrel-taille-haute-142536682a06",
           "affilie": false
         },
@@ -383,7 +383,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 205.0,
-          "image": "/produits/bottines-lea-noir.jpg",
+          "image": "/produits/bottines-lea-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-lea-noir",
           "affilie": false
         },
@@ -392,7 +392,7 @@
           "categorie": "accessoire",
           "marque": "Jott",
           "prix": 30.0,
-          "image": "/produits/bonnet-marine-jim-2-0.jpg",
+          "image": "/produits/bonnet-marine-jim-2-0.webp",
           "lien": "https://www.jott.com/products/bonnet-marine-jim-2-0",
           "affilie": false
         },
@@ -401,7 +401,7 @@
           "categorie": "accessoire",
           "marque": "Jott",
           "prix": 40.0,
-          "image": "/produits/gants-tricotes-marine-gabby-2-1.jpg",
+          "image": "/produits/gants-tricotes-marine-gabby-2-1.webp",
           "lien": "https://www.jott.com/products/gants-tricotes-marine-gabby-2-1",
           "affilie": false
         }
@@ -421,7 +421,7 @@
           "categorie": "manteau",
           "marque": "Make My Lemonade",
           "prix": 350.0,
-          "image": "/produits/manteau-raoul-kaki.jpg",
+          "image": "/produits/manteau-raoul-kaki.webp",
           "lien": "https://www.makemylemonade.com/products/manteau-raoul-kaki",
           "affilie": false
         },
@@ -430,7 +430,7 @@
           "categorie": "haut",
           "marque": "Make My Lemonade",
           "prix": 90.0,
-          "image": "/produits/pull-ivy-vermillon.jpg",
+          "image": "/produits/pull-ivy-vermillon.webp",
           "lien": "https://www.makemylemonade.com/products/pull-ivy-vermillon",
           "affilie": false
         },
@@ -439,7 +439,7 @@
           "categorie": "bas",
           "marque": "Make My Lemonade",
           "prix": 96.0,
-          "image": "/produits/pantalon-lee-noir.jpg",
+          "image": "/produits/pantalon-lee-noir.webp",
           "lien": "https://www.makemylemonade.com/products/pantalon-lee-noir",
           "affilie": false
         },
@@ -448,7 +448,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 190.0,
-          "image": "/produits/bottines-anatole-noir.jpg",
+          "image": "/produits/bottines-anatole-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-anatole-noir",
           "affilie": false
         },
@@ -457,7 +457,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 360.0,
-          "image": "/produits/sac-mae-noir.jpg",
+          "image": "/produits/sac-mae-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-mae-noir",
           "affilie": false
         }
@@ -477,7 +477,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 180.0,
-          "image": "/produits/doudoune-stretch-legere-naturel-maia.jpg",
+          "image": "/produits/doudoune-stretch-legere-naturel-maia.webp",
           "lien": "https://www.jott.com/products/doudoune-stretch-legere-naturel-maia",
           "affilie": false
         },
@@ -486,7 +486,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 105.0,
-          "image": "/produits/sweat-virgile-gris-clair.jpg",
+          "image": "/produits/sweat-virgile-gris-clair.webp",
           "lien": "https://www.balzac-paris.fr/products/sweat-virgile-gris-clair",
           "affilie": false
         },
@@ -495,7 +495,7 @@
           "categorie": "bas",
           "marque": "Jott",
           "prix": 60.0,
-          "image": "/produits/pantalon-de-jogging-gris-souris-gill.jpg",
+          "image": "/produits/pantalon-de-jogging-gris-souris-gill.webp",
           "lien": "https://www.jott.com/products/pantalon-de-jogging-gris-souris-gill",
           "affilie": false
         },
@@ -504,7 +504,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.jpg",
+          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-baskets-esprit-running-920781901i16",
           "affilie": false
         },
@@ -513,7 +513,7 @@
           "categorie": "accessoire",
           "marque": "Jott",
           "prix": 30.0,
-          "image": "/produits/bonnet-naturel-jim-2-0.jpg",
+          "image": "/produits/bonnet-naturel-jim-2-0.webp",
           "lien": "https://www.jott.com/products/bonnet-naturel-jim-2-0",
           "affilie": false
         }
@@ -533,7 +533,7 @@
           "categorie": "haut",
           "marque": "Jott",
           "prix": 45.0,
-          "image": "/produits/sweat-a-sequins-blanc-argent-jeanne.jpg",
+          "image": "/produits/sweat-a-sequins-blanc-argent-jeanne.webp",
           "lien": "https://www.jott.com/products/sweat-a-sequins-blanc-argent-jeanne",
           "affilie": false
         },
@@ -542,7 +542,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08.jpg",
+          "image": "/produits/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08",
           "affilie": false
         },
@@ -551,7 +551,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/escarpins-bout-pointu-talon-ouvert-920618899a08.jpg",
+          "image": "/produits/escarpins-bout-pointu-talon-ouvert-920618899a08.webp",
           "lien": "https://www.pimkie.fr/products/escarpins-bout-pointu-talon-ouvert-920618899a08",
           "affilie": false
         },
@@ -560,7 +560,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/sac-sequins-avec-bandouliere-chaine-921214g02f0g.jpg",
+          "image": "/produits/sac-sequins-avec-bandouliere-chaine-921214g02f0g.webp",
           "lien": "https://www.pimkie.fr/products/sac-sequins-avec-bandouliere-chaine-921214g02f0g",
           "affilie": false
         }
@@ -580,7 +580,7 @@
           "categorie": "manteau",
           "marque": "Make My Lemonade",
           "prix": 280.0,
-          "image": "/produits/manteau-nine-velours-navy.jpg",
+          "image": "/produits/manteau-nine-velours-navy.webp",
           "lien": "https://www.makemylemonade.com/products/manteau-nine-velours-navy",
           "affilie": false
         },
@@ -589,7 +589,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/chemise-lois-blanc-naturel.jpg",
+          "image": "/produits/chemise-lois-blanc-naturel.webp",
           "lien": "https://www.balzac-paris.fr/products/chemise-lois-blanc-naturel",
           "affilie": false
         },
@@ -598,7 +598,7 @@
           "categorie": "bas",
           "marque": "Make My Lemonade",
           "prix": 120.0,
-          "image": "/produits/pantalon-serge-navy.jpg",
+          "image": "/produits/pantalon-serge-navy.webp",
           "lien": "https://www.makemylemonade.com/products/pantalon-serge-navy",
           "affilie": false
         },
@@ -607,7 +607,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 160.0,
-          "image": "/produits/mocassins-alban-pony-chocolat.jpg",
+          "image": "/produits/mocassins-alban-pony-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/mocassins-alban-pony-chocolat",
           "affilie": false
         },
@@ -616,7 +616,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 370.0,
-          "image": "/produits/sac-amaia-bleu-nuit.jpg",
+          "image": "/produits/sac-amaia-bleu-nuit.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-amaia-bleu-nuit",
           "affilie": false
         }
@@ -636,7 +636,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 180.0,
-          "image": "/produits/pull-doudou-vert-foret.jpg",
+          "image": "/produits/pull-doudou-vert-foret.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-doudou-vert-foret",
           "affilie": false
         },
@@ -645,7 +645,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 380.0,
-          "image": "/produits/la-jupe-prom-taffy-fleurs-3d-noir.jpg",
+          "image": "/produits/la-jupe-prom-taffy-fleurs-3d-noir.webp",
           "lien": "https://www.patine.fr/products/la-jupe-prom-taffy-fleurs-3d-noir",
           "affilie": false
         },
@@ -654,7 +654,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 285.0,
-          "image": "/produits/bottines-clyde-vernis-froisse-noir.jpg",
+          "image": "/produits/bottines-clyde-vernis-froisse-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-clyde-vernis-froisse-noir",
           "affilie": false
         },
@@ -663,7 +663,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/sac-pochette-avec-etoiles-et-bandoulieres-chaines-921270331f03.jpg",
+          "image": "/produits/sac-pochette-avec-etoiles-et-bandoulieres-chaines-921270331f03.webp",
           "lien": "https://www.pimkie.fr/products/sac-pochette-avec-etoiles-et-bandoulieres-chaines-921270331f03",
           "affilie": false
         },
@@ -672,7 +672,7 @@
           "categorie": "bijou",
           "marque": "Balzac Paris",
           "prix": 65.0,
-          "image": "/produits/boucles-doreille-soline-dore.jpg",
+          "image": "/produits/boucles-doreille-soline-dore.webp",
           "lien": "https://www.balzac-paris.fr/products/boucles-doreille-soline-dore",
           "affilie": false
         }
@@ -692,7 +692,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/blouson-en-simili-forme-vintage-avec-col-montant-324071899a08.jpg",
+          "image": "/produits/blouson-en-simili-forme-vintage-avec-col-montant-324071899a08.webp",
           "lien": "https://www.pimkie.fr/products/blouson-en-simili-forme-vintage-avec-col-montant-324071899a08",
           "affilie": false
         },
@@ -701,7 +701,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/pull-oversize-avec-echarpe-amovible-410971911a09.jpg",
+          "image": "/produits/pull-oversize-avec-echarpe-amovible-410971911a09.webp",
           "lien": "https://www.pimkie.fr/products/pull-oversize-avec-echarpe-amovible-410971911a09",
           "affilie": false
         },
@@ -710,7 +710,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/jean-straight-taille-medium-142142630a06.jpg",
+          "image": "/produits/jean-straight-taille-medium-142142630a06.webp",
           "lien": "https://www.pimkie.fr/products/jean-straight-taille-medium-142142630a06",
           "affilie": false
         },
@@ -719,7 +719,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 49.99,
-          "image": "/produits/bottes-hautes-style-motard-avec-boucle-et-clous-921289899a08.jpg",
+          "image": "/produits/bottes-hautes-style-motard-avec-boucle-et-clous-921289899a08.webp",
           "lien": "https://www.pimkie.fr/products/bottes-hautes-style-motard-avec-boucle-et-clous-921289899a08",
           "affilie": false
         },
@@ -728,7 +728,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-porte-epaule-avec-illets-metalliques-921269899f0g.jpg",
+          "image": "/produits/sac-porte-epaule-avec-illets-metalliques-921269899f0g.webp",
           "lien": "https://www.pimkie.fr/products/sac-porte-epaule-avec-illets-metalliques-921269899f0g",
           "affilie": false
         }
@@ -748,7 +748,7 @@
           "categorie": "haut",
           "marque": "Make My Lemonade",
           "prix": 140.0,
-          "image": "/produits/pull-nour-chocolat.jpg",
+          "image": "/produits/pull-nour-chocolat.webp",
           "lien": "https://www.makemylemonade.com/products/pull-nour-chocolat",
           "affilie": false
         },
@@ -757,7 +757,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 84.0,
-          "image": "/produits/brenda-curvy-vintage-ecru-creme-fraiche.jpg",
+          "image": "/produits/brenda-curvy-vintage-ecru-creme-fraiche.webp",
           "lien": "https://www.patine.fr/products/brenda-curvy-vintage-ecru-creme-fraiche",
           "affilie": false
         },
@@ -766,7 +766,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 195.0,
-          "image": "/produits/bottines-leandra-croute-de-cuir-noisette.jpg",
+          "image": "/produits/bottines-leandra-croute-de-cuir-noisette.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-leandra-croute-de-cuir-noisette",
           "affilie": false
         },
@@ -775,7 +775,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 360.0,
-          "image": "/produits/sac-mae-camel.jpg",
+          "image": "/produits/sac-mae-camel.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-mae-camel",
           "affilie": false
         },
@@ -784,7 +784,7 @@
           "categorie": "accessoire",
           "marque": "Balzac Paris",
           "prix": 65.0,
-          "image": "/produits/gants-jean-camel.jpg",
+          "image": "/produits/gants-jean-camel.webp",
           "lien": "https://www.balzac-paris.fr/products/gants-jean-camel",
           "affilie": false
         }
@@ -804,7 +804,7 @@
           "categorie": "manteau",
           "marque": "Soeur",
           "prix": 275.0,
-          "image": "/produits/doudoune-jensen-kaki-bls1600jensen26wkak01.jpg",
+          "image": "/produits/doudoune-jensen-kaki-bls1600jensen26wkak01.webp",
           "lien": "https://www.soeur.fr/products/doudoune-jensen-kaki-bls1600jensen26wkak01",
           "affilie": false
         },
@@ -813,7 +813,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 240.0,
-          "image": "/produits/le-pull-1990-wooly-laine-100-recyclee-dark-navy.jpg",
+          "image": "/produits/le-pull-1990-wooly-laine-100-recyclee-dark-navy.webp",
           "lien": "https://www.patine.fr/products/le-pull-1990-wooly-laine-100-recyclee-dark-navy",
           "affilie": false
         },
@@ -822,7 +822,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/jean-straight-taille-medium-142142630a06.jpg",
+          "image": "/produits/jean-straight-taille-medium-142142630a06.webp",
           "lien": "https://www.pimkie.fr/products/jean-straight-taille-medium-142142630a06",
           "affilie": false
         },
@@ -831,7 +831,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/boots-plateformes-simili-avec-talons-blocs-921291899a08.jpg",
+          "image": "/produits/boots-plateformes-simili-avec-talons-blocs-921291899a08.webp",
           "lien": "https://www.pimkie.fr/products/boots-plateformes-simili-avec-talons-blocs-921291899a08",
           "affilie": false
         },
@@ -840,7 +840,7 @@
           "categorie": "accessoire",
           "marque": "Soeur",
           "prix": 65.0,
-          "image": "/produits/echarpe-kola-gris-ech1305kola26wgri03.jpg",
+          "image": "/produits/echarpe-kola-gris-ech1305kola26wgri03.webp",
           "lien": "https://www.soeur.fr/products/echarpe-kola-gris-ech1305kola26wgri03",
           "affilie": false
         }
@@ -860,7 +860,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 220.0,
-          "image": "/produits/impermeable-double-cafe-noir-glen-sherpa.jpg",
+          "image": "/produits/impermeable-double-cafe-noir-glen-sherpa.webp",
           "lien": "https://www.jott.com/products/impermeable-double-cafe-noir-glen-sherpa",
           "affilie": false
         },
@@ -869,7 +869,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 180.0,
-          "image": "/produits/pull-doudou-marine.jpg",
+          "image": "/produits/pull-doudou-marine.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-doudou-marine",
           "affilie": false
         },
@@ -878,7 +878,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/le-jean-curvy-brenda-coton-regen-recycle-bleu-medium-new.jpg",
+          "image": "/produits/le-jean-curvy-brenda-coton-regen-recycle-bleu-medium-new.webp",
           "lien": "https://www.patine.fr/products/le-jean-curvy-brenda-coton-regen-recycle-bleu-medium-new",
           "affilie": false
         },
@@ -887,7 +887,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/bottes-emilia-noir.jpg",
+          "image": "/produits/bottes-emilia-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/bottes-emilia-noir",
           "affilie": false
         },
@@ -896,7 +896,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/sac-sun-maxi-kaki.jpg",
+          "image": "/produits/sac-sun-maxi-kaki.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-sun-maxi-kaki",
           "affilie": false
         }
@@ -916,7 +916,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 85.0,
-          "image": "/produits/doudoune-legere-prune-cha.jpg",
+          "image": "/produits/doudoune-legere-prune-cha.webp",
           "lien": "https://www.jott.com/products/doudoune-legere-prune-cha",
           "affilie": false
         },
@@ -925,7 +925,7 @@
           "categorie": "haut",
           "marque": "Jott",
           "prix": 48.0,
-          "image": "/produits/pull-en-mailles-col-rond-noir-esther.jpg",
+          "image": "/produits/pull-en-mailles-col-rond-noir-esther.webp",
           "lien": "https://www.jott.com/products/pull-en-mailles-col-rond-noir-esther",
           "affilie": false
         },
@@ -934,7 +934,7 @@
           "categorie": "bas",
           "marque": "Jott",
           "prix": 21.0,
-          "image": "/produits/pantalon-en-maille-de-coton-noir-virginia.jpg",
+          "image": "/produits/pantalon-en-maille-de-coton-noir-virginia.webp",
           "lien": "https://www.jott.com/products/pantalon-en-maille-de-coton-noir-virginia",
           "affilie": false
         },
@@ -943,7 +943,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/bottes-courtes-fourrees-en-suedine-920872d10a07.jpg",
+          "image": "/produits/bottes-courtes-fourrees-en-suedine-920872d10a07.webp",
           "lien": "https://www.pimkie.fr/products/bottes-courtes-fourrees-en-suedine-920872d10a07",
           "affilie": false
         },
@@ -952,7 +952,7 @@
           "categorie": "accessoire",
           "marque": "Make My Lemonade",
           "prix": 60.0,
-          "image": "/produits/bonnet-daniel-rouge-mauve.jpg",
+          "image": "/produits/bonnet-daniel-rouge-mauve.webp",
           "lien": "https://www.makemylemonade.com/products/bonnet-daniel-rouge-mauve",
           "affilie": false
         }
@@ -972,7 +972,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/veste-droite-en-tweed-avec-lurex-et-brandebourg-324078899a08.jpg",
+          "image": "/produits/veste-droite-en-tweed-avec-lurex-et-brandebourg-324078899a08.webp",
           "lien": "https://www.pimkie.fr/products/veste-droite-en-tweed-avec-lurex-et-brandebourg-324078899a08",
           "affilie": false
         },
@@ -981,7 +981,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 15.99,
-          "image": "/produits/t-shirt-en-maille-cotelee-dos-degage-410728899a08.jpg",
+          "image": "/produits/t-shirt-en-maille-cotelee-dos-degage-410728899a08.webp",
           "lien": "https://www.pimkie.fr/products/t-shirt-en-maille-cotelee-dos-degage-410728899a08",
           "affilie": false
         },
@@ -990,7 +990,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/jupe-short-avec-detail-bijou-691552899a08.jpg",
+          "image": "/produits/jupe-short-avec-detail-bijou-691552899a08.webp",
           "lien": "https://www.pimkie.fr/products/jupe-short-avec-detail-bijou-691552899a08",
           "affilie": false
         },
@@ -999,7 +999,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 55.99,
-          "image": "/produits/bottes-hautes-avec-revers-talons-et-bouts-pointus-921311899a08.jpg",
+          "image": "/produits/bottes-hautes-avec-revers-talons-et-bouts-pointus-921311899a08.webp",
           "lien": "https://www.pimkie.fr/products/bottes-hautes-avec-revers-talons-et-bouts-pointus-921311899a08",
           "affilie": false
         },
@@ -1008,7 +1008,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 12.99,
-          "image": "/produits/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08.jpg",
+          "image": "/produits/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08.webp",
           "lien": "https://www.pimkie.fr/products/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08",
           "affilie": false
         },
@@ -1017,7 +1017,7 @@
           "categorie": "bijou",
           "marque": "Mya Bay",
           "prix": 41.0,
-          "image": "/produits/boucles-d-oreilles-aloha-bo-392.jpg",
+          "image": "/produits/boucles-d-oreilles-aloha-bo-392.webp",
           "lien": "https://www.mya-bay.com/products/boucles-d-oreilles-aloha-bo-392",
           "affilie": false
         }
@@ -1037,7 +1037,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 57.0,
-          "image": "/produits/doudoune-l-g-re-moutarde-emmy.jpg",
+          "image": "/produits/doudoune-l-g-re-moutarde-emmy.webp",
           "lien": "https://www.jott.com/products/doudoune-l-g-re-moutarde-emmy",
           "affilie": false
         },
@@ -1046,7 +1046,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/pull-avec-boutons-fantaisie-410965899a08.jpg",
+          "image": "/produits/pull-avec-boutons-fantaisie-410965899a08.webp",
           "lien": "https://www.pimkie.fr/products/pull-avec-boutons-fantaisie-410965899a08",
           "affilie": false
         },
@@ -1055,7 +1055,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/j71-1-jean-wide-taille-haute-142724683a06.jpg",
+          "image": "/produits/j71-1-jean-wide-taille-haute-142724683a06.webp",
           "lien": "https://www.pimkie.fr/products/j71-1-jean-wide-taille-haute-142724683a06",
           "affilie": false
         },
@@ -1064,7 +1064,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 95.0,
-          "image": "/produits/baskets-speedcat-noir-et-leopard-puma-x-courir-x-balzac-paris.jpg",
+          "image": "/produits/baskets-speedcat-noir-et-leopard-puma-x-courir-x-balzac-paris.webp",
           "lien": "https://www.balzac-paris.fr/products/baskets-speedcat-noir-et-leopard-puma-x-courir-x-balzac-paris",
           "affilie": false
         },
@@ -1073,7 +1073,7 @@
           "categorie": "accessoire",
           "marque": "Jott",
           "prix": 30.0,
-          "image": "/produits/bonnet-noir-jim-2-0.jpg",
+          "image": "/produits/bonnet-noir-jim-2-0.webp",
           "lien": "https://www.jott.com/products/bonnet-noir-jim-2-0",
           "affilie": false
         }
@@ -1093,7 +1093,7 @@
           "categorie": "manteau",
           "marque": "Soeur",
           "prix": 395.0,
-          "image": "/produits/manteau-windsor-kaki-man1312windsor23wkak16.jpg",
+          "image": "/produits/manteau-windsor-kaki-man1312windsor23wkak16.webp",
           "lien": "https://www.soeur.fr/products/manteau-windsor-kaki-man1312windsor23wkak16",
           "affilie": false
         },
@@ -1102,7 +1102,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/pull-manches-longues-encolure-bardot-411391874a08.jpg",
+          "image": "/produits/pull-manches-longues-encolure-bardot-411391874a08.webp",
           "lien": "https://www.pimkie.fr/products/pull-manches-longues-encolure-bardot-411391874a08",
           "affilie": false
         },
@@ -1111,7 +1111,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/le-jean-stretch-classic-donna-noir-new.jpg",
+          "image": "/produits/le-jean-stretch-classic-donna-noir-new.webp",
           "lien": "https://www.patine.fr/products/le-jean-stretch-classic-donna-noir-new",
           "affilie": false
         },
@@ -1120,7 +1120,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 250.0,
-          "image": "/produits/bottes-leona-croute-de-cuir-moka.jpg",
+          "image": "/produits/bottes-leona-croute-de-cuir-moka.webp",
           "lien": "https://www.balzac-paris.fr/products/bottes-leona-croute-de-cuir-moka",
           "affilie": false
         },
@@ -1129,7 +1129,7 @@
           "categorie": "accessoire",
           "marque": "Soeur",
           "prix": 55.0,
-          "image": "/produits/foulard-classique-en-coton-marron-ech1505foulardc24wmar90.jpg",
+          "image": "/produits/foulard-classique-en-coton-marron-ech1505foulardc24wmar90.webp",
           "lien": "https://www.soeur.fr/products/foulard-classique-en-coton-marron-ech1505foulardc24wmar90",
           "affilie": false
         }
@@ -1149,7 +1149,7 @@
           "categorie": "robe",
           "marque": "Make My Lemonade",
           "prix": 170.0,
-          "image": "/produits/robe-natacha-satin-violet.jpg",
+          "image": "/produits/robe-natacha-satin-violet.webp",
           "lien": "https://www.makemylemonade.com/products/robe-natacha-satin-violet",
           "affilie": false
         },
@@ -1158,7 +1158,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 150.0,
-          "image": "/produits/escarpins-ode-dore-craquele.jpg",
+          "image": "/produits/escarpins-ode-dore-craquele.webp",
           "lien": "https://www.balzac-paris.fr/products/escarpins-ode-dore-craquele",
           "affilie": false
         },
@@ -1167,7 +1167,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/sac-cesar-dore-1.jpg",
+          "image": "/produits/sac-cesar-dore-1.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-cesar-dore-1",
           "affilie": false
         },
@@ -1176,7 +1176,7 @@
           "categorie": "bijou",
           "marque": "Mya Bay",
           "prix": 110.0,
-          "image": "/produits/bague-flower-california-ba-358.jpg",
+          "image": "/produits/bague-flower-california-ba-358.webp",
           "lien": "https://www.mya-bay.com/products/bague-flower-california-ba-358",
           "affilie": false
         }
@@ -1196,7 +1196,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/robe-en-maille-forme-patineuse-avec-boutons-782304899a08.jpg",
+          "image": "/produits/robe-en-maille-forme-patineuse-avec-boutons-782304899a08.webp",
           "lien": "https://www.pimkie.fr/products/robe-en-maille-forme-patineuse-avec-boutons-782304899a08",
           "affilie": false
         },
@@ -1205,7 +1205,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 220.0,
-          "image": "/produits/bottines-leandra-pony-leopard-fauve.jpg",
+          "image": "/produits/bottines-leandra-pony-leopard-fauve.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-leandra-pony-leopard-fauve",
           "affilie": false
         },
@@ -1214,7 +1214,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/sac-cesar-chocolat.jpg",
+          "image": "/produits/sac-cesar-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-cesar-chocolat",
           "affilie": false
         },
@@ -1223,7 +1223,7 @@
           "categorie": "bijou",
           "marque": "Balzac Paris",
           "prix": 95.0,
-          "image": "/produits/collier-medaille-poisson-dore.jpg",
+          "image": "/produits/collier-medaille-poisson-dore.webp",
           "lien": "https://www.balzac-paris.fr/products/collier-medaille-poisson-dore",
           "affilie": false
         }
@@ -1243,7 +1243,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 180.0,
-          "image": "/produits/doudoune-stretch-legere-naturel-maia.jpg",
+          "image": "/produits/doudoune-stretch-legere-naturel-maia.webp",
           "lien": "https://www.jott.com/products/doudoune-stretch-legere-naturel-maia",
           "affilie": false
         },
@@ -1252,7 +1252,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/pull-manches-courtes-avec-laine-411338936a09.jpg",
+          "image": "/produits/pull-manches-courtes-avec-laine-411338936a09.webp",
           "lien": "https://www.pimkie.fr/products/pull-manches-courtes-avec-laine-411338936a09",
           "affilie": false
         },
@@ -1261,7 +1261,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.jpg",
+          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.webp",
           "lien": "https://www.pimkie.fr/products/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09",
           "affilie": false
         },
@@ -1270,7 +1270,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/boots-fourrees-avec-semelles-compensees-921069d00a07.jpg",
+          "image": "/produits/boots-fourrees-avec-semelles-compensees-921069d00a07.webp",
           "lien": "https://www.pimkie.fr/products/boots-fourrees-avec-semelles-compensees-921069d00a07",
           "affilie": false
         },
@@ -1279,7 +1279,7 @@
           "categorie": "accessoire",
           "marque": "Jott",
           "prix": 45.0,
-          "image": "/produits/echarpe-naturel-jeff-2-0.jpg",
+          "image": "/produits/echarpe-naturel-jeff-2-0.webp",
           "lien": "https://www.jott.com/products/echarpe-naturel-jeff-2-0",
           "affilie": false
         }
@@ -1299,7 +1299,7 @@
           "categorie": "haut",
           "marque": "Make My Lemonade",
           "prix": 170.0,
-          "image": "/produits/gilet-django-bordeaux.jpg",
+          "image": "/produits/gilet-django-bordeaux.webp",
           "lien": "https://www.makemylemonade.com/products/gilet-django-bordeaux",
           "affilie": false
         },
@@ -1308,7 +1308,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/chemise-nora-rayures-blanc-et-bordeaux.jpg",
+          "image": "/produits/chemise-nora-rayures-blanc-et-bordeaux.webp",
           "lien": "https://www.balzac-paris.fr/products/chemise-nora-rayures-blanc-et-bordeaux",
           "affilie": false
         },
@@ -1317,7 +1317,7 @@
           "categorie": "bas",
           "marque": "Make My Lemonade",
           "prix": 120.0,
-          "image": "/produits/pantalon-serge-navy.jpg",
+          "image": "/produits/pantalon-serge-navy.webp",
           "lien": "https://www.makemylemonade.com/products/pantalon-serge-navy",
           "affilie": false
         },
@@ -1326,7 +1326,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/nicoise-pumps-cuir-bordeaux.jpg",
+          "image": "/produits/nicoise-pumps-cuir-bordeaux.webp",
           "lien": "https://www.rouje.com/products/nicoise-pumps-cuir-bordeaux",
           "affilie": false
         },
@@ -1335,7 +1335,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/sac-sofia-tresse-bordeaux-interieur-bleu-ciel.jpg",
+          "image": "/produits/sac-sofia-tresse-bordeaux-interieur-bleu-ciel.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-sofia-tresse-bordeaux-interieur-bleu-ciel",
           "affilie": false
         }
@@ -1355,7 +1355,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 90.0,
-          "image": "/produits/doudoune-legere-bleu-jeans-emmy.jpg",
+          "image": "/produits/doudoune-legere-bleu-jeans-emmy.webp",
           "lien": "https://www.jott.com/products/doudoune-legere-bleu-jeans-emmy",
           "affilie": false
         },
@@ -1364,7 +1364,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/pull-manches-courtes-en-maille-douce-411338000a00.jpg",
+          "image": "/produits/pull-manches-courtes-en-maille-douce-411338000a00.webp",
           "lien": "https://www.pimkie.fr/products/pull-manches-courtes-en-maille-douce-411338000a00",
           "affilie": false
         },
@@ -1373,7 +1373,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium.jpg",
+          "image": "/produits/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium.webp",
           "lien": "https://www.patine.fr/products/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium",
           "affilie": false
         },
@@ -1382,7 +1382,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 165.0,
-          "image": "/produits/baskets-quinn-bleu-et-beige.jpg",
+          "image": "/produits/baskets-quinn-bleu-et-beige.webp",
           "lien": "https://www.balzac-paris.fr/products/baskets-quinn-bleu-et-beige",
           "affilie": false
         },
@@ -1391,7 +1391,7 @@
           "categorie": "accessoire",
           "marque": "Jott",
           "prix": 45.0,
-          "image": "/produits/echarpe-marine-jeff-2-0.jpg",
+          "image": "/produits/echarpe-marine-jeff-2-0.webp",
           "lien": "https://www.jott.com/products/echarpe-marine-jeff-2-0",
           "affilie": false
         }
@@ -1411,7 +1411,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 105.0,
-          "image": "/produits/doudoune-de-tailleur-noir-ingrid.jpg",
+          "image": "/produits/doudoune-de-tailleur-noir-ingrid.webp",
           "lien": "https://www.jott.com/products/doudoune-de-tailleur-noir-ingrid",
           "affilie": false
         },
@@ -1420,7 +1420,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 125.0,
-          "image": "/produits/le-tee-shirt-long-power-stretch-noir-black-coffee.jpg",
+          "image": "/produits/le-tee-shirt-long-power-stretch-noir-black-coffee.webp",
           "lien": "https://www.patine.fr/products/le-tee-shirt-long-power-stretch-noir-black-coffee",
           "affilie": false
         },
@@ -1429,7 +1429,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 230.0,
-          "image": "/produits/taffy-jupe-noir-black-coffee.jpg",
+          "image": "/produits/taffy-jupe-noir-black-coffee.webp",
           "lien": "https://www.patine.fr/products/taffy-jupe-noir-black-coffee",
           "affilie": false
         },
@@ -1438,7 +1438,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 325.0,
-          "image": "/produits/claudia-boots-cuir-noir.jpg",
+          "image": "/produits/claudia-boots-cuir-noir.webp",
           "lien": "https://www.rouje.com/products/claudia-boots-cuir-noir",
           "affilie": false
         },
@@ -1447,7 +1447,7 @@
           "categorie": "accessoire",
           "marque": "Rouje",
           "prix": 95.0,
-          "image": "/produits/stephanie-hat-uni-noir.jpg",
+          "image": "/produits/stephanie-hat-uni-noir.webp",
           "lien": "https://www.rouje.com/products/stephanie-hat-uni-noir",
           "affilie": false
         }
@@ -1467,7 +1467,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 90.0,
-          "image": "/produits/doudoune-stretch-legere-vert-mineral-maia.jpg",
+          "image": "/produits/doudoune-stretch-legere-vert-mineral-maia.webp",
           "lien": "https://www.jott.com/products/doudoune-stretch-legere-vert-mineral-maia",
           "affilie": false
         },
@@ -1476,7 +1476,7 @@
           "categorie": "haut",
           "marque": "Jott",
           "prix": 29.0,
-          "image": "/produits/sweat-en-coton-biologique-vert-fonce-elvas.jpg",
+          "image": "/produits/sweat-en-coton-biologique-vert-fonce-elvas.webp",
           "lien": "https://www.jott.com/products/sweat-en-coton-biologique-vert-fonce-elvas",
           "affilie": false
         },
@@ -1485,7 +1485,7 @@
           "categorie": "bas",
           "marque": "Jott",
           "prix": 29.0,
-          "image": "/produits/jogging-en-coton-biologique-vert-fonce-valparaiso.jpg",
+          "image": "/produits/jogging-en-coton-biologique-vert-fonce-valparaiso.webp",
           "lien": "https://www.jott.com/products/jogging-en-coton-biologique-vert-fonce-valparaiso",
           "affilie": false
         },
@@ -1494,7 +1494,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/baskets-running-avec-grosses-semelles-920781872i19.jpg",
+          "image": "/produits/baskets-running-avec-grosses-semelles-920781872i19.webp",
           "lien": "https://www.pimkie.fr/products/baskets-running-avec-grosses-semelles-920781872i19",
           "affilie": false
         },
@@ -1503,7 +1503,7 @@
           "categorie": "accessoire",
           "marque": "Jott",
           "prix": 30.0,
-          "image": "/produits/bonnet-gris-chine-fonce-jim-2-0.jpg",
+          "image": "/produits/bonnet-gris-chine-fonce-jim-2-0.webp",
           "lien": "https://www.jott.com/products/bonnet-gris-chine-fonce-jim-2-0",
           "affilie": false
         }
@@ -1523,7 +1523,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/veste-blazer-cintree-avec-laine-323936806a08.jpg",
+          "image": "/produits/veste-blazer-cintree-avec-laine-323936806a08.webp",
           "lien": "https://www.pimkie.fr/products/veste-blazer-cintree-avec-laine-323936806a08",
           "affilie": false
         },
@@ -1532,7 +1532,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 195.0,
-          "image": "/produits/pull-ophy-rouge.jpg",
+          "image": "/produits/pull-ophy-rouge.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-ophy-rouge",
           "affilie": false
         },
@@ -1541,7 +1541,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/pantalon-city-avec-plis-devant-142782871c09.jpg",
+          "image": "/produits/pantalon-city-avec-plis-devant-142782871c09.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-city-avec-plis-devant-142782871c09",
           "affilie": false
         },
@@ -1550,7 +1550,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/escarpins-vernis-bouts-pointus-talons-ouverts-921154d68a07.jpg",
+          "image": "/produits/escarpins-vernis-bouts-pointus-talons-ouverts-921154d68a07.webp",
           "lien": "https://www.pimkie.fr/products/escarpins-vernis-bouts-pointus-talons-ouverts-921154d68a07",
           "affilie": false
         },
@@ -1559,7 +1559,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-bi-matiere-avec-poignees-et-bandouliere-921268746a07.jpg",
+          "image": "/produits/sac-bi-matiere-avec-poignees-et-bandouliere-921268746a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-bi-matiere-avec-poignees-et-bandouliere-921268746a07",
           "affilie": false
         }
@@ -1579,7 +1579,7 @@
           "categorie": "manteau",
           "marque": "Patine",
           "prix": 350.0,
-          "image": "/produits/la-veste-1990-en-laine-de-stock-dormant.jpg",
+          "image": "/produits/la-veste-1990-en-laine-de-stock-dormant.webp",
           "lien": "https://www.patine.fr/products/la-veste-1990-en-laine-de-stock-dormant",
           "affilie": false
         },
@@ -1588,7 +1588,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 240.0,
-          "image": "/produits/le-pull-1990-wooly-laine-100-recyclee-dark-navy.jpg",
+          "image": "/produits/le-pull-1990-wooly-laine-100-recyclee-dark-navy.webp",
           "lien": "https://www.patine.fr/products/le-pull-1990-wooly-laine-100-recyclee-dark-navy",
           "affilie": false
         },
@@ -1597,7 +1597,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/le-jean-everyday-brenda-coton-regen-recycle-noir-medium.jpg",
+          "image": "/produits/le-jean-everyday-brenda-coton-regen-recycle-noir-medium.webp",
           "lien": "https://www.patine.fr/products/le-jean-everyday-brenda-coton-regen-recycle-noir-medium",
           "affilie": false
         },
@@ -1606,7 +1606,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 170.0,
-          "image": "/produits/bottines-blandine-noir.jpg",
+          "image": "/produits/bottines-blandine-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-blandine-noir",
           "affilie": false
         },
@@ -1615,7 +1615,7 @@
           "categorie": "accessoire",
           "marque": "Soeur",
           "prix": 95.0,
-          "image": "/produits/echarpe-kela-bleu-ech1572kela26wble41.jpg",
+          "image": "/produits/echarpe-kela-bleu-ech1572kela26wble41.webp",
           "lien": "https://www.soeur.fr/products/echarpe-kela-bleu-ech1572kela26wble41",
           "affilie": false
         }
@@ -1635,7 +1635,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 49.99,
-          "image": "/produits/robe-longue-en-maille-avec-boutons-dores-782432899a08.jpg",
+          "image": "/produits/robe-longue-en-maille-avec-boutons-dores-782432899a08.webp",
           "lien": "https://www.pimkie.fr/products/robe-longue-en-maille-avec-boutons-dores-782432899a08",
           "affilie": false
         },
@@ -1644,7 +1644,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 150.0,
-          "image": "/produits/escarpins-bal-dore-1.jpg",
+          "image": "/produits/escarpins-bal-dore-1.webp",
           "lien": "https://www.balzac-paris.fr/products/escarpins-bal-dore-1",
           "affilie": false
         },
@@ -1653,7 +1653,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 360.0,
-          "image": "/produits/sac-mae-noir.jpg",
+          "image": "/produits/sac-mae-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-mae-noir",
           "affilie": false
         },
@@ -1662,7 +1662,7 @@
           "categorie": "bijou",
           "marque": "Balzac Paris",
           "prix": 95.0,
-          "image": "/produits/collier-athena-dore.jpg",
+          "image": "/produits/collier-athena-dore.webp",
           "lien": "https://www.balzac-paris.fr/products/collier-athena-dore",
           "affilie": false
         }
@@ -1682,7 +1682,7 @@
           "categorie": "haut",
           "marque": "Make My Lemonade",
           "prix": 140.0,
-          "image": "/produits/pull-carolina-rose.jpg",
+          "image": "/produits/pull-carolina-rose.webp",
           "lien": "https://www.makemylemonade.com/products/pull-carolina-rose",
           "affilie": false
         },
@@ -1691,7 +1691,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 20.99,
-          "image": "/produits/j90-2-jean-straight-taille-medium-142142682a06.jpg",
+          "image": "/produits/j90-2-jean-straight-taille-medium-142142682a06.webp",
           "lien": "https://www.pimkie.fr/products/j90-2-jean-straight-taille-medium-142142682a06",
           "affilie": false
         },
@@ -1700,7 +1700,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/baskets-plates-en-suedine-921046i49a02.jpg",
+          "image": "/produits/baskets-plates-en-suedine-921046i49a02.webp",
           "lien": "https://www.pimkie.fr/products/baskets-plates-en-suedine-921046i49a02",
           "affilie": false
         },
@@ -1709,7 +1709,7 @@
           "categorie": "accessoire",
           "marque": "Balzac Paris",
           "prix": 65.0,
-          "image": "/produits/bonnet-gregoire-rose-pale.jpg",
+          "image": "/produits/bonnet-gregoire-rose-pale.webp",
           "lien": "https://www.balzac-paris.fr/products/bonnet-gregoire-rose-pale",
           "affilie": false
         },
@@ -1718,7 +1718,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/sac-en-simili-porte-epaule-921151i49a02.jpg",
+          "image": "/produits/sac-en-simili-porte-epaule-921151i49a02.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-simili-porte-epaule-921151i49a02",
           "affilie": false
         }
@@ -1738,7 +1738,7 @@
           "categorie": "manteau",
           "marque": "Make My Lemonade",
           "prix": 350.0,
-          "image": "/produits/manteau-raoul-kaki.jpg",
+          "image": "/produits/manteau-raoul-kaki.webp",
           "lien": "https://www.makemylemonade.com/products/manteau-raoul-kaki",
           "affilie": false
         },
@@ -1747,7 +1747,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/pull-manches-courtes-en-maille-douce-411338000a00.jpg",
+          "image": "/produits/pull-manches-courtes-en-maille-douce-411338000a00.webp",
           "lien": "https://www.pimkie.fr/products/pull-manches-courtes-en-maille-douce-411338000a00",
           "affilie": false
         },
@@ -1756,7 +1756,7 @@
           "categorie": "bas",
           "marque": "Balzac Paris",
           "prix": 125.0,
-          "image": "/produits/jean-jonah-bleu-brut.jpg",
+          "image": "/produits/jean-jonah-bleu-brut.webp",
           "lien": "https://www.balzac-paris.fr/products/jean-jonah-bleu-brut",
           "affilie": false
         },
@@ -1765,7 +1765,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 230.0,
-          "image": "/produits/mocassins-alix-frange-kaki.jpg",
+          "image": "/produits/mocassins-alix-frange-kaki.webp",
           "lien": "https://www.balzac-paris.fr/products/mocassins-alix-frange-kaki",
           "affilie": false
         },
@@ -1774,7 +1774,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/sac-cesar-cognac-embosse-10913.jpg",
+          "image": "/produits/sac-cesar-cognac-embosse-10913.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-cesar-cognac-embosse-10913",
           "affilie": false
         }
@@ -1794,7 +1794,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 39.99,
-          "image": "/produits/veste-boule-en-jean-323963682a06.jpg",
+          "image": "/produits/veste-boule-en-jean-323963682a06.webp",
           "lien": "https://www.pimkie.fr/products/veste-boule-en-jean-323963682a06",
           "affilie": false
         },
@@ -1803,7 +1803,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/pull-manches-courtes-maille-fantaisie-et-ajouree-410902919g09.jpg",
+          "image": "/produits/pull-manches-courtes-maille-fantaisie-et-ajouree-410902919g09.webp",
           "lien": "https://www.pimkie.fr/products/pull-manches-courtes-maille-fantaisie-et-ajouree-410902919g09",
           "affilie": false
         },
@@ -1812,7 +1812,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 20.99,
-          "image": "/produits/j90-2-jean-straight-taille-medium-142142682a06.jpg",
+          "image": "/produits/j90-2-jean-straight-taille-medium-142142682a06.webp",
           "lien": "https://www.pimkie.fr/products/j90-2-jean-straight-taille-medium-142142682a06",
           "affilie": false
         },
@@ -1821,7 +1821,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 165.0,
-          "image": "/produits/baskets-quinn-sable-et-anis.jpg",
+          "image": "/produits/baskets-quinn-sable-et-anis.webp",
           "lien": "https://www.balzac-paris.fr/products/baskets-quinn-sable-et-anis",
           "affilie": false
         },
@@ -1830,7 +1830,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 25.0,
-          "image": "/produits/tot-bag-leopard.jpg",
+          "image": "/produits/tot-bag-leopard.webp",
           "lien": "https://www.balzac-paris.fr/products/tot-bag-leopard",
           "affilie": false
         }
@@ -1850,7 +1850,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 39.99,
-          "image": "/produits/veste-blazer-droite-323906899a08.jpg",
+          "image": "/produits/veste-blazer-droite-323906899a08.webp",
           "lien": "https://www.pimkie.fr/products/veste-blazer-droite-323906899a08",
           "affilie": false
         },
@@ -1859,7 +1859,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 15.99,
-          "image": "/produits/t-shirt-en-maille-cotelee-dos-degage-410728899a08.jpg",
+          "image": "/produits/t-shirt-en-maille-cotelee-dos-degage-410728899a08.webp",
           "lien": "https://www.pimkie.fr/products/t-shirt-en-maille-cotelee-dos-degage-410728899a08",
           "affilie": false
         },
@@ -1868,7 +1868,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08.jpg",
+          "image": "/produits/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08",
           "affilie": false
         },
@@ -1877,7 +1877,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/escarpins-bout-pointu-talon-ouvert-920618899a08.jpg",
+          "image": "/produits/escarpins-bout-pointu-talon-ouvert-920618899a08.webp",
           "lien": "https://www.pimkie.fr/products/escarpins-bout-pointu-talon-ouvert-920618899a08",
           "affilie": false
         },
@@ -1886,7 +1886,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sac-forme-asymetrique-porte-epaule-921346899a08.jpg",
+          "image": "/produits/sac-forme-asymetrique-porte-epaule-921346899a08.webp",
           "lien": "https://www.pimkie.fr/products/sac-forme-asymetrique-porte-epaule-921346899a08",
           "affilie": false
         }
@@ -1906,7 +1906,7 @@
           "categorie": "bas",
           "marque": "Make My Lemonade",
           "prix": 130.0,
-          "image": "/produits/pantalon-felix-vert.jpg",
+          "image": "/produits/pantalon-felix-vert.webp",
           "lien": "https://www.makemylemonade.com/products/pantalon-felix-vert",
           "affilie": false
         },
@@ -1915,7 +1915,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/chemise-leonor-rayures-vert-et-bleu.jpg",
+          "image": "/produits/chemise-leonor-rayures-vert-et-bleu.webp",
           "lien": "https://www.balzac-paris.fr/products/chemise-leonor-rayures-vert-et-bleu",
           "affilie": false
         },
@@ -1924,7 +1924,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 135.0,
-          "image": "/produits/ballerines-grace-kaki.jpg",
+          "image": "/produits/ballerines-grace-kaki.webp",
           "lien": "https://www.balzac-paris.fr/products/ballerines-grace-kaki",
           "affilie": false
         },
@@ -1933,7 +1933,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 340.0,
-          "image": "/produits/sac-venus-kaki.jpg",
+          "image": "/produits/sac-venus-kaki.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-venus-kaki",
           "affilie": false
         },
@@ -1942,7 +1942,7 @@
           "categorie": "accessoire",
           "marque": "Balzac Paris",
           "prix": 65.0,
-          "image": "/produits/bonnet-gregoire-ocre.jpg",
+          "image": "/produits/bonnet-gregoire-ocre.webp",
           "lien": "https://www.balzac-paris.fr/products/bonnet-gregoire-ocre",
           "affilie": false
         }
@@ -1962,7 +1962,7 @@
           "categorie": "manteau",
           "marque": "Make My Lemonade",
           "prix": 180.0,
-          "image": "/produits/veste-willy-vinyle-rouge.jpg",
+          "image": "/produits/veste-willy-vinyle-rouge.webp",
           "lien": "https://www.makemylemonade.com/products/veste-willy-vinyle-rouge",
           "affilie": false
         },
@@ -1971,7 +1971,7 @@
           "categorie": "haut",
           "marque": "Jott",
           "prix": 30.0,
-          "image": "/produits/t-shirt-uni-col-v-en-coton-marine-sofia-2-0.jpg",
+          "image": "/produits/t-shirt-uni-col-v-en-coton-marine-sofia-2-0.webp",
           "lien": "https://www.jott.com/products/t-shirt-uni-col-v-en-coton-marine-sofia-2-0",
           "affilie": false
         },
@@ -1980,7 +1980,7 @@
           "categorie": "bas",
           "marque": "Make My Lemonade",
           "prix": 130.0,
-          "image": "/produits/pantalon-harya-marine.jpg",
+          "image": "/produits/pantalon-harya-marine.webp",
           "lien": "https://www.makemylemonade.com/products/pantalon-harya-marine",
           "affilie": false
         },
@@ -1989,7 +1989,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/brooklin-mocassins-cuir-noir.jpg",
+          "image": "/produits/brooklin-mocassins-cuir-noir.webp",
           "lien": "https://www.rouje.com/products/brooklin-mocassins-cuir-noir",
           "affilie": false
         },
@@ -1998,7 +1998,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 390.0,
-          "image": "/produits/sac-grand-sofia-graine-noir-interieur-marine.jpg",
+          "image": "/produits/sac-grand-sofia-graine-noir-interieur-marine.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-grand-sofia-graine-noir-interieur-marine",
           "affilie": false
         }
@@ -2018,7 +2018,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 220.0,
-          "image": "/produits/le-cardigan-wooly-coton-100-bio-bleu.jpg",
+          "image": "/produits/le-cardigan-wooly-coton-100-bio-bleu.webp",
           "lien": "https://www.patine.fr/products/le-cardigan-wooly-coton-100-bio-bleu",
           "affilie": false
         },
@@ -2027,7 +2027,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 39.0,
-          "image": "/produits/unisexe-willie-super-blanc-cheesecake.jpg",
+          "image": "/produits/unisexe-willie-super-blanc-cheesecake.webp",
           "lien": "https://www.patine.fr/products/unisexe-willie-super-blanc-cheesecake",
           "affilie": false
         },
@@ -2036,7 +2036,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/brenda-curvy-vintage-bleu-light.jpg",
+          "image": "/produits/brenda-curvy-vintage-bleu-light.webp",
           "lien": "https://www.patine.fr/products/brenda-curvy-vintage-bleu-light",
           "affilie": false
         },
@@ -2045,7 +2045,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 130.0,
-          "image": "/produits/davina-rouje-x-reebok-baskets-montante-ecru-bordeaux.jpg",
+          "image": "/produits/davina-rouje-x-reebok-baskets-montante-ecru-bordeaux.webp",
           "lien": "https://www.rouje.com/products/davina-rouje-x-reebok-baskets-montante-ecru-bordeaux",
           "affilie": false
         },
@@ -2054,7 +2054,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-seau-avec-poignees-et-bandouliere-920708e11a0e.jpg",
+          "image": "/produits/sac-seau-avec-poignees-et-bandouliere-920708e11a0e.webp",
           "lien": "https://www.pimkie.fr/products/sac-seau-avec-poignees-et-bandouliere-920708e11a0e",
           "affilie": false
         }
@@ -2074,7 +2074,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 125.0,
-          "image": "/produits/le-tee-shirt-long-power-stretch-noir-black-coffee.jpg",
+          "image": "/produits/le-tee-shirt-long-power-stretch-noir-black-coffee.webp",
           "lien": "https://www.patine.fr/products/le-tee-shirt-long-power-stretch-noir-black-coffee",
           "affilie": false
         },
@@ -2083,7 +2083,7 @@
           "categorie": "bas",
           "marque": "Rouje",
           "prix": 145.0,
-          "image": "/produits/gloria-skirt-pois-carmen-noir.jpg",
+          "image": "/produits/gloria-skirt-pois-carmen-noir.webp",
           "lien": "https://www.rouje.com/products/gloria-skirt-pois-carmen-noir",
           "affilie": false
         },
@@ -2092,7 +2092,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/bimba-pumps-croute-leopard.jpg",
+          "image": "/produits/bimba-pumps-croute-leopard.webp",
           "lien": "https://www.rouje.com/products/bimba-pumps-croute-leopard",
           "affilie": false
         },
@@ -2101,7 +2101,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 360.0,
-          "image": "/produits/sac-mae-noir.jpg",
+          "image": "/produits/sac-mae-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-mae-noir",
           "affilie": false
         },
@@ -2110,7 +2110,7 @@
           "categorie": "accessoire",
           "marque": "Balzac Paris",
           "prix": 110.0,
-          "image": "/produits/echarpe-milo-leopard-fauve.jpg",
+          "image": "/produits/echarpe-milo-leopard-fauve.webp",
           "lien": "https://www.balzac-paris.fr/products/echarpe-milo-leopard-fauve",
           "affilie": false
         }
@@ -2130,7 +2130,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 140.0,
-          "image": "/produits/doudoune-legere-sans-manches-army-seda.jpg",
+          "image": "/produits/doudoune-legere-sans-manches-army-seda.webp",
           "lien": "https://www.jott.com/products/doudoune-legere-sans-manches-army-seda",
           "affilie": false
         },
@@ -2139,7 +2139,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/gilet-en-maille-torsadee-410769954a09.jpg",
+          "image": "/produits/gilet-en-maille-torsadee-410769954a09.webp",
           "lien": "https://www.pimkie.fr/products/gilet-en-maille-torsadee-410769954a09",
           "affilie": false
         },
@@ -2148,7 +2148,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 39.99,
-          "image": "/produits/pantalon-cargo-avec-ceinture-fine-a-nouer-142851528a05.jpg",
+          "image": "/produits/pantalon-cargo-avec-ceinture-fine-a-nouer-142851528a05.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-cargo-avec-ceinture-fine-a-nouer-142851528a05",
           "affilie": false
         },
@@ -2157,7 +2157,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 170.0,
-          "image": "/produits/bottines-blandine-noir.jpg",
+          "image": "/produits/bottines-blandine-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-blandine-noir",
           "affilie": false
         },
@@ -2166,7 +2166,7 @@
           "categorie": "accessoire",
           "marque": "Balzac Paris",
           "prix": 65.0,
-          "image": "/produits/bonnet-gregoire-guepard-tachete.jpg",
+          "image": "/produits/bonnet-gregoire-guepard-tachete.webp",
           "lien": "https://www.balzac-paris.fr/products/bonnet-gregoire-guepard-tachete",
           "affilie": false
         }
@@ -2186,7 +2186,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 130.0,
-          "image": "/produits/la-chemise-oversize-en-toile-de-coton-jaune.jpg",
+          "image": "/produits/la-chemise-oversize-en-toile-de-coton-jaune.webp",
           "lien": "https://www.patine.fr/products/la-chemise-oversize-en-toile-de-coton-jaune",
           "affilie": false
         },
@@ -2195,7 +2195,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/le-jean-everyday-brenda-coton-regen-recycle-noir-medium.jpg",
+          "image": "/produits/le-jean-everyday-brenda-coton-regen-recycle-noir-medium.webp",
           "lien": "https://www.patine.fr/products/le-jean-everyday-brenda-coton-regen-recycle-noir-medium",
           "affilie": false
         },
@@ -2204,7 +2204,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 110.0,
-          "image": "/produits/veronique-rouje-x-reebok-baskets-blanc-bordeaux-1.jpg",
+          "image": "/produits/veronique-rouje-x-reebok-baskets-blanc-bordeaux-1.webp",
           "lien": "https://www.rouje.com/products/veronique-rouje-x-reebok-baskets-blanc-bordeaux-1",
           "affilie": false
         },
@@ -2213,7 +2213,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-baguette-porte-epaule-avec-details-boucles-921159d68a07.jpg",
+          "image": "/produits/sac-baguette-porte-epaule-avec-details-boucles-921159d68a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-baguette-porte-epaule-avec-details-boucles-921159d68a07",
           "affilie": false
         }
@@ -2233,7 +2233,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 49.99,
-          "image": "/produits/robe-blazer-dos-nu-782218899a08.jpg",
+          "image": "/produits/robe-blazer-dos-nu-782218899a08.webp",
           "lien": "https://www.pimkie.fr/products/robe-blazer-dos-nu-782218899a08",
           "affilie": false
         },
@@ -2242,7 +2242,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/mocassins-en-suedine-921246d69a07.jpg",
+          "image": "/produits/mocassins-en-suedine-921246d69a07.webp",
           "lien": "https://www.pimkie.fr/products/mocassins-en-suedine-921246d69a07",
           "affilie": false
         },
@@ -2251,7 +2251,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-bi-matiere-avec-poignees-et-bandouliere-921267779a07.jpg",
+          "image": "/produits/sac-bi-matiere-avec-poignees-et-bandouliere-921267779a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-bi-matiere-avec-poignees-et-bandouliere-921267779a07",
           "affilie": false
         },
@@ -2260,7 +2260,7 @@
           "categorie": "bijou",
           "marque": "Balzac Paris",
           "prix": 95.0,
-          "image": "/produits/collier-medaille-poisson-dore.jpg",
+          "image": "/produits/collier-medaille-poisson-dore.webp",
           "lien": "https://www.balzac-paris.fr/products/collier-medaille-poisson-dore",
           "affilie": false
         }
@@ -2280,7 +2280,7 @@
           "categorie": "haut",
           "marque": "Jott",
           "prix": 24.0,
-          "image": "/produits/sweat-bimatiere-col-rond-blanc-pinako.jpg",
+          "image": "/produits/sweat-bimatiere-col-rond-blanc-pinako.webp",
           "lien": "https://www.jott.com/products/sweat-bimatiere-col-rond-blanc-pinako",
           "affilie": false
         },
@@ -2289,7 +2289,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/jupe-longue-en-jean-691497682a06.jpg",
+          "image": "/produits/jupe-longue-en-jean-691497682a06.webp",
           "lien": "https://www.pimkie.fr/products/jupe-longue-en-jean-691497682a06",
           "affilie": false
         },
@@ -2298,7 +2298,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/baskets-plates-en-suedine-921046714a07.jpg",
+          "image": "/produits/baskets-plates-en-suedine-921046714a07.webp",
           "lien": "https://www.pimkie.fr/products/baskets-plates-en-suedine-921046714a07",
           "affilie": false
         },
@@ -2307,7 +2307,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 9.99,
-          "image": "/produits/tote-bag-en-toile-avec-pois-920994911d08.jpg",
+          "image": "/produits/tote-bag-en-toile-avec-pois-920994911d08.webp",
           "lien": "https://www.pimkie.fr/products/tote-bag-en-toile-avec-pois-920994911d08",
           "affilie": false
         }
@@ -2327,7 +2327,7 @@
           "categorie": "haut",
           "marque": "Rouje",
           "prix": 160.0,
-          "image": "/produits/claudine-t-shirt-ajuste-col-bateau-bleu-ciel.jpg",
+          "image": "/produits/claudine-t-shirt-ajuste-col-bateau-bleu-ciel.webp",
           "lien": "https://www.rouje.com/products/claudine-t-shirt-ajuste-col-bateau-bleu-ciel",
           "affilie": false
         },
@@ -2336,7 +2336,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/pantalon-balloon-en-toile-142250635a06.jpg",
+          "image": "/produits/pantalon-balloon-en-toile-142250635a06.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-balloon-en-toile-142250635a06",
           "affilie": false
         },
@@ -2345,7 +2345,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/ballerines-plates-avec-bride-et-boucle-921247d68a07.jpg",
+          "image": "/produits/ballerines-plates-avec-bride-et-boucle-921247d68a07.webp",
           "lien": "https://www.pimkie.fr/products/ballerines-plates-avec-bride-et-boucle-921247d68a07",
           "affilie": false
         },
@@ -2354,7 +2354,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 360.0,
-          "image": "/produits/sac-mae-camel.jpg",
+          "image": "/produits/sac-mae-camel.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-mae-camel",
           "affilie": false
         }
@@ -2374,7 +2374,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/robe-courte-en-resille-croisee-devant-avec-ceinture-782445331a03.jpg",
+          "image": "/produits/robe-courte-en-resille-croisee-devant-avec-ceinture-782445331a03.webp",
           "lien": "https://www.pimkie.fr/products/robe-courte-en-resille-croisee-devant-avec-ceinture-782445331a03",
           "affilie": false
         },
@@ -2383,7 +2383,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/escarpins-bouts-pointus-et-talons-ouverts-920887314a03.jpg",
+          "image": "/produits/escarpins-bouts-pointus-et-talons-ouverts-920887314a03.webp",
           "lien": "https://www.pimkie.fr/products/escarpins-bouts-pointus-et-talons-ouverts-920887314a03",
           "affilie": false
         },
@@ -2392,7 +2392,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 370.0,
-          "image": "/produits/sac-amaia-vernis-froisse-chocolat.jpg",
+          "image": "/produits/sac-amaia-vernis-froisse-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-amaia-vernis-froisse-chocolat",
           "affilie": false
         },
@@ -2401,7 +2401,7 @@
           "categorie": "bijou",
           "marque": "Rouje",
           "prix": 140.0,
-          "image": "/produits/celie-earrings-gold-black-pearl.jpg",
+          "image": "/produits/celie-earrings-gold-black-pearl.webp",
           "lien": "https://www.rouje.com/products/celie-earrings-gold-black-pearl",
           "affilie": false
         }
@@ -2421,7 +2421,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 180.0,
-          "image": "/produits/pull-doudou-marine.jpg",
+          "image": "/produits/pull-doudou-marine.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-doudou-marine",
           "affilie": false
         },
@@ -2430,7 +2430,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/jupe-patineuse-en-jean-691541682a06.jpg",
+          "image": "/produits/jupe-patineuse-en-jean-691541682a06.webp",
           "lien": "https://www.pimkie.fr/products/jupe-patineuse-en-jean-691541682a06",
           "affilie": false
         },
@@ -2439,7 +2439,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 39.99,
-          "image": "/produits/boots-a-talons-effet-vinyl-avec-bouts-carres-921286331a03.jpg",
+          "image": "/produits/boots-a-talons-effet-vinyl-avec-bouts-carres-921286331a03.webp",
           "lien": "https://www.pimkie.fr/products/boots-a-talons-effet-vinyl-avec-bouts-carres-921286331a03",
           "affilie": false
         },
@@ -2448,7 +2448,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/sac-pochette-avec-etoiles-et-bandoulieres-chaines-921270331f03.jpg",
+          "image": "/produits/sac-pochette-avec-etoiles-et-bandoulieres-chaines-921270331f03.webp",
           "lien": "https://www.pimkie.fr/products/sac-pochette-avec-etoiles-et-bandoulieres-chaines-921270331f03",
           "affilie": false
         }
@@ -2468,7 +2468,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 135.0,
-          "image": "/produits/pull-anouk-rayures-marine-et-ecru.jpg",
+          "image": "/produits/pull-anouk-rayures-marine-et-ecru.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-anouk-rayures-marine-et-ecru",
           "affilie": false
         },
@@ -2477,7 +2477,7 @@
           "categorie": "bas",
           "marque": "Make My Lemonade",
           "prix": 130.0,
-          "image": "/produits/pantalon-harya-tennis-rouge.jpg",
+          "image": "/produits/pantalon-harya-tennis-rouge.webp",
           "lien": "https://www.makemylemonade.com/products/pantalon-harya-tennis-rouge",
           "affilie": false
         },
@@ -2486,7 +2486,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/brooklin-mocassins-cuir-noir.jpg",
+          "image": "/produits/brooklin-mocassins-cuir-noir.webp",
           "lien": "https://www.rouje.com/products/brooklin-mocassins-cuir-noir",
           "affilie": false
         },
@@ -2495,7 +2495,7 @@
           "categorie": "sac",
           "marque": "Émoi Émoi",
           "prix": 45.0,
-          "image": "/produits/le-cabas-brode-lamour-est-declare-chocolat.jpg",
+          "image": "/produits/le-cabas-brode-lamour-est-declare-chocolat.webp",
           "lien": "https://www.emoi-emoi.com/products/le-cabas-brode-lamour-est-declare-chocolat",
           "affilie": false
         }
@@ -2515,7 +2515,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/veste-en-simili-col-montant-et-taille-elastiquee-324076899a08.jpg",
+          "image": "/produits/veste-en-simili-col-montant-et-taille-elastiquee-324076899a08.webp",
           "lien": "https://www.pimkie.fr/products/veste-en-simili-col-montant-et-taille-elastiquee-324076899a08",
           "affilie": false
         },
@@ -2524,7 +2524,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/pull-manches-longues-encolure-bardot-411391874a08.jpg",
+          "image": "/produits/pull-manches-longues-encolure-bardot-411391874a08.webp",
           "lien": "https://www.pimkie.fr/products/pull-manches-longues-encolure-bardot-411391874a08",
           "affilie": false
         },
@@ -2533,7 +2533,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/pantalon-city-avec-plis-devant-142782871c09.jpg",
+          "image": "/produits/pantalon-city-avec-plis-devant-142782871c09.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-city-avec-plis-devant-142782871c09",
           "affilie": false
         },
@@ -2542,7 +2542,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/escarpins-pointus-talon-ouvert-921314736a07.jpg",
+          "image": "/produits/escarpins-pointus-talon-ouvert-921314736a07.webp",
           "lien": "https://www.pimkie.fr/products/escarpins-pointus-talon-ouvert-921314736a07",
           "affilie": false
         },
@@ -2551,7 +2551,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-baguette-porte-epaule-avec-ceinture-921271746a07.jpg",
+          "image": "/produits/sac-baguette-porte-epaule-avec-ceinture-921271746a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-baguette-porte-epaule-avec-ceinture-921271746a07",
           "affilie": false
         }
@@ -2571,7 +2571,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 180.0,
-          "image": "/produits/impermeable-double-noir-glaic-sherpa.jpg",
+          "image": "/produits/impermeable-double-noir-glaic-sherpa.webp",
           "lien": "https://www.jott.com/products/impermeable-double-noir-glaic-sherpa",
           "affilie": false
         },
@@ -2580,7 +2580,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/blouse-a-pois-manches-ballons-563111899d09.jpg",
+          "image": "/produits/blouse-a-pois-manches-ballons-563111899d09.webp",
           "lien": "https://www.pimkie.fr/products/blouse-a-pois-manches-ballons-563111899d09",
           "affilie": false
         },
@@ -2589,7 +2589,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/jean-straight-taille-medium-142142630a06.jpg",
+          "image": "/produits/jean-straight-taille-medium-142142630a06.webp",
           "lien": "https://www.pimkie.fr/products/jean-straight-taille-medium-142142630a06",
           "affilie": false
         },
@@ -2598,7 +2598,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/bottes-emilia-noir.jpg",
+          "image": "/produits/bottes-emilia-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/bottes-emilia-noir",
           "affilie": false
         },
@@ -2607,7 +2607,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-porte-epaule-avec-illets-metalliques-921269899f0g.jpg",
+          "image": "/produits/sac-porte-epaule-avec-illets-metalliques-921269899f0g.webp",
           "lien": "https://www.pimkie.fr/products/sac-porte-epaule-avec-illets-metalliques-921269899f0g",
           "affilie": false
         }
@@ -2627,7 +2627,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 90.0,
-          "image": "/produits/impermeable-sherpa-bluestone-dippen-sherpa.jpg",
+          "image": "/produits/impermeable-sherpa-bluestone-dippen-sherpa.webp",
           "lien": "https://www.jott.com/products/impermeable-sherpa-bluestone-dippen-sherpa",
           "affilie": false
         },
@@ -2636,7 +2636,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 135.0,
-          "image": "/produits/pull-anouk-rayures-marine-et-ecru.jpg",
+          "image": "/produits/pull-anouk-rayures-marine-et-ecru.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-anouk-rayures-marine-et-ecru",
           "affilie": false
         },
@@ -2645,7 +2645,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium.jpg",
+          "image": "/produits/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium.webp",
           "lien": "https://www.patine.fr/products/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium",
           "affilie": false
         },
@@ -2654,7 +2654,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.jpg",
+          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-baskets-esprit-running-920781901i16",
           "affilie": false
         },
@@ -2663,7 +2663,7 @@
           "categorie": "accessoire",
           "marque": "Jott",
           "prix": 45.0,
-          "image": "/produits/echarpe-marine-jeff-2-0.jpg",
+          "image": "/produits/echarpe-marine-jeff-2-0.webp",
           "lien": "https://www.jott.com/products/echarpe-marine-jeff-2-0",
           "affilie": false
         }
@@ -2683,7 +2683,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/robe-longue-en-maille-fluide-avec-dentelle-782414m08a04.jpg",
+          "image": "/produits/robe-longue-en-maille-fluide-avec-dentelle-782414m08a04.webp",
           "lien": "https://www.pimkie.fr/products/robe-longue-en-maille-fluide-avec-dentelle-782414m08a04",
           "affilie": false
         },
@@ -2692,7 +2692,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/blouson-en-simili-forme-vintage-avec-col-montant-324071899a08.jpg",
+          "image": "/produits/blouson-en-simili-forme-vintage-avec-col-montant-324071899a08.webp",
           "lien": "https://www.pimkie.fr/products/blouson-en-simili-forme-vintage-avec-col-montant-324071899a08",
           "affilie": false
         },
@@ -2701,7 +2701,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 55.99,
-          "image": "/produits/bottes-hautes-avec-revers-talons-et-bouts-pointus-921311899a08.jpg",
+          "image": "/produits/bottes-hautes-avec-revers-talons-et-bouts-pointus-921311899a08.webp",
           "lien": "https://www.pimkie.fr/products/bottes-hautes-avec-revers-talons-et-bouts-pointus-921311899a08",
           "affilie": false
         },
@@ -2710,7 +2710,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 12.99,
-          "image": "/produits/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08.jpg",
+          "image": "/produits/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08.webp",
           "lien": "https://www.pimkie.fr/products/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08",
           "affilie": false
         },
@@ -2719,7 +2719,7 @@
           "categorie": "bijou",
           "marque": "Make My Lemonade",
           "prix": 77.0,
-          "image": "/produits/bo-venda.jpg",
+          "image": "/produits/bo-venda.webp",
           "lien": "https://www.makemylemonade.com/products/bo-venda",
           "affilie": false
         }
@@ -2739,7 +2739,7 @@
           "categorie": "haut",
           "marque": "Make My Lemonade",
           "prix": 170.0,
-          "image": "/produits/gilet-django-bordeaux.jpg",
+          "image": "/produits/gilet-django-bordeaux.webp",
           "lien": "https://www.makemylemonade.com/products/gilet-django-bordeaux",
           "affilie": false
         },
@@ -2748,7 +2748,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 39.0,
-          "image": "/produits/unisexe-willie-super-blanc-cheesecake.jpg",
+          "image": "/produits/unisexe-willie-super-blanc-cheesecake.webp",
           "lien": "https://www.patine.fr/products/unisexe-willie-super-blanc-cheesecake",
           "affilie": false
         },
@@ -2757,7 +2757,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/j71-1-jean-wide-taille-haute-142724683a06.jpg",
+          "image": "/produits/j71-1-jean-wide-taille-haute-142724683a06.webp",
           "lien": "https://www.pimkie.fr/products/j71-1-jean-wide-taille-haute-142724683a06",
           "affilie": false
         },
@@ -2766,7 +2766,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 165.0,
-          "image": "/produits/baskets-quinn-bordeaux-et-rose-pale.jpg",
+          "image": "/produits/baskets-quinn-bordeaux-et-rose-pale.webp",
           "lien": "https://www.balzac-paris.fr/products/baskets-quinn-bordeaux-et-rose-pale",
           "affilie": false
         },
@@ -2775,7 +2775,7 @@
           "categorie": "accessoire",
           "marque": "Balzac Paris",
           "prix": 90.0,
-          "image": "/produits/ceinture-malo-prune.jpg",
+          "image": "/produits/ceinture-malo-prune.webp",
           "lien": "https://www.balzac-paris.fr/products/ceinture-malo-prune",
           "affilie": false
         }
@@ -2795,7 +2795,7 @@
           "categorie": "manteau",
           "marque": "Patine",
           "prix": 350.0,
-          "image": "/produits/la-veste-1990-en-laine-de-stock-dormant.jpg",
+          "image": "/produits/la-veste-1990-en-laine-de-stock-dormant.webp",
           "lien": "https://www.patine.fr/products/la-veste-1990-en-laine-de-stock-dormant",
           "affilie": false
         },
@@ -2804,7 +2804,7 @@
           "categorie": "haut",
           "marque": "Make My Lemonade",
           "prix": 90.0,
-          "image": "/produits/pull-ivy-vermillon.jpg",
+          "image": "/produits/pull-ivy-vermillon.webp",
           "lien": "https://www.makemylemonade.com/products/pull-ivy-vermillon",
           "affilie": false
         },
@@ -2813,7 +2813,7 @@
           "categorie": "bas",
           "marque": "Soeur",
           "prix": 225.0,
-          "image": "/produits/pantalon-hugues-gris-pan1601hugues26wgri01.jpg",
+          "image": "/produits/pantalon-hugues-gris-pan1601hugues26wgri01.webp",
           "lien": "https://www.soeur.fr/products/pantalon-hugues-gris-pan1601hugues26wgri01",
           "affilie": false
         },
@@ -2822,7 +2822,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 190.0,
-          "image": "/produits/bottines-anatole-noir.jpg",
+          "image": "/produits/bottines-anatole-noir.webp",
           "lien": "https://www.balzac-paris.fr/products/bottines-anatole-noir",
           "affilie": false
         },
@@ -2831,7 +2831,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 390.0,
-          "image": "/produits/sac-grand-sofia-graine-noir-interieur-marine.jpg",
+          "image": "/produits/sac-grand-sofia-graine-noir-interieur-marine.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-grand-sofia-graine-noir-interieur-marine",
           "affilie": false
         }
@@ -2851,7 +2851,7 @@
           "categorie": "manteau",
           "marque": "Make My Lemonade",
           "prix": 180.0,
-          "image": "/produits/veste-willy-olive.jpg",
+          "image": "/produits/veste-willy-olive.webp",
           "lien": "https://www.makemylemonade.com/products/veste-willy-olive",
           "affilie": false
         },
@@ -2860,7 +2860,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 15.99,
-          "image": "/produits/t-shirt-en-maille-cotelee-dos-degage-410728899a08.jpg",
+          "image": "/produits/t-shirt-en-maille-cotelee-dos-degage-410728899a08.webp",
           "lien": "https://www.pimkie.fr/products/t-shirt-en-maille-cotelee-dos-degage-410728899a08",
           "affilie": false
         },
@@ -2869,7 +2869,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/jean-wide-taille-medium-142729789a07.jpg",
+          "image": "/produits/jean-wide-taille-medium-142729789a07.webp",
           "lien": "https://www.pimkie.fr/products/jean-wide-taille-medium-142729789a07",
           "affilie": false
         },
@@ -2878,7 +2878,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 160.0,
-          "image": "/produits/mocassins-alban-pony-leopard-fauve-et-chocolat.jpg",
+          "image": "/produits/mocassins-alban-pony-leopard-fauve-et-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/mocassins-alban-pony-leopard-fauve-et-chocolat",
           "affilie": false
         },
@@ -2887,7 +2887,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 340.0,
-          "image": "/produits/sac-gala-croute-de-cuir-kaki.jpg",
+          "image": "/produits/sac-gala-croute-de-cuir-kaki.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-gala-croute-de-cuir-kaki",
           "affilie": false
         }
@@ -2907,7 +2907,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 49.99,
-          "image": "/produits/veste-en-jean-esprit-officier-324086899a08.jpg",
+          "image": "/produits/veste-en-jean-esprit-officier-324086899a08.webp",
           "lien": "https://www.pimkie.fr/products/veste-en-jean-esprit-officier-324086899a08",
           "affilie": false
         },
@@ -2916,7 +2916,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 150.0,
-          "image": "/produits/la-chemisette-presque-crop-brenda-coton-regen-recycle-bleu-light.jpg",
+          "image": "/produits/la-chemisette-presque-crop-brenda-coton-regen-recycle-bleu-light.webp",
           "lien": "https://www.patine.fr/products/la-chemisette-presque-crop-brenda-coton-regen-recycle-bleu-light",
           "affilie": false
         },
@@ -2925,7 +2925,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 39.99,
-          "image": "/produits/jean-wide-taille-haute-avec-poches-plaquees-142612682a06.jpg",
+          "image": "/produits/jean-wide-taille-haute-avec-poches-plaquees-142612682a06.webp",
           "lien": "https://www.pimkie.fr/products/jean-wide-taille-haute-avec-poches-plaquees-142612682a06",
           "affilie": false
         },
@@ -2934,7 +2934,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 95.0,
-          "image": "/produits/baskets-speedcat-noir-et-leopard-puma-x-courir-x-balzac-paris.jpg",
+          "image": "/produits/baskets-speedcat-noir-et-leopard-puma-x-courir-x-balzac-paris.webp",
           "lien": "https://www.balzac-paris.fr/products/baskets-speedcat-noir-et-leopard-puma-x-courir-x-balzac-paris",
           "affilie": false
         },
@@ -2943,7 +2943,7 @@
           "categorie": "sac",
           "marque": "Émoi Émoi",
           "prix": 19.0,
-          "image": "/produits/la-pochette-coeur-en-denim.jpg",
+          "image": "/produits/la-pochette-coeur-en-denim.webp",
           "lien": "https://www.emoi-emoi.com/products/la-pochette-coeur-en-denim",
           "affilie": false
         }
@@ -2963,7 +2963,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 180.0,
-          "image": "/produits/pull-doudou-vert-foret.jpg",
+          "image": "/produits/pull-doudou-vert-foret.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-doudou-vert-foret",
           "affilie": false
         },
@@ -2972,7 +2972,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/chemise-lois-blanc-naturel.jpg",
+          "image": "/produits/chemise-lois-blanc-naturel.webp",
           "lien": "https://www.balzac-paris.fr/products/chemise-lois-blanc-naturel",
           "affilie": false
         },
@@ -2981,7 +2981,7 @@
           "categorie": "bas",
           "marque": "Make My Lemonade",
           "prix": 96.0,
-          "image": "/produits/pantalon-lee-noir.jpg",
+          "image": "/produits/pantalon-lee-noir.webp",
           "lien": "https://www.makemylemonade.com/products/pantalon-lee-noir",
           "affilie": false
         },
@@ -2990,7 +2990,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/brooklin-mocassins-cuir-noir.jpg",
+          "image": "/produits/brooklin-mocassins-cuir-noir.webp",
           "lien": "https://www.rouje.com/products/brooklin-mocassins-cuir-noir",
           "affilie": false
         },
@@ -2999,7 +2999,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 390.0,
-          "image": "/produits/sac-grand-sofia-graine-noir-interieur-marine.jpg",
+          "image": "/produits/sac-grand-sofia-graine-noir-interieur-marine.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-grand-sofia-graine-noir-interieur-marine",
           "affilie": false
         }
@@ -3019,7 +3019,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/veste-boule-en-simili-323960926a09.jpg",
+          "image": "/produits/veste-boule-en-simili-323960926a09.webp",
           "lien": "https://www.pimkie.fr/products/veste-boule-en-simili-323960926a09",
           "affilie": false
         },
@@ -3028,7 +3028,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/pull-manches-courtes-maille-fantaisie-et-ajouree-410902919g09.jpg",
+          "image": "/produits/pull-manches-courtes-maille-fantaisie-et-ajouree-410902919g09.webp",
           "lien": "https://www.pimkie.fr/products/pull-manches-courtes-maille-fantaisie-et-ajouree-410902919g09",
           "affilie": false
         },
@@ -3037,7 +3037,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 84.0,
-          "image": "/produits/brenda-curvy-vintage-ecru-creme-fraiche.jpg",
+          "image": "/produits/brenda-curvy-vintage-ecru-creme-fraiche.webp",
           "lien": "https://www.patine.fr/products/brenda-curvy-vintage-ecru-creme-fraiche",
           "affilie": false
         },
@@ -3046,7 +3046,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 49.99,
-          "image": "/produits/bottes-hautes-en-suedine-avec-revers-et-franges-921278d57a07.jpg",
+          "image": "/produits/bottes-hautes-en-suedine-avec-revers-et-franges-921278d57a07.webp",
           "lien": "https://www.pimkie.fr/products/bottes-hautes-en-suedine-avec-revers-et-franges-921278d57a07",
           "affilie": false
         },
@@ -3055,7 +3055,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 340.0,
-          "image": "/produits/sac-gala-croute-de-cuir-brique.jpg",
+          "image": "/produits/sac-gala-croute-de-cuir-brique.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-gala-croute-de-cuir-brique",
           "affilie": false
         }
@@ -3075,7 +3075,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 130.0,
-          "image": "/produits/tony-chemise-bleu-vintage.jpg",
+          "image": "/produits/tony-chemise-bleu-vintage.webp",
           "lien": "https://www.patine.fr/products/tony-chemise-bleu-vintage",
           "affilie": false
         },
@@ -3084,7 +3084,7 @@
           "categorie": "bas",
           "marque": "Rouje",
           "prix": 150.0,
-          "image": "/produits/zoran-trousers-uni-blanc.jpg",
+          "image": "/produits/zoran-trousers-uni-blanc.webp",
           "lien": "https://www.rouje.com/products/zoran-trousers-uni-blanc",
           "affilie": false
         },
@@ -3093,7 +3093,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/nicoise-ballerines-cuir-beige.jpg",
+          "image": "/produits/nicoise-ballerines-cuir-beige.webp",
           "lien": "https://www.rouje.com/products/nicoise-ballerines-cuir-beige",
           "affilie": false
         },
@@ -3102,7 +3102,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 360.0,
-          "image": "/produits/sac-mae-camel.jpg",
+          "image": "/produits/sac-mae-camel.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-mae-camel",
           "affilie": false
         }
@@ -3122,7 +3122,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/veste-blazer-cintree-avec-laine-323936792a07.jpg",
+          "image": "/produits/veste-blazer-cintree-avec-laine-323936792a07.webp",
           "lien": "https://www.pimkie.fr/products/veste-blazer-cintree-avec-laine-323936792a07",
           "affilie": false
         },
@@ -3131,7 +3131,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 39.0,
-          "image": "/produits/unisexe-willie-super-blanc-cheesecake.jpg",
+          "image": "/produits/unisexe-willie-super-blanc-cheesecake.webp",
           "lien": "https://www.patine.fr/products/unisexe-willie-super-blanc-cheesecake",
           "affilie": false
         },
@@ -3140,7 +3140,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/pantalon-balloon-en-toile-142250635a06.jpg",
+          "image": "/produits/pantalon-balloon-en-toile-142250635a06.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-balloon-en-toile-142250635a06",
           "affilie": false
         },
@@ -3149,7 +3149,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/escarpins-vernis-bouts-pointus-talons-ouverts-921154d68a07.jpg",
+          "image": "/produits/escarpins-vernis-bouts-pointus-talons-ouverts-921154d68a07.webp",
           "lien": "https://www.pimkie.fr/products/escarpins-vernis-bouts-pointus-talons-ouverts-921154d68a07",
           "affilie": false
         },
@@ -3158,7 +3158,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sac-en-simili-reliefe-porte-epaule-920997e66a0e.jpg",
+          "image": "/produits/sac-en-simili-reliefe-porte-epaule-920997e66a0e.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-simili-reliefe-porte-epaule-920997e66a0e",
           "affilie": false
         }
@@ -3178,7 +3178,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/veste-sans-manches-en-jean-facon-gilet-barman-323988683a06.jpg",
+          "image": "/produits/veste-sans-manches-en-jean-facon-gilet-barman-323988683a06.webp",
           "lien": "https://www.pimkie.fr/products/veste-sans-manches-en-jean-facon-gilet-barman-323988683a06",
           "affilie": false
         },
@@ -3187,7 +3187,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 12.99,
-          "image": "/produits/t-shirt-avec-taille-resserree-et-froncee-411209b09a06.jpg",
+          "image": "/produits/t-shirt-avec-taille-resserree-et-froncee-411209b09a06.webp",
           "lien": "https://www.pimkie.fr/products/t-shirt-avec-taille-resserree-et-froncee-411209b09a06",
           "affilie": false
         },
@@ -3196,7 +3196,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08.jpg",
+          "image": "/produits/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08",
           "affilie": false
         },
@@ -3205,7 +3205,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.jpg",
+          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.webp",
           "lien": "https://www.pimkie.fr/products/mules-2-brides-en-suedine-avec-clous-921168b57f0g",
           "affilie": false
         },
@@ -3214,7 +3214,7 @@
           "categorie": "sac",
           "marque": "Émoi Émoi",
           "prix": 19.0,
-          "image": "/produits/la-pochette-coeur-en-denim.jpg",
+          "image": "/produits/la-pochette-coeur-en-denim.webp",
           "lien": "https://www.emoi-emoi.com/products/la-pochette-coeur-en-denim",
           "affilie": false
         }
@@ -3234,7 +3234,7 @@
           "categorie": "robe",
           "marque": "Jott",
           "prix": 29.0,
-          "image": "/produits/robe-polo-coupe-droite-marine-anya.jpg",
+          "image": "/produits/robe-polo-coupe-droite-marine-anya.webp",
           "lien": "https://www.jott.com/products/robe-polo-coupe-droite-marine-anya",
           "affilie": false
         },
@@ -3243,7 +3243,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 165.0,
-          "image": "/produits/baskets-quinn-bleu-et-beige.jpg",
+          "image": "/produits/baskets-quinn-bleu-et-beige.webp",
           "lien": "https://www.balzac-paris.fr/products/baskets-quinn-bleu-et-beige",
           "affilie": false
         },
@@ -3252,7 +3252,7 @@
           "categorie": "sac",
           "marque": "Émoi Émoi",
           "prix": 49.0,
-          "image": "/produits/le-sac-mini-bucket-coeur-en-denim.jpg",
+          "image": "/produits/le-sac-mini-bucket-coeur-en-denim.webp",
           "lien": "https://www.emoi-emoi.com/products/le-sac-mini-bucket-coeur-en-denim",
           "affilie": false
         }
@@ -3272,7 +3272,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/veste-boule-en-simili-323960926a09.jpg",
+          "image": "/produits/veste-boule-en-simili-323960926a09.webp",
           "lien": "https://www.pimkie.fr/products/veste-boule-en-simili-323960926a09",
           "affilie": false
         },
@@ -3281,7 +3281,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 135.0,
-          "image": "/produits/pull-anouk-rayures-marine-et-ecru.jpg",
+          "image": "/produits/pull-anouk-rayures-marine-et-ecru.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-anouk-rayures-marine-et-ecru",
           "affilie": false
         },
@@ -3290,7 +3290,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 84.0,
-          "image": "/produits/brenda-curvy-vintage-ecru-creme-fraiche.jpg",
+          "image": "/produits/brenda-curvy-vintage-ecru-creme-fraiche.webp",
           "lien": "https://www.patine.fr/products/brenda-curvy-vintage-ecru-creme-fraiche",
           "affilie": false
         },
@@ -3299,7 +3299,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/brooklin-mocassins-cuir-noir.jpg",
+          "image": "/produits/brooklin-mocassins-cuir-noir.webp",
           "lien": "https://www.rouje.com/products/brooklin-mocassins-cuir-noir",
           "affilie": false
         },
@@ -3308,7 +3308,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 390.0,
-          "image": "/produits/sac-grand-sofia-graine-noir-interieur-marine.jpg",
+          "image": "/produits/sac-grand-sofia-graine-noir-interieur-marine.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-grand-sofia-graine-noir-interieur-marine",
           "affilie": false
         }
@@ -3328,7 +3328,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/veste-sans-manches-en-gaze-de-coton-matelassee-323888i80a02.jpg",
+          "image": "/produits/veste-sans-manches-en-gaze-de-coton-matelassee-323888i80a02.webp",
           "lien": "https://www.pimkie.fr/products/veste-sans-manches-en-gaze-de-coton-matelassee-323888i80a02",
           "affilie": false
         },
@@ -3337,7 +3337,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 60.0,
-          "image": "/produits/le-debardeur-willie-rib-rose-bubble-gum.jpg",
+          "image": "/produits/le-debardeur-willie-rib-rose-bubble-gum.webp",
           "lien": "https://www.patine.fr/products/le-debardeur-willie-rib-rose-bubble-gum",
           "affilie": false
         },
@@ -3346,7 +3346,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/j71-1-jean-wide-taille-haute-142724683a06.jpg",
+          "image": "/produits/j71-1-jean-wide-taille-haute-142724683a06.webp",
           "lien": "https://www.pimkie.fr/products/j71-1-jean-wide-taille-haute-142724683a06",
           "affilie": false
         },
@@ -3355,7 +3355,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/baskets-plates-en-suedine-921046i49a02.jpg",
+          "image": "/produits/baskets-plates-en-suedine-921046i49a02.webp",
           "lien": "https://www.pimkie.fr/products/baskets-plates-en-suedine-921046i49a02",
           "affilie": false
         },
@@ -3364,7 +3364,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/sac-en-simili-porte-epaule-921151i49a02.jpg",
+          "image": "/produits/sac-en-simili-porte-epaule-921151i49a02.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-simili-porte-epaule-921151i49a02",
           "affilie": false
         }
@@ -3384,7 +3384,7 @@
           "categorie": "haut",
           "marque": "Make My Lemonade",
           "prix": 70.0,
-          "image": "/produits/top-fifi-rayure-lilas.jpg",
+          "image": "/produits/top-fifi-rayure-lilas.webp",
           "lien": "https://www.makemylemonade.com/products/top-fifi-rayure-lilas",
           "affilie": false
         },
@@ -3393,7 +3393,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/pantalon-large-avec-pinces-142744451a04.jpg",
+          "image": "/produits/pantalon-large-avec-pinces-142744451a04.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-large-avec-pinces-142744451a04",
           "affilie": false
         },
@@ -3402,7 +3402,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/nicoise-ballerines-cuir-beige.jpg",
+          "image": "/produits/nicoise-ballerines-cuir-beige.webp",
           "lien": "https://www.rouje.com/products/nicoise-ballerines-cuir-beige",
           "affilie": false
         },
@@ -3411,7 +3411,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/sac-en-simili-porte-epaule-921151i49a02.jpg",
+          "image": "/produits/sac-en-simili-porte-epaule-921151i49a02.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-simili-porte-epaule-921151i49a02",
           "affilie": false
         }
@@ -3431,7 +3431,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 15.99,
-          "image": "/produits/chemise-courte-et-resserree-avec-rayures-562848a60c09.jpg",
+          "image": "/produits/chemise-courte-et-resserree-avec-rayures-562848a60c09.webp",
           "lien": "https://www.pimkie.fr/products/chemise-courte-et-resserree-avec-rayures-562848a60c09",
           "affilie": false
         },
@@ -3440,7 +3440,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/jupe-longue-en-jean-691497682a06.jpg",
+          "image": "/produits/jupe-longue-en-jean-691497682a06.webp",
           "lien": "https://www.pimkie.fr/products/jupe-longue-en-jean-691497682a06",
           "affilie": false
         },
@@ -3449,7 +3449,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.jpg",
+          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.webp",
           "lien": "https://www.pimkie.fr/products/mules-2-brides-en-suedine-avec-clous-921168b57f0g",
           "affilie": false
         },
@@ -3458,7 +3458,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 9.99,
-          "image": "/produits/tote-bag-en-toile-avec-pois-920994911d08.jpg",
+          "image": "/produits/tote-bag-en-toile-avec-pois-920994911d08.webp",
           "lien": "https://www.pimkie.fr/products/tote-bag-en-toile-avec-pois-920994911d08",
           "affilie": false
         }
@@ -3478,7 +3478,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 39.99,
-          "image": "/produits/veste-en-jean-courte-323962684a06.jpg",
+          "image": "/produits/veste-en-jean-courte-323962684a06.webp",
           "lien": "https://www.pimkie.fr/products/veste-en-jean-courte-323962684a06",
           "affilie": false
         },
@@ -3487,7 +3487,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/robe-longue-dos-nu-en-maille-avec-lurex-782454899a08.jpg",
+          "image": "/produits/robe-longue-dos-nu-en-maille-avec-lurex-782454899a08.webp",
           "lien": "https://www.pimkie.fr/products/robe-longue-dos-nu-en-maille-avec-lurex-782454899a08",
           "affilie": false
         },
@@ -3496,7 +3496,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/baskets-plates-en-suedine-921046714a07.jpg",
+          "image": "/produits/baskets-plates-en-suedine-921046714a07.webp",
           "lien": "https://www.pimkie.fr/products/baskets-plates-en-suedine-921046714a07",
           "affilie": false
         },
@@ -3505,7 +3505,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-seau-avec-poignees-et-bandouliere-920708e11a0e.jpg",
+          "image": "/produits/sac-seau-avec-poignees-et-bandouliere-920708e11a0e.webp",
           "lien": "https://www.pimkie.fr/products/sac-seau-avec-poignees-et-bandouliere-920708e11a0e",
           "affilie": false
         }
@@ -3525,7 +3525,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 45.99,
-          "image": "/produits/veste-blazer-cintree-avec-laine-323936806a08.jpg",
+          "image": "/produits/veste-blazer-cintree-avec-laine-323936806a08.webp",
           "lien": "https://www.pimkie.fr/products/veste-blazer-cintree-avec-laine-323936806a08",
           "affilie": false
         },
@@ -3534,7 +3534,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/gilet-col-rond-maille-fine-avec-petits-boutons-411340899a08.jpg",
+          "image": "/produits/gilet-col-rond-maille-fine-avec-petits-boutons-411340899a08.webp",
           "lien": "https://www.pimkie.fr/products/gilet-col-rond-maille-fine-avec-petits-boutons-411340899a08",
           "affilie": false
         },
@@ -3543,7 +3543,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/j71-1-jean-wide-taille-haute-142724683a06.jpg",
+          "image": "/produits/j71-1-jean-wide-taille-haute-142724683a06.webp",
           "lien": "https://www.pimkie.fr/products/j71-1-jean-wide-taille-haute-142724683a06",
           "affilie": false
         },
@@ -3552,7 +3552,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/mocassins-en-suedine-921246d69a07.jpg",
+          "image": "/produits/mocassins-en-suedine-921246d69a07.webp",
           "lien": "https://www.pimkie.fr/products/mocassins-en-suedine-921246d69a07",
           "affilie": false
         },
@@ -3561,7 +3561,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-bi-matiere-avec-poignees-et-bandouliere-921268746a07.jpg",
+          "image": "/produits/sac-bi-matiere-avec-poignees-et-bandouliere-921268746a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-bi-matiere-avec-poignees-et-bandouliere-921268746a07",
           "affilie": false
         }
@@ -3581,7 +3581,7 @@
           "categorie": "manteau",
           "marque": "Jott",
           "prix": 50.0,
-          "image": "/produits/impermeable-paquetable-corail-feroe.jpg",
+          "image": "/produits/impermeable-paquetable-corail-feroe.webp",
           "lien": "https://www.jott.com/products/impermeable-paquetable-corail-feroe",
           "affilie": false
         },
@@ -3590,7 +3590,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 135.0,
-          "image": "/produits/pull-anouk-rayures-marine-et-ecru.jpg",
+          "image": "/produits/pull-anouk-rayures-marine-et-ecru.webp",
           "lien": "https://www.balzac-paris.fr/products/pull-anouk-rayures-marine-et-ecru",
           "affilie": false
         },
@@ -3599,7 +3599,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 160.0,
-          "image": "/produits/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium.jpg",
+          "image": "/produits/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium.webp",
           "lien": "https://www.patine.fr/products/le-jean-wide-leg-brenda-coton-regen-recycle-bleu-medium",
           "affilie": false
         },
@@ -3608,7 +3608,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.jpg",
+          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-baskets-esprit-running-920781901i16",
           "affilie": false
         }
@@ -3628,7 +3628,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 12.99,
-          "image": "/produits/t-shirt-ample-et-court-col-rond-411131554a05.jpg",
+          "image": "/produits/t-shirt-ample-et-court-col-rond-411131554a05.webp",
           "lien": "https://www.pimkie.fr/products/t-shirt-ample-et-court-col-rond-411131554a05",
           "affilie": false
         },
@@ -3637,7 +3637,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/jupe-longue-evasee-en-maille-stretch-691554944a09.jpg",
+          "image": "/produits/jupe-longue-evasee-en-maille-stretch-691554944a09.webp",
           "lien": "https://www.pimkie.fr/products/jupe-longue-evasee-en-maille-stretch-691554944a09",
           "affilie": false
         },
@@ -3646,7 +3646,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/mules-sabots-en-suedine-2-brides-921148714a0e.jpg",
+          "image": "/produits/mules-sabots-en-suedine-2-brides-921148714a0e.webp",
           "lien": "https://www.pimkie.fr/products/mules-sabots-en-suedine-2-brides-921148714a0e",
           "affilie": false
         },
@@ -3655,7 +3655,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.jpg",
+          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07",
           "affilie": false
         }
@@ -3675,7 +3675,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/gilet-en-maille-torsadee-410769954a09.jpg",
+          "image": "/produits/gilet-en-maille-torsadee-410769954a09.webp",
           "lien": "https://www.pimkie.fr/products/gilet-en-maille-torsadee-410769954a09",
           "affilie": false
         },
@@ -3684,7 +3684,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 130.0,
-          "image": "/produits/la-jupe-longue-taille-haute-power-stretch-noir-black-coffee.jpg",
+          "image": "/produits/la-jupe-longue-taille-haute-power-stretch-noir-black-coffee.webp",
           "lien": "https://www.patine.fr/products/la-jupe-longue-taille-haute-power-stretch-noir-black-coffee",
           "affilie": false
         },
@@ -3693,7 +3693,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/ballerines-plates-en-suedine-avec-bride-bijou-921248e25a0e.jpg",
+          "image": "/produits/ballerines-plates-en-suedine-avec-bride-bijou-921248e25a0e.webp",
           "lien": "https://www.pimkie.fr/products/ballerines-plates-en-suedine-avec-bride-bijou-921248e25a0e",
           "affilie": false
         },
@@ -3702,7 +3702,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-baguette-porte-epaule-avec-ceinture-921271746a07.jpg",
+          "image": "/produits/sac-baguette-porte-epaule-avec-ceinture-921271746a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-baguette-porte-epaule-avec-ceinture-921271746a07",
           "affilie": false
         }
@@ -3722,7 +3722,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/gilet-col-rond-maille-fine-avec-petits-boutons-411340899a08.jpg",
+          "image": "/produits/gilet-col-rond-maille-fine-avec-petits-boutons-411340899a08.webp",
           "lien": "https://www.pimkie.fr/products/gilet-col-rond-maille-fine-avec-petits-boutons-411340899a08",
           "affilie": false
         },
@@ -3731,7 +3731,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/pantalon-large-et-droit-a-carreaux-142413a60b0b.jpg",
+          "image": "/produits/pantalon-large-et-droit-a-carreaux-142413a60b0b.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-large-et-droit-a-carreaux-142413a60b0b",
           "affilie": false
         },
@@ -3740,7 +3740,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/ballerines-plates-avec-bride-et-boucle-921247d68a07.jpg",
+          "image": "/produits/ballerines-plates-avec-bride-et-boucle-921247d68a07.webp",
           "lien": "https://www.pimkie.fr/products/ballerines-plates-avec-bride-et-boucle-921247d68a07",
           "affilie": false
         },
@@ -3749,7 +3749,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 12.99,
-          "image": "/produits/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08.jpg",
+          "image": "/produits/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08.webp",
           "lien": "https://www.pimkie.fr/products/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08",
           "affilie": false
         }
@@ -3769,7 +3769,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/chemise-oversize-avec-poches-562845j29a06.jpg",
+          "image": "/produits/chemise-oversize-avec-poches-562845j29a06.webp",
           "lien": "https://www.pimkie.fr/products/chemise-oversize-avec-poches-562845j29a06",
           "affilie": false
         },
@@ -3778,7 +3778,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.jpg",
+          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.webp",
           "lien": "https://www.pimkie.fr/products/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09",
           "affilie": false
         },
@@ -3787,7 +3787,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.jpg",
+          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.webp",
           "lien": "https://www.pimkie.fr/products/mules-2-brides-en-suedine-avec-clous-921168b57f0g",
           "affilie": false
         },
@@ -3796,7 +3796,7 @@
           "categorie": "sac",
           "marque": "Émoi Émoi",
           "prix": 19.0,
-          "image": "/produits/la-pochette-coeur-en-denim.jpg",
+          "image": "/produits/la-pochette-coeur-en-denim.webp",
           "lien": "https://www.emoi-emoi.com/products/la-pochette-coeur-en-denim",
           "affilie": false
         }
@@ -3816,7 +3816,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 39.99,
-          "image": "/produits/robe-en-jean-courte-evasee-et-boutonnee-782335682a06.jpg",
+          "image": "/produits/robe-en-jean-courte-evasee-et-boutonnee-782335682a06.webp",
           "lien": "https://www.pimkie.fr/products/robe-en-jean-courte-evasee-et-boutonnee-782335682a06",
           "affilie": false
         },
@@ -3825,7 +3825,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/nina-ballerines-cuir-rouge.jpg",
+          "image": "/produits/nina-ballerines-cuir-rouge.webp",
           "lien": "https://www.rouje.com/products/nina-ballerines-cuir-rouge",
           "affilie": false
         },
@@ -3834,7 +3834,7 @@
           "categorie": "sac",
           "marque": "Rive Droite",
           "prix": 80.0,
-          "image": "/produits/mini-charlot-le-sac-crossbody-polycoton-recycle-rouge-poppy.jpg",
+          "image": "/produits/mini-charlot-le-sac-crossbody-polycoton-recycle-rouge-poppy.webp",
           "lien": "https://www.rivedroite-paris.com/products/mini-charlot-le-sac-crossbody-polycoton-recycle-rouge-poppy",
           "affilie": false
         }
@@ -3854,7 +3854,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/chemise-lois-blanc-naturel.jpg",
+          "image": "/produits/chemise-lois-blanc-naturel.webp",
           "lien": "https://www.balzac-paris.fr/products/chemise-lois-blanc-naturel",
           "affilie": false
         },
@@ -3863,7 +3863,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/pantalon-city-avec-plis-devant-142782871c09.jpg",
+          "image": "/produits/pantalon-city-avec-plis-devant-142782871c09.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-city-avec-plis-devant-142782871c09",
           "affilie": false
         },
@@ -3872,7 +3872,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/brooklin-mocassins-cuir-noir.jpg",
+          "image": "/produits/brooklin-mocassins-cuir-noir.webp",
           "lien": "https://www.rouje.com/products/brooklin-mocassins-cuir-noir",
           "affilie": false
         },
@@ -3881,7 +3881,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sac-forme-asymetrique-porte-epaule-921346899a08.jpg",
+          "image": "/produits/sac-forme-asymetrique-porte-epaule-921346899a08.webp",
           "lien": "https://www.pimkie.fr/products/sac-forme-asymetrique-porte-epaule-921346899a08",
           "affilie": false
         }
@@ -3901,7 +3901,7 @@
           "categorie": "haut",
           "marque": "Jott",
           "prix": 26.0,
-          "image": "/produits/polo-stretch-marine-gaia.jpg",
+          "image": "/produits/polo-stretch-marine-gaia.webp",
           "lien": "https://www.jott.com/products/polo-stretch-marine-gaia",
           "affilie": false
         },
@@ -3910,7 +3910,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 75.0,
-          "image": "/produits/la-jupe-longue-burrito-willie-jersey-bio-recycle-noir-black-coffee.jpg",
+          "image": "/produits/la-jupe-longue-burrito-willie-jersey-bio-recycle-noir-black-coffee.webp",
           "lien": "https://www.patine.fr/products/la-jupe-longue-burrito-willie-jersey-bio-recycle-noir-black-coffee",
           "affilie": false
         },
@@ -3919,7 +3919,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/brooklin-mocassins-cuir-noir.jpg",
+          "image": "/produits/brooklin-mocassins-cuir-noir.webp",
           "lien": "https://www.rouje.com/products/brooklin-mocassins-cuir-noir",
           "affilie": false
         },
@@ -3928,7 +3928,7 @@
           "categorie": "sac",
           "marque": "Émoi Émoi",
           "prix": 45.0,
-          "image": "/produits/le-cabas-brode-lamour-est-declare-chocolat.jpg",
+          "image": "/produits/le-cabas-brode-lamour-est-declare-chocolat.webp",
           "lien": "https://www.emoi-emoi.com/products/le-cabas-brode-lamour-est-declare-chocolat",
           "affilie": false
         }
@@ -3948,7 +3948,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 60.0,
-          "image": "/produits/le-debardeur-willie-rib-bleu-marine.jpg",
+          "image": "/produits/le-debardeur-willie-rib-bleu-marine.webp",
           "lien": "https://www.patine.fr/products/le-debardeur-willie-rib-bleu-marine",
           "affilie": false
         },
@@ -3957,7 +3957,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.jpg",
+          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.webp",
           "lien": "https://www.pimkie.fr/products/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09",
           "affilie": false
         },
@@ -3966,7 +3966,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 130.0,
-          "image": "/produits/davina-rouje-x-reebok-baskets-montante-ecru-bordeaux.jpg",
+          "image": "/produits/davina-rouje-x-reebok-baskets-montante-ecru-bordeaux.webp",
           "lien": "https://www.rouje.com/products/davina-rouje-x-reebok-baskets-montante-ecru-bordeaux",
           "affilie": false
         },
@@ -3975,7 +3975,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 9.99,
-          "image": "/produits/tote-bag-en-toile-avec-pois-920994911d08.jpg",
+          "image": "/produits/tote-bag-en-toile-avec-pois-920994911d08.webp",
           "lien": "https://www.pimkie.fr/products/tote-bag-en-toile-avec-pois-920994911d08",
           "affilie": false
         }
@@ -3995,7 +3995,7 @@
           "categorie": "manteau",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/veste-blazer-sans-manches-esprit-gilet-de-barman-323868j26a06.jpg",
+          "image": "/produits/veste-blazer-sans-manches-esprit-gilet-de-barman-323868j26a06.webp",
           "lien": "https://www.pimkie.fr/products/veste-blazer-sans-manches-esprit-gilet-de-barman-323868j26a06",
           "affilie": false
         },
@@ -4004,7 +4004,7 @@
           "categorie": "haut",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/chemise-lois-blanc-naturel.jpg",
+          "image": "/produits/chemise-lois-blanc-naturel.webp",
           "lien": "https://www.balzac-paris.fr/products/chemise-lois-blanc-naturel",
           "affilie": false
         },
@@ -4013,7 +4013,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/pantalon-balloon-en-toile-142250635a06.jpg",
+          "image": "/produits/pantalon-balloon-en-toile-142250635a06.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-balloon-en-toile-142250635a06",
           "affilie": false
         },
@@ -4022,7 +4022,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/nicoise-ballerines-cuir-beige.jpg",
+          "image": "/produits/nicoise-ballerines-cuir-beige.webp",
           "lien": "https://www.rouje.com/products/nicoise-ballerines-cuir-beige",
           "affilie": false
         },
@@ -4031,7 +4031,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 360.0,
-          "image": "/produits/sac-mae-camel.jpg",
+          "image": "/produits/sac-mae-camel.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-mae-camel",
           "affilie": false
         }
@@ -4051,7 +4051,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sweat-oversize-avec-print-poitrine-et-dos-411096871n43.jpg",
+          "image": "/produits/sweat-oversize-avec-print-poitrine-et-dos-411096871n43.webp",
           "lien": "https://www.pimkie.fr/products/sweat-oversize-avec-print-poitrine-et-dos-411096871n43",
           "affilie": false
         },
@@ -4060,7 +4060,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/pantalon-city-avec-ceinture-a-nouer-142564806a08.jpg",
+          "image": "/produits/pantalon-city-avec-ceinture-a-nouer-142564806a08.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-city-avec-ceinture-a-nouer-142564806a08",
           "affilie": false
         },
@@ -4069,7 +4069,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/baskets-plates-en-suedine-921046714a07.jpg",
+          "image": "/produits/baskets-plates-en-suedine-921046714a07.webp",
           "lien": "https://www.pimkie.fr/products/baskets-plates-en-suedine-921046714a07",
           "affilie": false
         },
@@ -4078,7 +4078,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 9.99,
-          "image": "/produits/tote-bag-en-jean-920966682a06.jpg",
+          "image": "/produits/tote-bag-en-jean-920966682a06.webp",
           "lien": "https://www.pimkie.fr/products/tote-bag-en-jean-920966682a06",
           "affilie": false
         }
@@ -4098,7 +4098,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 12.99,
-          "image": "/produits/t-shirt-avec-taille-resserree-et-froncee-411209b09a06.jpg",
+          "image": "/produits/t-shirt-avec-taille-resserree-et-froncee-411209b09a06.webp",
           "lien": "https://www.pimkie.fr/products/t-shirt-avec-taille-resserree-et-froncee-411209b09a06",
           "affilie": false
         },
@@ -4107,7 +4107,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/jupe-courte-rayee-forme-boule-691522b09c06.jpg",
+          "image": "/produits/jupe-courte-rayee-forme-boule-691522b09c06.webp",
           "lien": "https://www.pimkie.fr/products/jupe-courte-rayee-forme-boule-691522b09c06",
           "affilie": false
         },
@@ -4116,7 +4116,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.jpg",
+          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.webp",
           "lien": "https://www.pimkie.fr/products/mules-2-brides-en-suedine-avec-clous-921168b57f0g",
           "affilie": false
         },
@@ -4125,7 +4125,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/mini-sac-en-jean-tresse-avec-poignees-et-chaine-921237684a06.jpg",
+          "image": "/produits/mini-sac-en-jean-tresse-avec-poignees-et-chaine-921237684a06.webp",
           "lien": "https://www.pimkie.fr/products/mini-sac-en-jean-tresse-avec-poignees-et-chaine-921237684a06",
           "affilie": false
         }
@@ -4145,7 +4145,7 @@
           "categorie": "haut",
           "marque": "Rouje",
           "prix": 160.0,
-          "image": "/produits/claudine-t-shirt-ajuste-col-bateau-bleu-ciel.jpg",
+          "image": "/produits/claudine-t-shirt-ajuste-col-bateau-bleu-ciel.webp",
           "lien": "https://www.rouje.com/products/claudine-t-shirt-ajuste-col-bateau-bleu-ciel",
           "affilie": false
         },
@@ -4154,7 +4154,7 @@
           "categorie": "bas",
           "marque": "Soeur",
           "prix": 195.0,
-          "image": "/produits/jupe-flavia-marron-jup1215flavia26wmar03.jpg",
+          "image": "/produits/jupe-flavia-marron-jup1215flavia26wmar03.webp",
           "lien": "https://www.soeur.fr/products/jupe-flavia-marron-jup1215flavia26wmar03",
           "affilie": false
         },
@@ -4163,7 +4163,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/nicoise-ballet-flats-croute-ebene.jpg",
+          "image": "/produits/nicoise-ballet-flats-croute-ebene.webp",
           "lien": "https://www.rouje.com/products/nicoise-ballet-flats-croute-ebene",
           "affilie": false
         },
@@ -4172,7 +4172,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/sac-sun-maxi-kaki.jpg",
+          "image": "/produits/sac-sun-maxi-kaki.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-sun-maxi-kaki",
           "affilie": false
         }
@@ -4192,7 +4192,7 @@
           "categorie": "haut",
           "marque": "Soeur",
           "prix": 95.0,
-          "image": "/produits/tee-shirt-flavie-vert-tsh0134flavie25wver23.jpg",
+          "image": "/produits/tee-shirt-flavie-vert-tsh0134flavie25wver23.webp",
           "lien": "https://www.soeur.fr/products/tee-shirt-flavie-vert-tsh0134flavie25wver23",
           "affilie": false
         },
@@ -4201,7 +4201,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/j71-2-jean-wide-taille-medium-142442687a06.jpg",
+          "image": "/produits/j71-2-jean-wide-taille-medium-142442687a06.webp",
           "lien": "https://www.pimkie.fr/products/j71-2-jean-wide-taille-medium-142442687a06",
           "affilie": false
         },
@@ -4210,7 +4210,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.jpg",
+          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-baskets-esprit-running-920781901i16",
           "affilie": false
         },
@@ -4219,7 +4219,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sac-avec-grosse-pression-poignee-et-bandouliere-920775c03a05.jpg",
+          "image": "/produits/sac-avec-grosse-pression-poignee-et-bandouliere-920775c03a05.webp",
           "lien": "https://www.pimkie.fr/products/sac-avec-grosse-pression-poignee-et-bandouliere-920775c03a05",
           "affilie": false
         }
@@ -4239,7 +4239,7 @@
           "categorie": "bas",
           "marque": "Rouje",
           "prix": 150.0,
-          "image": "/produits/pat-pants-vichy-cloquee-lilas.jpg",
+          "image": "/produits/pat-pants-vichy-cloquee-lilas.webp",
           "lien": "https://www.rouje.com/products/pat-pants-vichy-cloquee-lilas",
           "affilie": false
         },
@@ -4248,7 +4248,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 12.99,
-          "image": "/produits/t-shirt-avec-taille-resserree-et-froncee-411209b09a06.jpg",
+          "image": "/produits/t-shirt-avec-taille-resserree-et-froncee-411209b09a06.webp",
           "lien": "https://www.pimkie.fr/products/t-shirt-avec-taille-resserree-et-froncee-411209b09a06",
           "affilie": false
         },
@@ -4257,7 +4257,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/sandales-en-suedine-a-talons-avec-brides-921257e25a07.jpg",
+          "image": "/produits/sandales-en-suedine-a-talons-avec-brides-921257e25a07.webp",
           "lien": "https://www.pimkie.fr/products/sandales-en-suedine-a-talons-avec-brides-921257e25a07",
           "affilie": false
         },
@@ -4266,7 +4266,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 27.99,
-          "image": "/produits/sac-en-simili-tresse-porte-epaule-921180g02a0g.jpg",
+          "image": "/produits/sac-en-simili-tresse-porte-epaule-921180g02a0g.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-simili-tresse-porte-epaule-921180g02a0g",
           "affilie": false
         },
@@ -4275,7 +4275,7 @@
           "categorie": "bijou",
           "marque": "Mya Bay",
           "prix": 55.0,
-          "image": "/produits/boucles-d-oreilles-precious-dehli-bo-330-g.jpg",
+          "image": "/produits/boucles-d-oreilles-precious-dehli-bo-330-g.webp",
           "lien": "https://www.mya-bay.com/products/boucles-d-oreilles-precious-dehli-bo-330-g",
           "affilie": false
         }
@@ -4295,7 +4295,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/robe-longue-evasee-avec-volant-et-bretelles-fines-782386899a08.jpg",
+          "image": "/produits/robe-longue-evasee-avec-volant-et-bretelles-fines-782386899a08.webp",
           "lien": "https://www.pimkie.fr/products/robe-longue-evasee-avec-volant-et-bretelles-fines-782386899a08",
           "affilie": false
         },
@@ -4304,7 +4304,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 180.0,
-          "image": "/produits/sandales-albane-camel.jpg",
+          "image": "/produits/sandales-albane-camel.webp",
           "lien": "https://www.balzac-paris.fr/products/sandales-albane-camel",
           "affilie": false
         },
@@ -4313,7 +4313,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 245.0,
-          "image": "/produits/panier-umbra-raphia-et-chocolat.jpg",
+          "image": "/produits/panier-umbra-raphia-et-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/panier-umbra-raphia-et-chocolat",
           "affilie": false
         },
@@ -4322,7 +4322,7 @@
           "categorie": "bijou",
           "marque": "Balzac Paris",
           "prix": 130.0,
-          "image": "/produits/collier-amandine-multicolore.jpg",
+          "image": "/produits/collier-amandine-multicolore.webp",
           "lien": "https://www.balzac-paris.fr/products/collier-amandine-multicolore",
           "affilie": false
         }
@@ -4342,7 +4342,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 9.99,
-          "image": "/produits/debardeur-en-maille-cotelee-411179871a08.jpg",
+          "image": "/produits/debardeur-en-maille-cotelee-411179871a08.webp",
           "lien": "https://www.pimkie.fr/products/debardeur-en-maille-cotelee-411179871a08",
           "affilie": false
         },
@@ -4351,7 +4351,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/short-en-jean-taille-haute-142365684a06.jpg",
+          "image": "/produits/short-en-jean-taille-haute-142365684a06.webp",
           "lien": "https://www.pimkie.fr/products/short-en-jean-taille-haute-142365684a06",
           "affilie": false
         },
@@ -4360,7 +4360,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.jpg",
+          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.webp",
           "lien": "https://www.pimkie.fr/products/mules-2-brides-en-suedine-avec-clous-921168b57f0g",
           "affilie": false
         },
@@ -4369,7 +4369,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.jpg",
+          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07",
           "affilie": false
         }
@@ -4389,7 +4389,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 60.0,
-          "image": "/produits/le-debardeur-willie-rib-rouge-tomato.jpg",
+          "image": "/produits/le-debardeur-willie-rib-rouge-tomato.webp",
           "lien": "https://www.patine.fr/products/le-debardeur-willie-rib-rouge-tomato",
           "affilie": false
         },
@@ -4398,7 +4398,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 115.0,
-          "image": "/produits/brenda-short-bleu-medium.jpg",
+          "image": "/produits/brenda-short-bleu-medium.webp",
           "lien": "https://www.patine.fr/products/brenda-short-bleu-medium",
           "affilie": false
         },
@@ -4407,7 +4407,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 195.0,
-          "image": "/produits/sandales-flor-vernis-froisse-rouge.jpg",
+          "image": "/produits/sandales-flor-vernis-froisse-rouge.webp",
           "lien": "https://www.balzac-paris.fr/products/sandales-flor-vernis-froisse-rouge",
           "affilie": false
         },
@@ -4416,7 +4416,7 @@
           "categorie": "sac",
           "marque": "Rive Droite",
           "prix": 80.0,
-          "image": "/produits/mini-charlot-le-sac-crossbody-polycoton-recycle-rouge-poppy.jpg",
+          "image": "/produits/mini-charlot-le-sac-crossbody-polycoton-recycle-rouge-poppy.webp",
           "lien": "https://www.rivedroite-paris.com/products/mini-charlot-le-sac-crossbody-polycoton-recycle-rouge-poppy",
           "affilie": false
         }
@@ -4436,7 +4436,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/robe-longue-avec-smocks-motif-rayures-782180a60c69.jpg",
+          "image": "/produits/robe-longue-avec-smocks-motif-rayures-782180a60c69.webp",
           "lien": "https://www.pimkie.fr/products/robe-longue-avec-smocks-motif-rayures-782180a60c69",
           "affilie": false
         },
@@ -4445,7 +4445,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 165.0,
-          "image": "/produits/sandales-theoline-dore.jpg",
+          "image": "/produits/sandales-theoline-dore.webp",
           "lien": "https://www.balzac-paris.fr/products/sandales-theoline-dore",
           "affilie": false
         },
@@ -4454,7 +4454,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/panier-sola-raphia-et-chocolat.jpg",
+          "image": "/produits/panier-sola-raphia-et-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/panier-sola-raphia-et-chocolat",
           "affilie": false
         }
@@ -4474,7 +4474,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/robe-courte-dos-nu-en-satin-782404621a06.jpg",
+          "image": "/produits/robe-courte-dos-nu-en-satin-782404621a06.webp",
           "lien": "https://www.pimkie.fr/products/robe-courte-dos-nu-en-satin-782404621a06",
           "affilie": false
         },
@@ -4483,7 +4483,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 190.0,
-          "image": "/produits/sandales-cornelia-argent.jpg",
+          "image": "/produits/sandales-cornelia-argent.webp",
           "lien": "https://www.balzac-paris.fr/products/sandales-cornelia-argent",
           "affilie": false
         },
@@ -4492,7 +4492,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 27.99,
-          "image": "/produits/sac-en-simili-tresse-porte-epaule-921180g02a0g.jpg",
+          "image": "/produits/sac-en-simili-tresse-porte-epaule-921180g02a0g.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-simili-tresse-porte-epaule-921180g02a0g",
           "affilie": false
         },
@@ -4501,7 +4501,7 @@
           "categorie": "bijou",
           "marque": "Mya Bay",
           "prix": 75.0,
-          "image": "/produits/boucles-d-oreilles-soul-bo-362.jpg",
+          "image": "/produits/boucles-d-oreilles-soul-bo-362.webp",
           "lien": "https://www.mya-bay.com/products/boucles-d-oreilles-soul-bo-362",
           "affilie": false
         }
@@ -4521,7 +4521,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/robe-longue-en-maille-fluide-avec-dentelle-782414m08a04.jpg",
+          "image": "/produits/robe-longue-en-maille-fluide-avec-dentelle-782414m08a04.webp",
           "lien": "https://www.pimkie.fr/products/robe-longue-en-maille-fluide-avec-dentelle-782414m08a04",
           "affilie": false
         },
@@ -4530,7 +4530,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-sandales-a-talons-avec-fleur-921206g01h4g.jpg",
+          "image": "/produits/paire-de-sandales-a-talons-avec-fleur-921206g01h4g.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-sandales-a-talons-avec-fleur-921206g01h4g",
           "affilie": false
         },
@@ -4539,7 +4539,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/sac-sequins-avec-bandouliere-chaine-921214g02f0g.jpg",
+          "image": "/produits/sac-sequins-avec-bandouliere-chaine-921214g02f0g.webp",
           "lien": "https://www.pimkie.fr/products/sac-sequins-avec-bandouliere-chaine-921214g02f0g",
           "affilie": false
         },
@@ -4548,7 +4548,7 @@
           "categorie": "bijou",
           "marque": "Mya Bay",
           "prix": 110.0,
-          "image": "/produits/bague-flower-california-ba-358.jpg",
+          "image": "/produits/bague-flower-california-ba-358.webp",
           "lien": "https://www.mya-bay.com/products/bague-flower-california-ba-358",
           "affilie": false
         }
@@ -4568,7 +4568,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/top-en-dentelle-col-mao-411437901a09.jpg",
+          "image": "/produits/top-en-dentelle-col-mao-411437901a09.webp",
           "lien": "https://www.pimkie.fr/products/top-en-dentelle-col-mao-411437901a09",
           "affilie": false
         },
@@ -4577,7 +4577,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/jupe-short-en-gaze-de-coton-avec-volant-691422945a09.jpg",
+          "image": "/produits/jupe-short-en-gaze-de-coton-avec-volant-691422945a09.webp",
           "lien": "https://www.pimkie.fr/products/jupe-short-en-gaze-de-coton-avec-volant-691422945a09",
           "affilie": false
         },
@@ -4586,7 +4586,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-sandales-a-talon-avec-fleur-metal-921219946a09.jpg",
+          "image": "/produits/paire-de-sandales-a-talon-avec-fleur-metal-921219946a09.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-sandales-a-talon-avec-fleur-metal-921219946a09",
           "affilie": false
         },
@@ -4595,7 +4595,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.jpg",
+          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07",
           "affilie": false
         }
@@ -4615,7 +4615,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 15.99,
-          "image": "/produits/top-dos-nu-en-maille-rayee-410585811c79.jpg",
+          "image": "/produits/top-dos-nu-en-maille-rayee-410585811c79.webp",
           "lien": "https://www.pimkie.fr/products/top-dos-nu-en-maille-rayee-410585811c79",
           "affilie": false
         },
@@ -4624,7 +4624,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/jupe-longue-evasee-en-maille-stretch-691554944a09.jpg",
+          "image": "/produits/jupe-longue-evasee-en-maille-stretch-691554944a09.webp",
           "lien": "https://www.pimkie.fr/products/jupe-longue-evasee-en-maille-stretch-691554944a09",
           "affilie": false
         },
@@ -4633,7 +4633,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/mules-sabots-en-suedine-2-brides-921148714a0e.jpg",
+          "image": "/produits/mules-sabots-en-suedine-2-brides-921148714a0e.webp",
           "lien": "https://www.pimkie.fr/products/mules-sabots-en-suedine-2-brides-921148714a0e",
           "affilie": false
         },
@@ -4642,7 +4642,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.jpg",
+          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07",
           "affilie": false
         }
@@ -4662,7 +4662,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 17.99,
-          "image": "/produits/debardeur-en-eponge-411369167a09.jpg",
+          "image": "/produits/debardeur-en-eponge-411369167a09.webp",
           "lien": "https://www.pimkie.fr/products/debardeur-en-eponge-411369167a09",
           "affilie": false
         },
@@ -4671,7 +4671,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/bermuda-en-jean-avec-pinces-142683911a09.jpg",
+          "image": "/produits/bermuda-en-jean-avec-pinces-142683911a09.webp",
           "lien": "https://www.pimkie.fr/products/bermuda-en-jean-avec-pinces-142683911a09",
           "affilie": false
         },
@@ -4680,7 +4680,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/mules-sabots-en-suedine-2-brides-921148714a0e.jpg",
+          "image": "/produits/mules-sabots-en-suedine-2-brides-921148714a0e.webp",
           "lien": "https://www.pimkie.fr/products/mules-sabots-en-suedine-2-brides-921148714a0e",
           "affilie": false
         },
@@ -4689,7 +4689,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 245.0,
-          "image": "/produits/panier-umbra-raphia-et-chocolat.jpg",
+          "image": "/produits/panier-umbra-raphia-et-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/panier-umbra-raphia-et-chocolat",
           "affilie": false
         }
@@ -4709,7 +4709,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 120.0,
-          "image": "/produits/le-top-spaghetti-tony-noir-black-coffee.jpg",
+          "image": "/produits/le-top-spaghetti-tony-noir-black-coffee.webp",
           "lien": "https://www.patine.fr/products/le-top-spaghetti-tony-noir-black-coffee",
           "affilie": false
         },
@@ -4718,7 +4718,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/short-city-taille-haute-avec-pinces-142594899a08.jpg",
+          "image": "/produits/short-city-taille-haute-avec-pinces-142594899a08.webp",
           "lien": "https://www.pimkie.fr/products/short-city-taille-haute-avec-pinces-142594899a08",
           "affilie": false
         },
@@ -4727,7 +4727,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/sandales-a-talon-vernies-920632899a08.jpg",
+          "image": "/produits/sandales-a-talon-vernies-920632899a08.webp",
           "lien": "https://www.pimkie.fr/products/sandales-a-talon-vernies-920632899a08",
           "affilie": false
         },
@@ -4736,7 +4736,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 12.99,
-          "image": "/produits/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08.jpg",
+          "image": "/produits/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08.webp",
           "lien": "https://www.pimkie.fr/products/mini-sac-boxy-avec-poignees-et-bandouliere-92899a08",
           "affilie": false
         }
@@ -4756,7 +4756,7 @@
           "categorie": "robe",
           "marque": "Patine",
           "prix": 280.0,
-          "image": "/produits/la-robe-spaghetti-taffy-pavots.jpg",
+          "image": "/produits/la-robe-spaghetti-taffy-pavots.webp",
           "lien": "https://www.patine.fr/products/la-robe-spaghetti-taffy-pavots",
           "affilie": false
         },
@@ -4765,7 +4765,7 @@
           "categorie": "chaussures",
           "marque": "Rouje",
           "prix": 270.0,
-          "image": "/produits/arlesienne-sandals-uni-vermillon.jpg",
+          "image": "/produits/arlesienne-sandals-uni-vermillon.webp",
           "lien": "https://www.rouje.com/products/arlesienne-sandals-uni-vermillon",
           "affilie": false
         },
@@ -4774,7 +4774,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 360.0,
-          "image": "/produits/sac-sasha-graine-rouge-interieur-chocolat.jpg",
+          "image": "/produits/sac-sasha-graine-rouge-interieur-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-sasha-graine-rouge-interieur-chocolat",
           "affilie": false
         },
@@ -4783,7 +4783,7 @@
           "categorie": "bijou",
           "marque": "Rouje",
           "prix": 130.0,
-          "image": "/produits/toscane-earrings-uni-or.jpg",
+          "image": "/produits/toscane-earrings-uni-or.webp",
           "lien": "https://www.rouje.com/products/toscane-earrings-uni-or",
           "affilie": false
         }
@@ -4803,7 +4803,7 @@
           "categorie": "haut",
           "marque": "Jott",
           "prix": 26.0,
-          "image": "/produits/polo-stretch-marine-gaia.jpg",
+          "image": "/produits/polo-stretch-marine-gaia.webp",
           "lien": "https://www.jott.com/products/polo-stretch-marine-gaia",
           "affilie": false
         },
@@ -4812,7 +4812,7 @@
           "categorie": "bas",
           "marque": "Jott",
           "prix": 18.0,
-          "image": "/produits/short-sable-amelie.jpg",
+          "image": "/produits/short-sable-amelie.webp",
           "lien": "https://www.jott.com/products/short-sable-amelie",
           "affilie": false
         },
@@ -4821,7 +4821,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.jpg",
+          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-baskets-esprit-running-920781901i16",
           "affilie": false
         },
@@ -4830,7 +4830,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 9.99,
-          "image": "/produits/tote-bag-en-jean-920966682a06.jpg",
+          "image": "/produits/tote-bag-en-jean-920966682a06.webp",
           "lien": "https://www.pimkie.fr/products/tote-bag-en-jean-920966682a06",
           "affilie": false
         }
@@ -4850,7 +4850,7 @@
           "categorie": "robe",
           "marque": "Jott",
           "prix": 27.0,
-          "image": "/produits/robe-polo-sans-manches-vert-mineral-tanger.jpg",
+          "image": "/produits/robe-polo-sans-manches-vert-mineral-tanger.webp",
           "lien": "https://www.jott.com/products/robe-polo-sans-manches-vert-mineral-tanger",
           "affilie": false
         },
@@ -4859,7 +4859,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.jpg",
+          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-baskets-esprit-running-920781901i16",
           "affilie": false
         },
@@ -4868,7 +4868,7 @@
           "categorie": "sac",
           "marque": "Émoi Émoi",
           "prix": 49.0,
-          "image": "/produits/le-sac-mini-bucket-coeur-en-denim.jpg",
+          "image": "/produits/le-sac-mini-bucket-coeur-en-denim.webp",
           "lien": "https://www.emoi-emoi.com/products/le-sac-mini-bucket-coeur-en-denim",
           "affilie": false
         }
@@ -4888,7 +4888,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 130.0,
-          "image": "/produits/tony-chemise-bleu-vintage.jpg",
+          "image": "/produits/tony-chemise-bleu-vintage.webp",
           "lien": "https://www.patine.fr/products/tony-chemise-bleu-vintage",
           "affilie": false
         },
@@ -4897,7 +4897,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 115.0,
-          "image": "/produits/brenda-short-bleu-light.jpg",
+          "image": "/produits/brenda-short-bleu-light.webp",
           "lien": "https://www.patine.fr/products/brenda-short-bleu-light",
           "affilie": false
         },
@@ -4906,7 +4906,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/mules-sabots-en-suedine-avec-motifs-esprit-bandana-921148714i09.jpg",
+          "image": "/produits/mules-sabots-en-suedine-avec-motifs-esprit-bandana-921148714i09.webp",
           "lien": "https://www.pimkie.fr/products/mules-sabots-en-suedine-avec-motifs-esprit-bandana-921148714i09",
           "affilie": false
         },
@@ -4915,7 +4915,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/panier-sola-raphia-et-chocolat.jpg",
+          "image": "/produits/panier-sola-raphia-et-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/panier-sola-raphia-et-chocolat",
           "affilie": false
         }
@@ -4935,7 +4935,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 9.99,
-          "image": "/produits/debardeur-encolure-bateau-411257i55a02.jpg",
+          "image": "/produits/debardeur-encolure-bateau-411257i55a02.webp",
           "lien": "https://www.pimkie.fr/products/debardeur-encolure-bateau-411257i55a02",
           "affilie": false
         },
@@ -4944,7 +4944,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.jpg",
+          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.webp",
           "lien": "https://www.pimkie.fr/products/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09",
           "affilie": false
         },
@@ -4953,7 +4953,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/sandales-a-talon-vernies-920632899a08.jpg",
+          "image": "/produits/sandales-a-talon-vernies-920632899a08.webp",
           "lien": "https://www.pimkie.fr/products/sandales-a-talon-vernies-920632899a08",
           "affilie": false
         },
@@ -4962,7 +4962,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 19.99,
-          "image": "/produits/sac-en-simili-porte-epaule-921151i49a02.jpg",
+          "image": "/produits/sac-en-simili-porte-epaule-921151i49a02.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-simili-porte-epaule-921151i49a02",
           "affilie": false
         }
@@ -4982,7 +4982,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/top-a-bretelles-en-voile-avec-sequins-et-perles-563003331f94.jpg",
+          "image": "/produits/top-a-bretelles-en-voile-avec-sequins-et-perles-563003331f94.webp",
           "lien": "https://www.pimkie.fr/products/top-a-bretelles-en-voile-avec-sequins-et-perles-563003331f94",
           "affilie": false
         },
@@ -4991,7 +4991,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08.jpg",
+          "image": "/produits/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08.webp",
           "lien": "https://www.pimkie.fr/products/pantalon-large-et-droit-avec-taille-elastiquee-142066899a08",
           "affilie": false
         },
@@ -5000,7 +5000,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/sandales-a-talon-vernies-920632899a08.jpg",
+          "image": "/produits/sandales-a-talon-vernies-920632899a08.webp",
           "lien": "https://www.pimkie.fr/products/sandales-a-talon-vernies-920632899a08",
           "affilie": false
         },
@@ -5009,7 +5009,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/sac-cesar-dore-1.jpg",
+          "image": "/produits/sac-cesar-dore-1.webp",
           "lien": "https://www.balzac-paris.fr/products/sac-cesar-dore-1",
           "affilie": false
         }
@@ -5029,7 +5029,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 9.99,
-          "image": "/produits/debardeur-en-maille-cotelee-411179871a08.jpg",
+          "image": "/produits/debardeur-en-maille-cotelee-411179871a08.webp",
           "lien": "https://www.pimkie.fr/products/debardeur-en-maille-cotelee-411179871a08",
           "affilie": false
         },
@@ -5038,7 +5038,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/jupe-longue-et-droite-en-eponge-691557167a09.jpg",
+          "image": "/produits/jupe-longue-et-droite-en-eponge-691557167a09.webp",
           "lien": "https://www.pimkie.fr/products/jupe-longue-et-droite-en-eponge-691557167a09",
           "affilie": false
         },
@@ -5047,7 +5047,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 180.0,
-          "image": "/produits/sandales-albane-camel.jpg",
+          "image": "/produits/sandales-albane-camel.webp",
           "lien": "https://www.balzac-paris.fr/products/sandales-albane-camel",
           "affilie": false
         },
@@ -5056,7 +5056,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.jpg",
+          "image": "/produits/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-raphia-avec-bandouliere-chaine-et-pastilles-921238742a07",
           "affilie": false
         }
@@ -5076,7 +5076,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 42.0,
-          "image": "/produits/le-tee-shirt-super-willie-heavy-jersey-bio-recycle-multicolor.jpg",
+          "image": "/produits/le-tee-shirt-super-willie-heavy-jersey-bio-recycle-multicolor.webp",
           "lien": "https://www.patine.fr/products/le-tee-shirt-super-willie-heavy-jersey-bio-recycle-multicolor",
           "affilie": false
         },
@@ -5085,7 +5085,7 @@
           "categorie": "bas",
           "marque": "Patine",
           "prix": 140.0,
-          "image": "/produits/le-bermuda-brenda-coton-regen-recycle-noir-medium.jpg",
+          "image": "/produits/le-bermuda-brenda-coton-regen-recycle-noir-medium.webp",
           "lien": "https://www.patine.fr/products/le-bermuda-brenda-coton-regen-recycle-noir-medium",
           "affilie": false
         },
@@ -5094,7 +5094,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.jpg",
+          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-baskets-esprit-running-920781901i16",
           "affilie": false
         },
@@ -5103,7 +5103,7 @@
           "categorie": "sac",
           "marque": "Émoi Émoi",
           "prix": 45.0,
-          "image": "/produits/le-cabas-brode-lamour-est-declare-chocolat.jpg",
+          "image": "/produits/le-cabas-brode-lamour-est-declare-chocolat.webp",
           "lien": "https://www.emoi-emoi.com/products/le-cabas-brode-lamour-est-declare-chocolat",
           "affilie": false
         }
@@ -5123,7 +5123,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 39.99,
-          "image": "/produits/robe-longue-et-moulante-en-jean-782451684a06.jpg",
+          "image": "/produits/robe-longue-et-moulante-en-jean-782451684a06.webp",
           "lien": "https://www.pimkie.fr/products/robe-longue-et-moulante-en-jean-782451684a06",
           "affilie": false
         },
@@ -5132,7 +5132,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 145.0,
-          "image": "/produits/sandales-tournesol-cognac-1.jpg",
+          "image": "/produits/sandales-tournesol-cognac-1.webp",
           "lien": "https://www.balzac-paris.fr/products/sandales-tournesol-cognac-1",
           "affilie": false
         },
@@ -5141,7 +5141,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/sac-seau-avec-poignees-et-bandouliere-920708e11a0e.jpg",
+          "image": "/produits/sac-seau-avec-poignees-et-bandouliere-920708e11a0e.webp",
           "lien": "https://www.pimkie.fr/products/sac-seau-avec-poignees-et-bandouliere-920708e11a0e",
           "affilie": false
         }
@@ -5161,7 +5161,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 7.99,
-          "image": "/produits/top-bustier-409832j26a06.jpg",
+          "image": "/produits/top-bustier-409832j26a06.webp",
           "lien": "https://www.pimkie.fr/products/top-bustier-409832j26a06",
           "affilie": false
         },
@@ -5170,7 +5170,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/jupe-longue-evasee-en-maille-stretch-691554944a09.jpg",
+          "image": "/produits/jupe-longue-evasee-en-maille-stretch-691554944a09.webp",
           "lien": "https://www.pimkie.fr/products/jupe-longue-evasee-en-maille-stretch-691554944a09",
           "affilie": false
         },
@@ -5179,7 +5179,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-sandales-a-talons-avec-fleur-921206g01h4g.jpg",
+          "image": "/produits/paire-de-sandales-a-talons-avec-fleur-921206g01h4g.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-sandales-a-talons-avec-fleur-921206g01h4g",
           "affilie": false
         },
@@ -5188,7 +5188,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 27.99,
-          "image": "/produits/sac-en-simili-tresse-porte-epaule-921180g02a0g.jpg",
+          "image": "/produits/sac-en-simili-tresse-porte-epaule-921180g02a0g.webp",
           "lien": "https://www.pimkie.fr/products/sac-en-simili-tresse-porte-epaule-921180g02a0g",
           "affilie": false
         }
@@ -5208,7 +5208,7 @@
           "categorie": "robe",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/robe-courte-esprit-asie-en-satin-boutons-brandebourg-782470528g05.jpg",
+          "image": "/produits/robe-courte-esprit-asie-en-satin-boutons-brandebourg-782470528g05.webp",
           "lien": "https://www.pimkie.fr/products/robe-courte-esprit-asie-en-satin-boutons-brandebourg-782470528g05",
           "affilie": false
         },
@@ -5217,7 +5217,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/sandales-en-suedine-a-talons-avec-brides-921257e25a07.jpg",
+          "image": "/produits/sandales-en-suedine-a-talons-avec-brides-921257e25a07.webp",
           "lien": "https://www.pimkie.fr/products/sandales-en-suedine-a-talons-avec-brides-921257e25a07",
           "affilie": false
         },
@@ -5226,7 +5226,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 295.0,
-          "image": "/produits/panier-clement-raphia-et-chocolat.jpg",
+          "image": "/produits/panier-clement-raphia-et-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/panier-clement-raphia-et-chocolat",
           "affilie": false
         },
@@ -5235,7 +5235,7 @@
           "categorie": "bijou",
           "marque": "Mya Bay",
           "prix": 41.0,
-          "image": "/produits/boucles-d-oreilles-aloha-bo-392.jpg",
+          "image": "/produits/boucles-d-oreilles-aloha-bo-392.webp",
           "lien": "https://www.mya-bay.com/products/boucles-d-oreilles-aloha-bo-392",
           "affilie": false
         }
@@ -5255,7 +5255,7 @@
           "categorie": "haut",
           "marque": "Patine",
           "prix": 60.0,
-          "image": "/produits/le-debardeur-willie-rib-bio-recycle-noir-black-coffee.jpg",
+          "image": "/produits/le-debardeur-willie-rib-bio-recycle-noir-black-coffee.webp",
           "lien": "https://www.patine.fr/products/le-debardeur-willie-rib-bio-recycle-noir-black-coffee",
           "affilie": false
         },
@@ -5264,7 +5264,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/j71-2-jean-wide-taille-medium-142442687a06.jpg",
+          "image": "/produits/j71-2-jean-wide-taille-medium-142442687a06.webp",
           "lien": "https://www.pimkie.fr/products/j71-2-jean-wide-taille-medium-142442687a06",
           "affilie": false
         },
@@ -5273,7 +5273,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.jpg",
+          "image": "/produits/mules-2-brides-en-suedine-avec-clous-921168b57f0g.webp",
           "lien": "https://www.pimkie.fr/products/mules-2-brides-en-suedine-avec-clous-921168b57f0g",
           "affilie": false
         },
@@ -5282,7 +5282,7 @@
           "categorie": "sac",
           "marque": "Émoi Émoi",
           "prix": 19.0,
-          "image": "/produits/la-pochette-coeur-en-denim.jpg",
+          "image": "/produits/la-pochette-coeur-en-denim.webp",
           "lien": "https://www.emoi-emoi.com/products/la-pochette-coeur-en-denim",
           "affilie": false
         }
@@ -5302,7 +5302,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 15.99,
-          "image": "/produits/top-dos-nu-en-maille-rayee-410585811c79.jpg",
+          "image": "/produits/top-dos-nu-en-maille-rayee-410585811c79.webp",
           "lien": "https://www.pimkie.fr/products/top-dos-nu-en-maille-rayee-410585811c79",
           "affilie": false
         },
@@ -5311,7 +5311,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 29.99,
-          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.jpg",
+          "image": "/produits/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09.webp",
           "lien": "https://www.pimkie.fr/products/j71-1-jean-wide-taille-haute-bas-coupes-142162923a09",
           "affilie": false
         },
@@ -5320,7 +5320,7 @@
           "categorie": "chaussures",
           "marque": "Balzac Paris",
           "prix": 195.0,
-          "image": "/produits/sandales-flor-vernis-froisse-rouge.jpg",
+          "image": "/produits/sandales-flor-vernis-froisse-rouge.webp",
           "lien": "https://www.balzac-paris.fr/products/sandales-flor-vernis-froisse-rouge",
           "affilie": false
         },
@@ -5329,7 +5329,7 @@
           "categorie": "sac",
           "marque": "Rive Droite",
           "prix": 80.0,
-          "image": "/produits/mini-charlot-le-sac-crossbody-polycoton-recycle-rouge-poppy.jpg",
+          "image": "/produits/mini-charlot-le-sac-crossbody-polycoton-recycle-rouge-poppy.webp",
           "lien": "https://www.rivedroite-paris.com/products/mini-charlot-le-sac-crossbody-polycoton-recycle-rouge-poppy",
           "affilie": false
         }
@@ -5349,7 +5349,7 @@
           "categorie": "robe",
           "marque": "Jott",
           "prix": 35.0,
-          "image": "/produits/robe-eponge-lagoon-mira.jpg",
+          "image": "/produits/robe-eponge-lagoon-mira.webp",
           "lien": "https://www.jott.com/products/robe-eponge-lagoon-mira",
           "affilie": false
         },
@@ -5358,7 +5358,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 35.99,
-          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.jpg",
+          "image": "/produits/paire-de-baskets-esprit-running-920781901i16.webp",
           "lien": "https://www.pimkie.fr/products/paire-de-baskets-esprit-running-920781901i16",
           "affilie": false
         },
@@ -5367,7 +5367,7 @@
           "categorie": "sac",
           "marque": "Pimkie",
           "prix": 9.99,
-          "image": "/produits/tote-bag-en-toile-avec-pois-920994911d08.jpg",
+          "image": "/produits/tote-bag-en-toile-avec-pois-920994911d08.webp",
           "lien": "https://www.pimkie.fr/products/tote-bag-en-toile-avec-pois-920994911d08",
           "affilie": false
         }
@@ -5387,7 +5387,7 @@
           "categorie": "haut",
           "marque": "Pimkie",
           "prix": 12.99,
-          "image": "/produits/t-shirt-manches-courtes-epaule-degagee-410851c88a05.jpg",
+          "image": "/produits/t-shirt-manches-courtes-epaule-degagee-410851c88a05.webp",
           "lien": "https://www.pimkie.fr/products/t-shirt-manches-courtes-epaule-degagee-410851c88a05",
           "affilie": false
         },
@@ -5396,7 +5396,7 @@
           "categorie": "bas",
           "marque": "Pimkie",
           "prix": 25.99,
-          "image": "/produits/short-taille-haute-avec-pinces-142444911a09.jpg",
+          "image": "/produits/short-taille-haute-avec-pinces-142444911a09.webp",
           "lien": "https://www.pimkie.fr/products/short-taille-haute-avec-pinces-142444911a09",
           "affilie": false
         },
@@ -5405,7 +5405,7 @@
           "categorie": "chaussures",
           "marque": "Pimkie",
           "prix": 32.99,
-          "image": "/produits/mules-sabots-en-suedine-avec-motifs-esprit-bandana-921148714i09.jpg",
+          "image": "/produits/mules-sabots-en-suedine-avec-motifs-esprit-bandana-921148714i09.webp",
           "lien": "https://www.pimkie.fr/products/mules-sabots-en-suedine-avec-motifs-esprit-bandana-921148714i09",
           "affilie": false
         },
@@ -5414,7 +5414,7 @@
           "categorie": "sac",
           "marque": "Balzac Paris",
           "prix": 275.0,
-          "image": "/produits/panier-sola-raphia-et-chocolat.jpg",
+          "image": "/produits/panier-sola-raphia-et-chocolat.webp",
           "lien": "https://www.balzac-paris.fr/products/panier-sola-raphia-et-chocolat",
           "affilie": false
         }

@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element -- les images viennent de sites marchands variés */
 import { itemRel } from "@/components/ItemLink";
-import { COLLAGE_BG, COLLAGE_PADDING, collageItems, collageLayout } from "@/lib/collage";
+import { COLLAGE_BG, COLLAGE_PADDING, collageItems, collageLayout, productImageClass } from "@/lib/collage";
 import { formatPrice } from "@/lib/format";
 
 type Props = {
@@ -65,13 +65,13 @@ export function OutfitVisual({ outfit, priority, shoppable, className = "rounded
         {items.map((item, i) => {
           const t = tiles[i];
           const box = { left: `${t.x * 100}%`, top: `${t.y * 100}%`, width: `${t.w * 100}%`, height: `${t.h * 100}%` };
-          // mix-blend-multiply : le fond blanc des photos produits se fond dans le rose pâle
+          // Photo détourée : ombre douce ; photo sur fond blanc : fondue dans le rose pâle
           const img = (
             <img
               src={item.imageUrl!}
               alt=""
               loading={loading}
-              className={`h-full w-full object-contain mix-blend-multiply ${shoppable ? "transition-transform duration-300 group-hover:scale-105" : ""}`}
+              className={`h-full w-full object-contain ${productImageClass(item.imageUrl)} ${shoppable ? "transition-transform duration-300 group-hover:scale-105" : ""}`}
             />
           );
           if (!shoppable || !item.url) {

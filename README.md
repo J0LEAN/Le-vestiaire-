@@ -118,7 +118,7 @@ Le format complet (JSON et CSV, champs obligatoires, valeurs autorisées) est d�
 
 ### Les tenues d'exemple
 
-Les **106 tenues** fournies avec le site (toutes saisons, tous budgets, de moins de 100 € à plus de 1 000 €) sont composées de **vrais produits** de marques françaises et européennes (Balzac Paris, Pimkie, Jott, Patine, Rouje, Make My Lemonade, Émoi Émoi, Soeur, Mya Bay, Rive Droite), relevés fin octobre 2026 dans le catalogue que ces boutiques publient ouvertement. Leurs photos sont enregistrées dans `public/produits/`, fond blanchi et recadrées. Les liens sont des liens normaux (non affiliés). Les prix et les stocks changent : lancez **Vérifier les liens** de temps en temps et remplacez les pièces qui ne sont plus disponibles.
+Les **106 tenues** fournies avec le site (toutes saisons, tous budgets, de moins de 100 € à plus de 1 000 €) sont composées de **vrais produits** de marques françaises et européennes (Balzac Paris, Pimkie, Jott, Patine, Rouje, Make My Lemonade, Émoi Émoi, Soeur, Mya Bay, Rive Droite), relevés fin octobre 2026 dans le catalogue que ces boutiques publient ouvertement. Leurs photos sont enregistrées dans `public/produits/`, détourées (fond transparent) et recadrées. Les liens sont des liens normaux (non affiliés). Les prix et les stocks changent : lancez **Vérifier les liens** de temps en temps et remplacez les pièces qui ne sont plus disponibles.
 
 ---
 
