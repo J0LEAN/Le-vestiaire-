@@ -69,7 +69,7 @@ export default async function OutfitPage({ params }: PageProps<"/tenues/[slug]">
             <div className="lv-swing flex flex-col items-center">
               <BigHanger className="-mt-2.5 block h-[50px] w-[130px] text-ink" />
               <div className="glass -mt-1.5 w-full rotate-[-1deg] rounded-[36px] p-2.5" style={{ transformOrigin: "top center" }}>
-                <OutfitVisual outfit={outfit} priority className="rounded-[28px]" />
+                <OutfitVisual outfit={outfit} priority shoppable className="rounded-[28px]" />
               </div>
             </div>
           </div>
