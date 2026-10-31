@@ -1,0 +1,68 @@
+/* Le Vestiaire — animations et micro-interactions (extrait des maquettes).
+   Les classes s'activent sous un parent .lv-on (désactivées sous .lv-off et si prefers-reduced-motion). */
+
+@keyframes lv-swing{0%,100%{transform:rotate(-1.6deg)}50%{transform:rotate(1.3deg)}}
+@keyframes lv-float{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(48px,-36px) scale(1.1)}}
+@keyframes lv-float2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-56px,44px) scale(.92)}}
+@keyframes lv-up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes lv-shine{0%{transform:translateX(-160%) skewX(-20deg)}55%,100%{transform:translateX(320%) skewX(-20deg)}}
+@keyframes lv-pop{0%,70%,100%{transform:scale(1)}80%{transform:scale(1.14)}90%{transform:scale(.96)}}
+@keyframes lv-barin{from{opacity:0;transform:translateY(48px) scale(.96)}to{opacity:1;transform:none}}
+.lv-on .lv-halo{animation:lv-float 18s ease-in-out infinite}
+.lv-on .lv-halo:nth-child(2n){animation-name:lv-float2;animation-duration:23s}
+.lv-on .lv-swing{animation:lv-swing 6s ease-in-out infinite;transform-origin:top center}
+.lv-on .lv-swing.d1{animation-delay:-2.1s;animation-duration:6.6s}
+.lv-on .lv-swing.d2{animation-delay:-4.3s;animation-duration:5.6s}
+.lv-on .lv-up{animation:lv-up .9s cubic-bezier(.2,.7,.2,1) both}
+.lv-on .lv-up.s1{animation-delay:.1s}.lv-on .lv-up.s2{animation-delay:.2s}.lv-on .lv-up.s3{animation-delay:.32s}.lv-on .lv-up.s4{animation-delay:.44s}
+.lv-on .lv-bar{animation:lv-barin .8s .6s cubic-bezier(.2,.7,.2,1) both}
+.lv-on .lv-pop{animation:lv-pop 3.2s 1.2s ease-in-out infinite}
+.lv-on .lv-shine{position:relative;overflow:hidden}
+.lv-on .lv-shine::after{content:"";position:absolute;top:0;bottom:0;left:0;width:36%;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.45),rgba(255,255,255,0));animation:lv-shine 3.8s 1s ease-in-out infinite;pointer-events:none}
+.lv-on .lv-card{transition:transform .4s cubic-bezier(.2,.7,.2,1),box-shadow .4s}
+.lv-on .lv-card:hover{transform:translateY(-6px)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,1),0 26px 50px rgba(110,30,80,.20)!important}
+.lv-on .lv-card img{transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.lv-on .lv-card:hover img{transform:scale(1.07)}
+.lv-on .lv-btn{transition:transform .2s ease,box-shadow .2s ease,filter .2s}
+.lv-on .lv-btn:hover{transform:translateY(-2px) scale(1.03);filter:brightness(1.06)}
+.lv-on .lv-btn:active{transform:scale(.96)}
+.lv-on .lv-chip{transition:background-color .25s,color .25s,transform .2s}
+.lv-on .lv-chip:hover{transform:translateY(-2px)}
+.lv-on .lv-chip:active{transform:scale(.95)}
+.lv-on .lv-nav a{transition:background-color .2s}
+.lv-on .lv-nav a:hover{background-color:rgba(255,255,255,.75)}
+@supports (animation-timeline: view()){
+.lv-on .lv-reveal{animation:lv-up linear both;animation-timeline:view();animation-range:entry 0% cover 22%}
+}
+@keyframes lv-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.lv-marquee{display:flex;width:max-content}
+.lv-on .lv-marquee{animation:lv-marquee 32s linear infinite}
+@keyframes lv-spin{to{transform:rotate(360deg)}}
+.lv-on .lv-spin{animation:lv-spin 12s linear infinite}
+.lv-p{position:absolute;left:50%;top:50%;border-radius:50%;opacity:0;pointer-events:none;transform:translate(-50%,-50%)}
+@keyframes lv-burstA{0%{opacity:1;transform:translate(-50%,-50%) scale(.3)}70%{opacity:1}100%{opacity:0;transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(1)}}
+@keyframes lv-burstB{0%{opacity:1;transform:translate(-50%,-50%) scale(.3)}70%{opacity:1}100%{opacity:0;transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(1)}}
+.lv-on .lv-burstA .lv-p{animation:lv-burstA .8s cubic-bezier(.1,.7,.3,1) both}
+.lv-on .lv-burstB .lv-p{animation:lv-burstB .8s cubic-bezier(.1,.7,.3,1) both}
+@keyframes lv-bumpA{0%{transform:scale(1)}35%{transform:scale(1.4)}65%{transform:scale(.9)}100%{transform:scale(1)}}
+@keyframes lv-bumpB{0%{transform:scale(1)}35%{transform:scale(1.4)}65%{transform:scale(.9)}100%{transform:scale(1)}}
+.lv-on .lv-bumpA{animation:lv-bumpA .55s cubic-bezier(.3,1.6,.5,1)}
+.lv-on .lv-bumpB{animation:lv-bumpB .55s cubic-bezier(.3,1.6,.5,1)}
+.lv-on .lv-save[aria-pressed="true"],.lv-on .lv-chip[aria-pressed="true"]{animation:lv-bumpA .5s cubic-bezier(.3,1.6,.5,1)}
+.lv-toastA,.lv-toastB{transform:translateX(-50%)}
+@keyframes lv-toastA{0%{opacity:0;transform:translate(-50%,30px) scale(.85)}14%{opacity:1;transform:translate(-50%,0) scale(1.06)}22%{transform:translate(-50%,0) scale(1)}85%{opacity:1;transform:translate(-50%,0)}100%{opacity:0;transform:translate(-50%,14px)}}
+@keyframes lv-toastB{0%{opacity:0;transform:translate(-50%,30px) scale(.85)}14%{opacity:1;transform:translate(-50%,0) scale(1.06)}22%{transform:translate(-50%,0) scale(1)}85%{opacity:1;transform:translate(-50%,0)}100%{opacity:0;transform:translate(-50%,14px)}}
+.lv-on .lv-toastA{animation:lv-toastA 2.6s ease both}
+.lv-on .lv-toastB{animation:lv-toastB 2.6s ease both}
+@keyframes lv-swapA{0%{opacity:0;transform:scale(.8) rotate(-8deg)}60%{opacity:1;transform:scale(1.05) rotate(2deg)}100%{opacity:1;transform:none}}
+@keyframes lv-swapB{0%{opacity:0;transform:scale(.8) rotate(-8deg)}60%{opacity:1;transform:scale(1.05) rotate(2deg)}100%{opacity:1;transform:none}}
+.lv-on .lv-swapA{animation:lv-swapA .6s cubic-bezier(.3,1.4,.5,1) both}
+.lv-on .lv-swapB{animation:lv-swapB .6s cubic-bezier(.3,1.4,.5,1) both}
+.lv-on .lv-progress{transition:width .7s cubic-bezier(.3,1.5,.5,1)}
+@keyframes lv-confetti{0%{opacity:1;transform:translateY(-10px) rotate(0)}100%{opacity:0;transform:translateY(170px) rotate(620deg)}}
+.lv-confetti{position:absolute;top:0;width:8px;height:12px;border-radius:2px;opacity:0;pointer-events:none}
+.lv-on .lv-confetti{animation:lv-confetti 1.7s cubic-bezier(.2,.6,.4,1) both}
+.lv-on .lv-swing:hover{animation-duration:1.1s}
+@keyframes lv-glow{0%,100%{box-shadow:0 10px 24px rgba(209,31,90,.28)}50%{box-shadow:0 12px 36px rgba(209,31,90,.6)}}
+.lv-on .lv-glow{animation:lv-glow 2.4s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){.lv-on *,.lv-on *::before,.lv-on *::after{animation:none!important;transition:none!important}}

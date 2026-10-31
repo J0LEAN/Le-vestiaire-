@@ -1,0 +1,60 @@
+/* Le Vestiaire — jetons de design (nouvelle direction « verre liquide, couleurs mode, cintres »)
+   À coller dans code/src/app/globals.css à la place du bloc @theme actuel (Tailwind CSS 4). */
+
+@theme {
+  /* Couleurs */
+  --color-ink: #26121f;          /* texte principal, boutons sombres (aubergine) */
+  --color-ink-soft: #5f4558;     /* texte secondaire */
+  --color-ink-muted: #6a4c62;    /* petits libellés (catégorie, occasion) */
+  --color-paper: #f6eef3;        /* fond général (rose nacré) */
+  --color-on-ink: #fff5fa;       /* texte sur fond sombre ou accent */
+  --color-mist: #fbf4f7;         /* fond des collages (remplace #F4F4F4) */
+  --color-accent: #d11f5a;       /* accent cerise : boutons d'achat, italiques des titres */
+  --color-danger: #b91c1c;
+  --color-success: #15803d;
+
+  /* Halos d'ambiance derrière le verre (cercles flous) */
+  --color-halo-rose: #ff9bc4;
+  --color-halo-lilas: #b9a0ff;
+  --color-halo-peche: #ffb48a;
+  --color-halo-fuchsia: #f06aa0;
+
+  /* Arrondis */
+  --radius-pill: 999px;
+  --radius-card: 32px;
+  --radius-card-sm: 24px;
+  --radius-collage: 26px;
+
+  /* Polices (Google Fonts : Fraunces + Nunito) */
+  --font-serif: "Fraunces", ui-serif, Georgia, serif;   /* titres, avec font-variation-settings: "SOFT" 100 */
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Verre liquide : à appliquer sur cartes, en-tête, barres flottantes */
+@utility glass {
+  background: rgba(255, 248, 252, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(22px) saturate(150%);
+  -webkit-backdrop-filter: blur(22px) saturate(150%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95), 0 16px 32px rgba(110, 30, 80, 0.12);
+}
+
+/* Tringle du portant (sur laquelle pendent les cintres) */
+@utility rail {
+  height: 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.95), inset 0 -3px 6px rgba(110, 30, 80, 0.1), 0 8px 18px rgba(110, 30, 80, 0.14);
+}
+
+@utility btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-4 font-extrabold;
+  background: var(--color-accent);
+  color: var(--color-on-ink);
+  box-shadow: 0 10px 24px rgba(209, 31, 90, 0.28);
+}
+@utility btn-secondary {
+  @apply glass inline-flex items-center justify-center gap-2 rounded-full px-6 py-4 font-bold;
+  color: var(--color-ink);
+}

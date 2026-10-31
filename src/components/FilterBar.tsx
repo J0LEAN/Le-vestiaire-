@@ -1,6 +1,9 @@
 "use client";
 
+import { useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { SlidersIcon } from "@/components/icons";
 import { BUDGETS, OCCASIONS, SEASONS, STYLES, type Option } from "@/lib/constants";
 import type { Filters } from "@/lib/queries";
 
@@ -14,56 +17,97 @@ type Props = {
   anchor?: string;
 };
 
-/** Barre de filtres : chaque changement met à jour l'adresse de la page. */
+// Correspondance entre les filtres et les paramètres de l'adresse (?occasion=…&saison=…)
+const URL_KEYS: Record<keyof Filters, string> = { style: "style", occasion: "occasion", season: "saison", budget: "budget" };
+
+/**
+ * Filtres : les occasions en pilules, et un panneau « Style · Saison · Budget ».
+ * Chaque choix met à jour l'adresse de la page (la liste est filtrée côté serveur).
+ */
 export function FilterBar({ basePath, current, hideStyle, anchor = "" }: Props) {
   const router = useRouter();
-
-  const fields: { key: string; urlKey: string; label: string; options: Option[] }[] = [
-    ...(hideStyle ? [] : [{ key: "style", urlKey: "style", label: "Style", options: STYLES }]),
-    { key: "occasion", urlKey: "occasion", label: "Occasion", options: OCCASIONS },
-    { key: "season", urlKey: "saison", label: "Saison", options: SEASONS.filter((s) => s.value !== "toutes") },
-    { key: "budget", urlKey: "budget", label: "Budget", options: BUDGETS },
+  const more: { key: keyof Filters; label: string; options: Option[] }[] = [
+    ...(hideStyle ? [] : [{ key: "style" as const, label: "Style", options: STYLES }]),
+    { key: "season", label: "Saison", options: SEASONS.filter((s) => s.value !== "toutes") },
+    { key: "budget", label: "Budget", options: BUDGETS },
   ];
+  const moreActive = more.filter((f) => current[f.key]).length;
+  const [open, setOpen] = useState(moreActive > 0);
 
-  function update(urlKey: string, value: string) {
+  /** Adresse de la page avec un filtre modifié. */
+  function hrefWith(key: keyof Filters, value: string | undefined) {
     const params = new URLSearchParams();
-    for (const f of fields) {
-      const v = f.urlKey === urlKey ? value : current[f.key as keyof Filters];
-      if (v) params.set(f.urlKey, v);
+    for (const k of Object.keys(URL_KEYS) as (keyof Filters)[]) {
+      if (hideStyle && k === "style") continue;
+      const v = k === key ? value : current[k];
+      if (v) params.set(URL_KEYS[k], v);
     }
     const qs = params.toString();
-    router.push(`${basePath}${qs ? `?${qs}` : ""}${anchor}`, { scroll: false });
+    return `${basePath}${qs ? `?${qs}` : ""}${anchor}`;
   }
 
-  const active = fields.some((f) => current[f.key as keyof Filters]);
+  const chip = (on: boolean) =>
+    `lv-chip flex min-h-11 shrink-0 items-center rounded-full px-[18px] text-[15px] font-bold whitespace-nowrap ${on ? "bg-ink text-on-ink" : "hover:bg-white/70"}`;
 
   return (
-    <div className="mb-8 grid grid-cols-2 gap-3 md:flex md:items-end">
-      {fields.map((f) => (
-        <label key={f.key} className="block md:w-44">
-          <span className="eyebrow mb-1 block text-muted">{f.label}</span>
-          <select
-            className="field cursor-pointer"
-            value={current[f.key as keyof Filters] ?? ""}
-            onChange={(e) => update(f.urlKey, e.target.value)}
-          >
-            <option value="">Tous</option>
-            {f.options.map((o) => (
-              <option key={o.value} value={o.value}>
-                {o.label}
-              </option>
-            ))}
-          </select>
-        </label>
-      ))}
-      {active && (
+    <div className="lv-reveal mt-5 mb-9">
+      <div className="glass flex flex-col gap-1.5 rounded-[28px] p-2 md:flex-row md:items-center md:rounded-full">
+        <div className="-mx-1 flex gap-1.5 overflow-x-auto px-1 md:flex-wrap" role="group" aria-label="Filtrer par occasion">
+          <Link href={hrefWith("occasion", undefined)} scroll={false} aria-current={!current.occasion ? "true" : undefined} className={chip(!current.occasion)}>
+            Toutes
+          </Link>
+          {OCCASIONS.map((o) => (
+            <Link
+              key={o.value}
+              href={hrefWith("occasion", o.value)}
+              scroll={false}
+              aria-current={current.occasion === o.value ? "true" : undefined}
+              className={chip(current.occasion === o.value)}
+            >
+              {o.label}
+            </Link>
+          ))}
+        </div>
         <button
           type="button"
-          onClick={() => router.push(`${basePath}${anchor}`, { scroll: false })}
-          className="col-span-2 text-left text-sm underline underline-offset-4 md:ml-2 md:pb-2"
+          onClick={() => setOpen(!open)}
+          aria-expanded={open}
+          aria-controls="filtres-plus"
+          className="lv-chip flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-full border border-ink/20 bg-white/60 px-[18px] text-[15px] font-bold md:ml-auto"
         >
-          Effacer les filtres
+          <SlidersIcon className="h-[18px] w-[18px]" />
+          {more.map((f) => f.label).join(" · ")}
+          {moreActive > 0 && (
+            <span className="inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-accent px-1.5 text-[13px] font-extrabold text-on-ink">
+              {moreActive}
+            </span>
+          )}
         </button>
+      </div>
+
+      {open && (
+        <div id="filtres-plus" className="glass mt-3 flex flex-wrap items-end gap-3 rounded-[28px] p-4">
+          {more.map((f) => (
+            <label key={f.key} className="block min-w-40 flex-1 md:max-w-56">
+              <span className="mb-1 block text-[13px] font-bold text-ink-muted">{f.label}</span>
+              <select
+                className="field min-h-11 cursor-pointer rounded-full"
+                value={current[f.key] ?? ""}
+                onChange={(e) => router.push(hrefWith(f.key, e.target.value || undefined), { scroll: false })}
+              >
+                <option value="">Tous</option>
+                {f.options.map((o) => (
+                  <option key={o.value} value={o.value}>{o.label}</option>
+                ))}
+              </select>
+            </label>
+          ))}
+          {(moreActive > 0 || current.occasion) && (
+            <Link href={`${basePath}${anchor}`} scroll={false} className="flex min-h-11 items-center px-2 text-sm font-bold underline underline-offset-4">
+              Effacer les filtres
+            </Link>
+          )}
+        </div>
       )}
     </div>
   );

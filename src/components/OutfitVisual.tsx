@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element -- les images viennent de sites marchands variés */
-import { COLLAGE_BG, collageItems, collageLayout } from "@/lib/collage";
+import { COLLAGE_BG, COLLAGE_PADDING, collageItems, collageLayout } from "@/lib/collage";
 
 type Props = {
   outfit: {
@@ -15,9 +15,9 @@ type Props = {
 /**
  * Visuel d'une tenue : l'image principale si elle existe,
  * sinon un collage automatique des images de ses articles.
- * Le cadre est toujours vertical (4:5), comme sur Pinterest.
+ * Le cadre est toujours vertical (4:5) et arrondi.
  */
-export function OutfitVisual({ outfit, priority, className = "" }: Props) {
+export function OutfitVisual({ outfit, priority, className = "rounded-[24px]" }: Props) {
   const loading = priority ? "eager" : "lazy";
 
   if (outfit.mainImage) {
@@ -30,6 +30,7 @@ export function OutfitVisual({ outfit, priority, className = "" }: Props) {
 
   const items = collageItems(outfit.items);
   const tiles = collageLayout(items.length);
+  const inset = `${COLLAGE_PADDING * 100}%`;
 
   return (
     <div
@@ -43,23 +44,19 @@ export function OutfitVisual({ outfit, priority, className = "" }: Props) {
           {outfit.title}
         </div>
       )}
-      <div className="absolute inset-[5%]">
+      <div className="absolute" style={{ inset }}>
         {items.map((item, i) => {
           const t = tiles[i];
           return (
-            <div
+            <img
               key={i}
-              className="absolute p-[3%]"
+              src={item.imageUrl!}
+              alt=""
+              loading={loading}
+              // mix-blend-multiply : le fond blanc des photos produits se fond dans le rose pâle
+              className="absolute h-full w-full object-contain mix-blend-multiply"
               style={{ left: `${t.x * 100}%`, top: `${t.y * 100}%`, width: `${t.w * 100}%`, height: `${t.h * 100}%` }}
-            >
-              {/* mix-blend-multiply : le fond blanc des photos produits se fond dans le gris */}
-              <img
-                src={item.imageUrl!}
-                alt=""
-                loading={loading}
-                className="h-full w-full object-contain mix-blend-multiply"
-              />
-            </div>
+            />
           );
         })}
       </div>

@@ -13,52 +13,53 @@ export function collageItems<T extends { category: string; imageUrl: string | nu
     .slice(0, 6);
 }
 
-/** Une case du collage, en fraction de la largeur/hauteur totale (0 à 1). */
+/** Une case du collage, en fraction de la zone intérieure (0 à 1). */
 export type Tile = { x: number; y: number; w: number; h: number };
 
-/** Cases du collage selon le nombre d'images (pensé pour un cadre vertical 4:5). */
+/** Marge intérieure du cadre et espace entre les images (en fraction du cadre). */
+export const COLLAGE_PADDING = 0.11;
+const GAP = 0.08;
+
+/**
+ * Cases du collage selon le nombre d'images, sur 2 colonnes (cadre vertical 4:5).
+ * Au-delà de 2 images, la pièce principale (la première) peut occuper 2 rangées.
+ */
 export function collageLayout(count: number): Tile[] {
+  const w = (1 - GAP) / 2;
+  const col = (c: number) => c * (w + GAP);
+  // hauteur et position d'une rangée quand il y en a `rows`
+  const cell = (rows: number, r: number, span = 1) => {
+    const h = (1 - (rows - 1) * GAP) / rows;
+    return { y: r * (h + GAP), h: h * span + GAP * (span - 1) };
+  };
   switch (count) {
     case 0:
       return [];
     case 1:
       return [{ x: 0.1, y: 0.1, w: 0.8, h: 0.8 }];
     case 2:
-      return [
-        { x: 0, y: 0.08, w: 0.5, h: 0.84 },
-        { x: 0.5, y: 0.08, w: 0.5, h: 0.84 },
-      ];
+      return [0, 1].map((c) => ({ x: col(c), w, ...cell(1, 0) }));
     case 3:
       return [
-        { x: 0, y: 0, w: 0.56, h: 1 },
-        { x: 0.56, y: 0, w: 0.44, h: 0.5 },
-        { x: 0.56, y: 0.5, w: 0.44, h: 0.5 },
+        { x: col(0), w, ...cell(2, 0, 2) },
+        { x: col(1), w, ...cell(2, 0) },
+        { x: col(1), w, ...cell(2, 1) },
       ];
     case 4:
-      return [
-        { x: 0, y: 0, w: 0.5, h: 0.5 },
-        { x: 0.5, y: 0, w: 0.5, h: 0.5 },
-        { x: 0, y: 0.5, w: 0.5, h: 0.5 },
-        { x: 0.5, y: 0.5, w: 0.5, h: 0.5 },
-      ];
+      return [0, 1, 2, 3].map((i) => ({ x: col(i % 2), w, ...cell(2, Math.floor(i / 2)) }));
     case 5:
       return [
-        { x: 0, y: 0, w: 0.56, h: 0.62 },
-        { x: 0.56, y: 0, w: 0.44, h: 0.31 },
-        { x: 0.56, y: 0.31, w: 0.44, h: 0.31 },
-        { x: 0, y: 0.62, w: 0.5, h: 0.38 },
-        { x: 0.5, y: 0.62, w: 0.5, h: 0.38 },
+        { x: col(0), w, ...cell(3, 0, 2) },
+        { x: col(1), w, ...cell(3, 0) },
+        { x: col(1), w, ...cell(3, 1) },
+        { x: col(0), w, ...cell(3, 2) },
+        { x: col(1), w, ...cell(3, 2) },
       ];
     default:
-      // 6 images : 2 colonnes x 3 lignes
-      return Array.from({ length: 6 }, (_, i) => ({
-        x: (i % 2) * 0.5,
-        y: Math.floor(i / 2) / 3,
-        w: 0.5,
-        h: 1 / 3,
-      }));
+      // 6 images : 2 colonnes x 3 rangées
+      return Array.from({ length: 6 }, (_, i) => ({ x: col(i % 2), w, ...cell(3, Math.floor(i / 2)) }));
   }
 }
 
 /** Couleur de fond des collages. */
-export const COLLAGE_BG = "#F4F4F4";
+export const COLLAGE_BG = "#FBF4F7";

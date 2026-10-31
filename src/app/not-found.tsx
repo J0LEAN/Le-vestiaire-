@@ -1,20 +1,23 @@
 import Link from "next/link";
-import { SiteFooter } from "@/components/SiteFooter";
-import { SiteHeader } from "@/components/SiteHeader";
+import { BigHanger } from "@/components/icons";
+import { SiteShell } from "@/components/SiteShell";
 
 // Page affichée pour toute adresse inconnue ou tenue introuvable.
-
 export default function NotFound() {
   return (
-    <>
-      <SiteHeader />
-      <main className="mx-auto max-w-xl flex-1 px-4 py-24 text-center">
-      <p className="eyebrow">Erreur 404</p>
-      <h1 className="mt-3 font-serif text-4xl">Cette page n&apos;existe pas</h1>
-      <p className="mt-4 text-muted">La tenue a peut-être été retirée, ou l&apos;adresse contient une faute de frappe.</p>
-      <Link href="/" className="btn-primary mt-8">Voir toutes les tenues</Link>
-      </main>
-      <SiteFooter />
-    </>
+    <SiteShell>
+      <div className="mx-auto flex max-w-xl flex-col items-center px-4 py-20 text-center">
+        <div className="rail w-56" aria-hidden="true" />
+        <BigHanger className="lv-swing -mt-2.5 block h-[54px] w-[140px] text-ink" />
+        <p className="pill mt-8">Erreur 404</p>
+        <h1 className="mt-4 font-serif text-5xl leading-none">
+          Ce cintre est <em>vide</em>
+        </h1>
+        <p className="mt-4 text-lg text-ink-soft">
+          La tenue a peut-être été retirée, ou l&apos;adresse contient une faute de frappe.
+        </p>
+        <Link href="/" className="lv-btn btn-primary mt-8">Voir toutes les tenues</Link>
+      </div>
+    </SiteShell>
   );
 }

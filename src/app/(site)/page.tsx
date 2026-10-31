@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { FilterBar } from "@/components/FilterBar";
-import { OutfitGrid } from "@/components/OutfitCard";
-import { OutfitVisual } from "@/components/OutfitVisual";
-import { OCCASIONS, labelOf } from "@/lib/constants";
+import { HomeHero, type HeroOutfit } from "@/components/HomeHero";
+import { HangingOutfits, OutfitGrid } from "@/components/OutfitCard";
+import { formatPrice, outfitBudget } from "@/lib/format";
+import { getFeaturedOutfits, getPublishedOutfits, readFilters, type OutfitWithItems } from "@/lib/queries";
 import { OG_DEFAULTS } from "@/lib/site";
-import { getFeaturedOutfits, getPublishedOutfits, readFilters } from "@/lib/queries";
+import { splitFirstSentence } from "@/lib/text";
 
 // Image de partage de l'accueil : le visuel de la tenue à la une la plus récente.
 export async function generateMetadata(): Promise<Metadata> {
@@ -16,63 +17,97 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
+const STEPS = [
+  ["Choisissez", "une tenue selon l'occasion, la saison ou votre budget."],
+  ["Comprenez", "pourquoi elle fonctionne, grâce au conseil de style."],
+  ["Copiez-la", "en ouvrant le lien de chaque pièce."],
+];
+
+/** Données minimales d'une tenue pour le grand titre (composant navigateur). */
+const toHero = (o: OutfitWithItems): HeroOutfit => ({
+  slug: o.slug,
+  title: o.title,
+  total: formatPrice(outfitBudget(o)),
+  mainImage: o.mainImage,
+  items: o.items.map(({ name, category, imageUrl, position }) => ({ name, category, imageUrl, position })),
+});
+
 export default async function HomePage({ searchParams }: PageProps<"/">) {
   const filters = readFilters(await searchParams);
-  const [featured, outfits] = await Promise.all([getFeaturedOutfits(), getPublishedOutfits(filters)]);
+  const filtered = Object.values(filters).some(Boolean);
+  const [featured, outfits, all] = await Promise.all([
+    getFeaturedOutfits(),
+    getPublishedOutfits(filters),
+    filtered ? getPublishedOutfits() : null,
+  ]);
+  const published = all ?? outfits;
+  // La tenue vedette : d'abord les tenues à la une, puis les autres (pour « Surprenez-moi »)
+  const heroList = [...featured, ...published.filter((o) => !featured.some((f) => f.id === o.id))].map(toHero);
+  const quoted = featured[0] ?? published[0];
 
   return (
     <>
-      {/* En-tête de présentation */}
-      <section className="border-b border-line">
-        <div className="mx-auto max-w-6xl px-4 py-12 text-center md:py-20">
-          <p className="eyebrow">Le magazine des tenues complètes</p>
-          <h1 className="mx-auto mt-4 max-w-3xl font-serif text-4xl leading-tight md:text-6xl">
-            Vous ne savez pas quoi porter&nbsp;? Copiez la tenue.
-          </h1>
-          <p className="mx-auto mt-5 max-w-xl text-muted">
-            Chaque tenue est composée pièce par pièce, avec ses liens pour tout retrouver. Haut, bas, chaussures,
-            accessoires&nbsp;: il ne vous reste qu&apos;à choisir.
-          </p>
-          <ol className="mx-auto mt-10 grid max-w-3xl gap-6 text-left sm:grid-cols-3">
-            {[
-              ["Choisissez", "une tenue selon l'occasion, la saison et votre budget."],
-              ["Comprenez", "pourquoi elle fonctionne, grâce au conseil de style."],
-              ["Copiez-la", "en ouvrant les liens de chaque pièce en un clic."],
-            ].map(([title, text], i) => (
-              <li key={title} className="flex gap-3">
-                <span className="font-serif text-3xl leading-none">{i + 1}</span>
-                <p className="text-sm">
-                  <strong className="font-semibold">{title}</strong> {text}
-                </p>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
+      <HomeHero outfits={heroList} />
 
-      {/* Tenues à la une */}
+      {/* Les 3 étapes */}
+      <ol className="grid gap-4 sm:grid-cols-[repeat(auto-fit,minmax(260px,1fr))]">
+        {STEPS.map(([verb, rest], i) => (
+          <li key={verb} className="lv-card lv-reveal glass flex items-center gap-4 rounded-[28px] py-[18px] pr-[22px] pl-[18px]">
+            <span className="flex h-12 w-12 flex-none items-center justify-center rounded-full bg-accent text-lg font-extrabold text-on-ink">{i + 1}</span>
+            <span className="text-base leading-[1.45]">
+              <strong className="font-extrabold">{verb}</strong> {rest}
+            </span>
+          </li>
+        ))}
+      </ol>
+
+      {/* Tenues à la une, sur le portant */}
       {featured.length > 0 && (
-        <section className="mx-auto max-w-6xl px-4 pt-12">
-          <h2 className="eyebrow mb-6">À la une</h2>
-          <div className="grid gap-8 md:grid-cols-3">
-            {featured.map((o, i) => (
-              <Link key={o.id} href={`/tenues/${o.slug}`} className="group block">
-                <OutfitVisual outfit={o} priority={i === 0} />
-                <p className="eyebrow mt-4 text-muted">{labelOf(OCCASIONS, o.occasion)}</p>
-                <h3 className="mt-1 font-serif text-2xl leading-snug group-hover:underline underline-offset-4">{o.title}</h3>
-                <p className="mt-2 line-clamp-2 text-sm text-muted">{o.description}</p>
-              </Link>
-            ))}
+        <section aria-labelledby="une" className="pt-20 md:pt-24">
+          <div className="mb-6 flex flex-wrap items-baseline justify-between gap-4">
+            <h2 id="une" className="lv-reveal font-serif text-[40px] leading-none tracking-[-0.02em] md:text-[52px]">
+              Sur le portant <em>cette semaine</em>
+            </h2>
+            <span className="pill">
+              {featured.length} tenue{featured.length > 1 ? "s" : ""} à la une
+            </span>
           </div>
+          <HangingOutfits outfits={featured} />
         </section>
       )}
 
       {/* Toutes les tenues, avec filtres */}
-      <section id="tenues" className="mx-auto max-w-6xl scroll-mt-20 px-4 pt-16">
-        <h2 className="mb-6 font-serif text-3xl">Toutes les tenues</h2>
+      <section id="tenues" aria-labelledby="toutes" className="scroll-mt-28 pt-20 md:pt-[104px]">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <h2 id="toutes" className="lv-reveal font-serif text-[44px] leading-[0.95] tracking-[-0.02em] md:text-[64px]">
+            Toutes les tenues
+          </h2>
+          <span className="text-[15px] font-bold text-ink-soft">
+            {outfits.length} tenue{outfits.length > 1 ? "s" : ""}
+          </span>
+        </div>
         <FilterBar basePath="/" current={filters} anchor="#tenues" />
         <OutfitGrid outfits={outfits} />
       </section>
+
+      {/* Pourquoi ça marche : extrait du conseil d'une tenue à la une */}
+      {quoted && (
+        <section className="lv-reveal relative mt-20 flex flex-wrap items-center gap-8 overflow-hidden rounded-[36px] bg-ink p-7 text-on-ink sm:p-14 md:mt-[104px] md:gap-12 md:rounded-[44px]">
+          <span className="lv-halo absolute -top-20 -right-20 h-[360px] w-[360px] rounded-full bg-accent opacity-55 blur-[90px]" aria-hidden="true" />
+          <div className="relative flex flex-[1_1_260px] flex-col gap-[18px]">
+            <span className="self-start rounded-full border border-white/25 bg-white/10 px-4 py-2 text-sm font-bold">Pourquoi ça marche</span>
+            <p className="text-[17px] leading-relaxed text-[#EBD8E4]">
+              Chaque tenue est livrée avec son explication, sans jargon. À force de copier, on apprend à composer.
+            </p>
+            <Link href={`/tenues/${quoted.slug}`} className="font-extrabold text-on-ink underline-offset-4 hover:underline">
+              Lire la tenue « {quoted.title} » →
+            </Link>
+          </div>
+          <blockquote className="relative min-w-0 flex-[999_1_520px] rounded-[32px] border border-white/20 bg-white/10 p-7 shadow-[inset_0_1px_0_rgba(255,255,255,0.3)] backdrop-blur-xl sm:px-11 sm:py-10">
+            <p className="font-serif text-[clamp(26px,3.2vw,44px)] leading-[1.18]">« {splitFirstSentence(quoted.whyItWorks)[0]} »</p>
+          </blockquote>
+        </section>
+      )}
     </>
   );
 }

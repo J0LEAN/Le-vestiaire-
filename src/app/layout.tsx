@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Fraunces, Nunito } from "next/font/google";
 import { OG_DEFAULTS, SITE } from "@/lib/site";
 import "./globals.css";
 
@@ -7,8 +7,9 @@ import "./globals.css";
 // (le contenu publié depuis l'admin apparaît donc immédiatement).
 export const dynamic = "force-dynamic";
 
-const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
-const playfair = Playfair_Display({ variable: "--font-playfair", subsets: ["latin"] });
+// Fraunces (titres, axe « SOFT » pour des formes douces) et Nunito (texte et interface)
+const fraunces = Fraunces({ variable: "--font-fraunces", subsets: ["latin"], axes: ["SOFT", "opsz"], style: ["normal", "italic"] });
+const nunito = Nunito({ variable: "--font-nunito", subsets: ["latin"] });
 
 // Balises SEO par défaut (chaque page peut les compléter).
 export const metadata: Metadata = {
@@ -19,11 +20,11 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image" },
 };
 
-export const viewport: Viewport = { themeColor: "#ffffff" };
+export const viewport: Viewport = { themeColor: "#f6eef3" };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="fr" className={`${inter.variable} ${playfair.variable} h-full antialiased`}>
+    <html lang="fr" className={`${fraunces.variable} ${nunito.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col font-sans">{children}</body>
     </html>
   );

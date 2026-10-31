@@ -7,7 +7,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
 import { db } from "@/lib/db";
-import { COLLAGE_BG, collageItems, collageLayout } from "@/lib/collage";
+import { COLLAGE_BG, COLLAGE_PADDING, collageItems, collageLayout } from "@/lib/collage";
 import { SITE } from "@/lib/site";
 
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
@@ -36,7 +36,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
     }
   }
   const tiles = collageLayout(pieces.length);
-  const pad = 0.05;
+  const pad = COLLAGE_PADDING;
 
   const visual = (
     <div style={{ display: "flex", position: "relative", width: boxW, height: boxH, background: COLLAGE_BG }}>
@@ -47,8 +47,8 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
           const t = tiles[i];
           const innerW = boxW * (1 - 2 * pad);
           const innerH = boxH * (1 - 2 * pad);
-          const w = t.w * innerW * 0.94;
-          const h = t.h * innerH * 0.94;
+          const w = t.w * innerW;
+          const h = t.h * innerH;
           return (
             <img
               key={i}
@@ -58,8 +58,8 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
               alt=""
               style={{
                 position: "absolute",
-                left: boxW * pad + t.x * innerW + t.w * innerW * 0.03,
-                top: boxH * pad + t.y * innerH + t.h * innerH * 0.03,
+                left: boxW * pad + t.x * innerW,
+                top: boxH * pad + t.y * innerH,
                 objectFit: "contain",
               }}
             />
@@ -77,18 +77,18 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
         justifyContent: "center",
         flex: 1,
         padding: isOg ? "48px 56px" : "36px 56px",
-        background: "#ffffff",
-        color: "#000000",
+        background: "#F6EEF3",
+        color: "#26121F",
       }}
     >
       <div style={{ fontSize: isOg ? 26 : 28, letterSpacing: 6, textTransform: "uppercase" }}>{SITE.name}</div>
-      <div style={{ fontSize: isOg ? 56 : 52, fontWeight: 700, lineHeight: 1.1, marginTop: 16 }}>{outfit.title}</div>
-      {isOg && <div style={{ fontSize: 26, marginTop: 24, color: "#444" }}>{SITE.tagline}</div>}
+      <div style={{ fontSize: isOg ? 56 : 52, fontWeight: 400, lineHeight: 1.1, marginTop: 16 }}>{outfit.title}</div>
+      {isOg && <div style={{ fontSize: 26, marginTop: 24, color: "#5F4558" }}>{SITE.tagline}</div>}
     </div>
   );
 
   return new ImageResponse(
-    <div style={{ display: "flex", flexDirection: isOg ? "row" : "column", width: W, height: H, background: "#fff" }}>
+    <div style={{ display: "flex", flexDirection: isOg ? "row" : "column", width: W, height: H, background: "#F6EEF3" }}>
       {visual}
       {caption}
     </div>,
