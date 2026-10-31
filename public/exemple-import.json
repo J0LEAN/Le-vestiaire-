@@ -1,32 +1,91 @@
 {
   "tenues": [
     {
-      "titre": "Afterwork en jupe midi",
-      "description": "Une tenue qui passe du bureau au bar sans détour par la maison.",
-      "pourquoi_ca_marche": "La jupe midi est féminine sans être trop habillée. Le pull fin rentré dans la taille marque la silhouette, et les bottines noires ancrent la tenue pour qu'elle reste pratique.",
-      "style": "chic",
-      "occasion": "travail",
+      "titre": "Brunch en rose tendre",
+      "description": "Une tenue douce et gaie pour un brunch ou une balade du dimanche.",
+      "pourquoi_ca_marche": "Le rose du pull revient sur les baskets : la couleur répétée deux fois rend la tenue cohérente. Le jean écru adoucit l'ensemble.",
+      "style": "casual",
+      "occasion": "week-end",
       "saison": "automne",
-      "budget": 180,
       "image": "",
       "a_la_une": false,
       "articles": [
-        { "nom": "Pull fin col rond gris", "categorie": "haut", "marque": "Marque A", "prix": 35.9, "image": "/exemples/pull-gris.svg", "lien": "https://www.exemple-boutique.fr/pull-fin", "affilie": false },
-        { "nom": "Jupe midi plissée noire", "categorie": "bas", "marque": "Marque B", "prix": 49, "image": "", "lien": "https://www.exemple-boutique.fr/jupe-midi", "affilie": true },
-        { "nom": "Bottines noires", "categorie": "chaussures", "marque": "Marque C", "prix": 79, "image": "/exemples/bottines-noires.svg", "lien": "https://www.exemple-boutique.fr/bottines", "affilie": true }
+        {
+          "nom": "Pull Carolina rose",
+          "categorie": "haut",
+          "marque": "Make My Lemonade",
+          "prix": 140.0,
+          "image": "https://cdn.shopify.com/s/files/1/0229/4277/7416/files/CarolinaRose.jpg?v=1791296329",
+          "lien": "https://www.makemylemonade.com/products/pull-carolina-rose",
+          "affilie": false
+        },
+        {
+          "nom": "Jean Curvy Brenda écru",
+          "categorie": "bas",
+          "marque": "Patine",
+          "prix": 84.0,
+          "image": "https://cdn.shopify.com/s/files/1/1673/2209/files/brendacurvy_vintage_blanc_1.jpg?v=1721392349",
+          "lien": "https://www.patine.fr/products/brenda-curvy-vintage-ecru-creme-fraiche",
+          "affilie": false
+        },
+        {
+          "nom": "Baskets Quinn rose et rouge",
+          "categorie": "chaussures",
+          "marque": "Balzac Paris",
+          "prix": 130.0,
+          "image": "https://cdn.shopify.com/s/files/1/0407/2855/9766/files/FA241E11-BE000_1.jpg?v=1740501877",
+          "lien": "https://www.balzac-paris.fr/products/baskets-quinn-rose-et-rouge",
+          "affilie": false
+        }
       ]
     },
     {
-      "titre": "Vacances à la mer",
-      "description": "Légère et facile à porter, pour flâner du marché à la plage.",
-      "pourquoi_ca_marche": "Le blanc et le naturel (paille, beige) évoquent l'été et vont avec tout. Les sandales plates permettent de marcher longtemps.",
-      "style": "Bohème",
-      "occasion": "Vacances",
-      "saison": "Été",
+      "titre": "Afterwork vert forêt",
+      "description": "Une tenue élégante qui passe du bureau au verre de fin de journée.",
+      "pourquoi_ca_marche": "Le vert profond du pull ressort sur le noir de la jupe et des bottines. La ceinture marque la taille et relie le haut et le bas.",
+      "style": "chic",
+      "occasion": "travail",
+      "saison": "hiver",
+      "budget": 650,
+      "image": "",
+      "a_la_une": false,
       "articles": [
-        { "nom": "T-shirt blanc en lin", "categorie": "haut", "prix": "25,00 €", "image": "/exemples/tshirt-blanc.svg", "lien": "https://www.exemple-boutique.fr/tshirt-lin" },
-        { "nom": "Sandales nude", "categorie": "chaussures", "prix": 45, "image": "/exemples/sandales-nude.svg", "lien": "https://www.exemple-boutique.fr/sandales", "affilie": "oui" },
-        { "nom": "Cabas en paille", "categorie": "sac", "prix": 30, "image": "/exemples/cabas-paille.svg", "lien": "https://www.exemple-boutique.fr/cabas" }
+        {
+          "nom": "Pull Doudou vert forêt",
+          "categorie": "haut",
+          "marque": "Balzac Paris",
+          "prix": 180.0,
+          "image": "https://cdn.shopify.com/s/files/1/0407/2855/9766/files/Plandetravail27octobre.jpg?v=1790951667",
+          "lien": "https://www.balzac-paris.fr/products/pull-doudou-vert-foret",
+          "affilie": false
+        },
+        {
+          "nom": "Jupe Prom Taffy noire",
+          "categorie": "bas",
+          "marque": "Patine",
+          "prix": 230.0,
+          "image": "https://cdn.shopify.com/s/files/1/1673/2209/files/taffy_jupe_noir.jpg?v=1763467320",
+          "lien": "https://www.patine.fr/products/taffy-jupe-noir-black-coffee",
+          "affilie": false
+        },
+        {
+          "nom": "Bottines Blandine noires",
+          "categorie": "chaussures",
+          "marque": "Balzac Paris",
+          "prix": 170.0,
+          "image": "https://cdn.shopify.com/s/files/1/0407/2855/9766/files/NOEL23-BottinesBlandinenoir-11-1.jpg?v=1758719254",
+          "lien": "https://www.balzac-paris.fr/products/bottines-blandine-noir",
+          "affilie": false
+        },
+        {
+          "nom": "Ceinture Basma noire",
+          "categorie": "accessoire",
+          "marque": "Balzac Paris",
+          "prix": 90.0,
+          "image": "https://cdn.shopify.com/s/files/1/0407/2855/9766/files/FA253F77-NO001_1_f22692bb-9636-42af-a6a9-3be91fe128ea.jpg?v=1761644002",
+          "lien": "https://www.balzac-paris.fr/products/ceinture-basma-noir",
+          "affilie": false
+        }
       ]
     }
   ]

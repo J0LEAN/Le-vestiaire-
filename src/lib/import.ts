@@ -249,7 +249,7 @@ function toBool(v: unknown): boolean {
   return ["true", "oui", "1", "x", "yes", "vrai"].includes(text(v).toLowerCase());
 }
 
-/** Adresse web (https://…) ou image du site ("/exemples/…"). */
+/** Adresse web (https://…) ou image du site ("/produits/…"). */
 function isUrl(v: string): boolean {
   if (v.startsWith("/")) return true;
   try {

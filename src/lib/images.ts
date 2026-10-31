@@ -1,14 +1,15 @@
 // Copies des photos sur le site.
 // Les produits (surtout en édition limitée) disparaissent souvent des boutiques,
 // et leur photo avec eux : le site garde donc sa propre copie de chaque image.
-// Les copies sont redimensionnées (1200 px au plus) et converties en JPEG sur fond blanc.
+// Les copies sont redimensionnées (1200 px au plus) et converties en JPEG ; pour
+// les photos produits sur fond uni, le fond est blanchi et l'image recadrée.
 
 import { createHash } from "node:crypto";
 import { existsSync } from "node:fs";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { PrismaClient } from "@prisma/client";
-import sharp from "sharp";
+import sharp, { type Sharp } from "sharp";
 import { mapLimit } from "./linkcheck";
 
 /**
@@ -35,14 +36,52 @@ export async function readImage(file: string): Promise<Buffer | null> {
   }
 }
 
+/**
+ * Photo produit sur fond uni et clair (gris pâle, beige…) : ramène ce fond au
+ * blanc pur (pour qu'il se fonde dans les collages) et recadre au plus près du
+ * produit. Les autres photos (décor, ambiance) sont laissées telles quelles.
+ */
+async function cleanPackshot(image: Sharp): Promise<Sharp> {
+  const { data, info } = await image.raw().toBuffer({ resolveWithObject: true });
+  const { width: w, height: h, channels: c } = info;
+  const b = Math.max(4, Math.round(Math.min(w, h) * 0.03));
+  const border: number[][] = [[], [], []];
+  for (let y = 0; y < h; y += 2) {
+    for (let x = 0; x < w; x += 2) {
+      if (x >= b && x < w - b && y >= b && y < h - b) continue;
+      const i = (y * w + x) * c;
+      for (let k = 0; k < 3; k++) border[k].push(data[i + k]);
+    }
+  }
+  const median = (v: number[]) => v.sort((p, q) => p - q)[Math.floor(v.length / 2)];
+  const bg = border.map(median);
+  const uniform =
+    border[0].filter((_, i) => Math.abs(border[0][i] - bg[0]) + Math.abs(border[1][i] - bg[1]) + Math.abs(border[2][i] - bg[2]) < 30).length /
+    border[0].length;
+  const raw = sharp(data, { raw: info });
+  if (uniform < 0.9 || Math.min(...bg) < 200) return raw; // pas un packshot : on ne touche à rien
+
+  // Fond → blanc pur, puis recadrage serré avec une petite marge.
+  // (Deux passes : sharp recadrerait sinon avant de blanchir le fond.)
+  const whitened = await raw.linear(bg.map((v) => 255 / v), [0, 0, 0]).toBuffer({ resolveWithObject: true });
+  const white = await sharp(whitened.data, { raw: whitened.info })
+    .trim({ background: "#ffffff", threshold: 12 })
+    .toBuffer({ resolveWithObject: true });
+  const margin = Math.round(Math.max(white.info.width, white.info.height) * 0.04);
+  return sharp(white.data, { raw: { width: white.info.width, height: white.info.height, channels: white.info.channels } }).extend({
+    top: margin, bottom: margin, left: margin, right: margin, background: "#ffffff",
+  });
+}
+
 /** Traite et enregistre une image ; renvoie le nom du fichier créé. */
 export async function storeImage(data: Buffer): Promise<string> {
-  const jpeg = await sharp(data, { failOn: "none" })
+  const base = sharp(data, { failOn: "none" })
     .rotate() // respecte l'orientation des photos de téléphone
     .resize(1200, 1200, { fit: "inside", withoutEnlargement: true })
     .flatten({ background: "#ffffff" }) // fond transparent → blanc
-    .jpeg({ quality: 85, mozjpeg: true })
-    .toBuffer();
+    .removeAlpha();
+  const cleaned = await cleanPackshot(base).catch(() => base);
+  const jpeg = await cleaned.jpeg({ quality: 85, mozjpeg: true }).toBuffer();
   const file = `${createHash("sha256").update(jpeg).digest("hex")}.jpg`;
   await mkdir(IMAGES_DIR, { recursive: true });
   const path = join(IMAGES_DIR, file);
