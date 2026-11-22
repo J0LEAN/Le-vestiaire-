@@ -1,16 +1,10 @@
 // Lecture des tenues publiées (pages publiques).
-import { BUDGETS } from "./constants";
 import { db } from "./db";
-import { outfitBudget } from "./format";
+import { filterOutfits, type Filters } from "./filters";
 import { withSavedImages } from "./images";
+import { withBasePath } from "./site";
 
-export type Filters = { style?: string; occasion?: string; season?: string; budget?: string };
-
-/** Lit les filtres depuis l'URL (?style=chic&occasion=soiree…). */
-export function readFilters(sp: Record<string, string | string[] | undefined>): Filters {
-  const get = (k: string) => (typeof sp[k] === "string" && sp[k] ? (sp[k] as string) : undefined);
-  return { style: get("style"), occasion: get("occasion"), season: get("saison"), budget: get("budget") };
-}
+export type { Filters } from "./filters";
 
 /** Tenues publiées, des plus récentes aux plus anciennes, avec filtres. */
 export async function getPublishedOutfits(filters: Filters = {}) {
@@ -25,15 +19,8 @@ export async function getPublishedOutfits(filters: Filters = {}) {
     include: { items: { orderBy: { position: "asc" } } },
     orderBy: [{ publishedAt: "desc" }, { id: "desc" }],
   });
-  const outfits = rows.map(withSavedImages);
-
   // Le budget peut être calculé (somme des prix) : on filtre donc ici.
-  const range = BUDGETS.find((b) => b.value === filters.budget);
-  if (!range) return outfits;
-  return outfits.filter((o) => {
-    const total = outfitBudget(o);
-    return total >= range.min && (range.max == null || total < range.max);
-  });
+  return filterOutfits(rows.map(withSavedImages).map(withBasePath), { budget: filters.budget });
 }
 
 export type OutfitWithItems = Awaited<ReturnType<typeof getPublishedOutfits>>[number];
@@ -46,7 +33,7 @@ export async function getFeaturedOutfits() {
     orderBy: [{ publishedAt: "desc" }, { id: "desc" }],
     take: 3,
   });
-  return rows.map(withSavedImages);
+  return rows.map(withSavedImages).map(withBasePath);
 }
 
 /** Une tenue publiée par son URL. */
@@ -55,5 +42,5 @@ export async function getOutfitBySlug(slug: string) {
     where: { slug, status: "publiee" },
     include: { items: { orderBy: { position: "asc" } } },
   });
-  return outfit && withSavedImages(outfit);
+  return outfit && withBasePath(withSavedImages(outfit));
 }

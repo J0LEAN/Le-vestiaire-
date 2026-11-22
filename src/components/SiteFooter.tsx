@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { HangerIcon } from "@/components/icons";
 import { SITE } from "@/lib/site";
-import { NewsletterForm } from "./NewsletterForm";
 
 const LINKS = [
   ["/collections", "Collections"],
@@ -10,16 +9,18 @@ const LINKS = [
   ["/liens-affilies", "Liens affiliés"],
 ];
 
-/** Newsletter, encart application (bientôt) et pied de page. */
+/** Encart application (bientôt) et pied de page. */
 export function SiteFooter() {
   return (
     <footer className="mt-24">
-      <section id="newsletter" className="flex flex-wrap gap-6">
-        <div className="lv-reveal glass flex min-w-0 flex-[999_1_480px] flex-col gap-4 rounded-[40px] p-7 sm:p-10">
+      <section className="flex flex-wrap gap-6">
+        <div className="lv-reveal glass flex min-w-0 flex-[999_1_480px] flex-col justify-center gap-4 rounded-[40px] p-7 sm:p-10">
           <h2 className="font-serif text-[32px] leading-[1.05] sm:text-[40px]">
-            La tenue de la semaine, <em>dans votre boîte mail.</em>
+            Une nouvelle tenue, <em>à copier en un clic.</em>
           </h2>
-          <NewsletterForm />
+          <p className="max-w-xl text-base leading-normal text-ink-soft">
+            Chaque tenue est composée de vraies pièces, avec le lien pour acheter chacune d&apos;elles et le conseil de style qui explique pourquoi ça marche.
+          </p>
         </div>
         <div className="lv-reveal flex flex-[1_1_300px] flex-col justify-between gap-3.5 rounded-[40px] bg-accent p-7 text-on-ink sm:p-10">
           <HangerIcon className="h-[42px] w-14" strokeWidth={2} />

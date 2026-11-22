@@ -16,7 +16,7 @@ Technologies : Next.js 16, TypeScript, Tailwind CSS, Prisma et SQLite. Le site e
 2. [Ajouter des tenues : l'import en lot](#2-ajouter-des-tenues--limport-en-lot)
 3. [Vérifier les liens](#3-vérifier-les-liens)
 4. [Gérer les liens affiliés](#4-gérer-les-liens-affiliés)
-5. [Mettre le site en ligne sur Railway](#5-mettre-le-site-en-ligne-sur-railway)
+5. [Mettre le site en ligne](#5-mettre-le-site-en-ligne) : gratuitement sur GitHub Pages, ou avec Railway
 6. [Avant d'ouvrir le site au public](#6-avant-douvrir-le-site-au-public)
 7. [Personnaliser le site](#7-personnaliser-le-site)
 8. [Aide-mémoire](#8-aide-mémoire)
@@ -150,28 +150,59 @@ Sur le site, les liens affiliés affichent automatiquement la mention **« Lien 
 
 ---
 
-## 5. Mettre le site en ligne sur Railway
+## 5. Mettre le site en ligne
+
+Deux possibilités. **La première est gratuite.**
+
+### Option A : GitHub Pages (gratuit, recommandé pour démarrer)
+
+GitHub Pages n'a pas de serveur : le site est « figé » en pages toutes faites, refabriquées automatiquement à chaque envoi de code sur GitHub (fichier [`.github/workflows/pages.yml`](.github/workflows/pages.yml)).
+
+**Réglage à faire une seule fois** (sur github.com, dans votre dépôt `Buy-my-dress`) :
+
+1. **Settings** (Paramètres) → **Pages** (menu de gauche).
+2. Dans **Build and deployment** → **Source**, choisissez **GitHub Actions**.
+3. Ouvrez l'onglet **Actions** : la construction se lance (1 à 3 minutes). Si rien ne démarre, ouvrez « Publier le site » puis **Run workflow**.
+4. Quand c'est vert, l'adresse du site est affichée dans **Settings → Pages**. Elle ressemble à `https://votre-compte.github.io/Buy-my-dress/`.
+
+**Ce qui marche** : l'accueil, les 106 tenues, les filtres, les collections, Mon portant (gardé dans le navigateur de chaque visiteur), les liens d'achat, le bouton Pinterest et les aperçus de partage.
+
+**Ce qui n'existe pas dans cette version** (il faut un serveur) : l'espace admin, l'import en ligne, la vérification automatique des liens et la newsletter.
+
+**Ajouter ou modifier des tenues sans l'admin** : les tenues sont dans [`prisma/donnees-exemple.json`](prisma/donnees-exemple.json), au même format que l'import en lot (voir [`IMPORT.md`](IMPORT.md)). Modifiez ce fichier sur GitHub (ou demandez à Claude) : le site se reconstruit tout seul. Les photos vont dans `public/produits/` (idéalement détourées, fond transparent, en `.webp`).
+
+**Tester la construction chez soi** (sur une copie du projet, car le script supprime les parties « serveur ») :
+
+```bash
+CONFIRME_COPIE_JETABLE=oui BASE_PATH=/Buy-my-dress SITE_URL=http://localhost:4010/Buy-my-dress bash scripts/construire-statique.sh
+```
+
+Le site figé est alors dans le dossier `out/`.
+
+> Sur GitHub Pages, l'adresse contient le nom du dépôt (`/Buy-my-dress/`). Pour une adresse à vous (`www.levestiaire.fr`) : achetez un nom de domaine, ajoutez-le dans **Settings → Pages → Custom domain**, puis créez dans le dépôt la variable `BASE_PATH` vide (demandez à Claude, c'est une petite modification du fichier `pages.yml`). Un nom de domaine à soi est aussi préférable pour le référencement Google.
+
+### Option B : Railway (avec espace admin et newsletter)
 
 [Railway](https://railway.com) héberge le site et garde la base de données sur un **disque permanent** (un « volume »). Comptez environ 5 $ par mois.
 
-### Étape 1 : créer le projet
+#### Étape 1 : créer le projet
 
 1. Créez un compte sur [railway.com](https://railway.com) en vous connectant avec votre compte GitHub.
 2. Cliquez sur **New Project**, puis **Deploy from GitHub repo**, et choisissez le dépôt `Buy-my-dress`.
 3. Railway lance une première construction du site. Elle échouera ou le site ne fonctionnera pas encore : c'est normal, il manque les réglages des étapes suivantes.
 
-### Étape 2 : ajouter le disque permanent (volume)
+#### Étape 2 : ajouter le disque permanent (volume)
 
 1. Dans votre projet Railway, faites un clic droit sur le service du site (ou passez par la palette de commandes avec `Ctrl` + `K` / `⌘` + `K`), puis choisissez **Attach Volume** (ou « Add Volume »).
 2. Pour le chemin de montage (**Mount path**), indiquez : `/data`
 
 > ⚠️ Sans volume, la base de données serait effacée à chaque mise à jour du site.
 
-### Étape 3 : obtenir une adresse web
+#### Étape 3 : obtenir une adresse web
 
 Ouvrez le service, puis **Settings → Networking → Generate Domain**. Railway vous donne une adresse du type `https://buy-my-dress-production.up.railway.app`. Vous pourrez plus tard brancher votre propre nom de domaine au même endroit (**Custom Domain**).
 
-### Étape 4 : les variables d'environnement
+#### Étape 4 : les variables d'environnement
 
 Dans l'onglet **Variables** du service, ajoutez :
 
@@ -185,7 +216,7 @@ Dans l'onglet **Variables** du service, ajoutez :
 
 Railway redéploie automatiquement le site après chaque changement de variable.
 
-### Comment se passe un déploiement
+#### Comment se passe un déploiement
 
 Le fichier [`railway.json`](railway.json) indique à Railway quoi faire :
 - **Construction** : `npm run build`.
@@ -193,7 +224,7 @@ Le fichier [`railway.json`](railway.json) indique à Railway quoi faire :
 
 À chaque fois que vous (ou Claude) envoyez du code sur la branche principale de GitHub, Railway met le site à jour tout seul. Vos tenues et les copies de leurs photos sont conservées, car elles sont sur le volume.
 
-### Sauvegardes
+#### Sauvegardes
 
 Toutes vos tenues sont dans le fichier `/data/vestiaire.db`, et les copies des photos dans le dossier `/data/images`. Activez les **sauvegardes du volume** dans Railway (onglet du volume → **Backups**), surtout une fois que vous aurez publié beaucoup de tenues.
 
@@ -262,11 +293,13 @@ public/
 src/
   app/(site)/            ← pages publiques (accueil, tenues, collections, légal)
   app/admin/             ← espace admin
-  app/visuels/           ← génération des images PNG (Pinterest, réseaux sociaux)
+  app/visuels/           ← images PNG de chaque tenue (Pinterest, réseaux sociaux)
   app/sitemap.ts, robots.ts
   actions/               ← actions envoyées par les formulaires (enregistrer, importer…)
   components/            ← briques d'affichage (carte de tenue, collage, filtres…)
   lib/                   ← logique : import, vérification des liens, connexion admin…
 IMPORT.md                ← format des fichiers d'import et texte pour Claude
-railway.json             ← configuration de l'hébergement Railway
+railway.json             ← configuration de l'hébergement Railway (option B)
+scripts/construire-statique.sh ← fabrique la version figée (GitHub Pages, option A)
+.github/workflows/pages.yml    ← publication automatique sur GitHub Pages
 ```

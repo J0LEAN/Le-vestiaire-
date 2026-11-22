@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FilterBar } from "@/components/FilterBar";
 import { HomeHero, type HeroOutfit } from "@/components/HomeHero";
-import { HangingOutfits, PagedOutfitGrid } from "@/components/OutfitCard";
+import { OutfitBrowser } from "@/components/OutfitBrowser";
+import { HangingOutfits } from "@/components/OutfitCard";
 import { formatPrice, outfitBudget } from "@/lib/format";
-import { getFeaturedOutfits, getPublishedOutfits, readFilters, type OutfitWithItems } from "@/lib/queries";
+import { getFeaturedOutfits, getPublishedOutfits, type OutfitWithItems } from "@/lib/queries";
 import { OG_DEFAULTS } from "@/lib/site";
 import { splitFirstSentence } from "@/lib/text";
 
@@ -13,7 +13,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const [first] = await getFeaturedOutfits();
   return {
     alternates: { canonical: "/" },
-    openGraph: first ? { ...OG_DEFAULTS, type: "website", images: [{ url: `/visuels/${first.slug}?format=og`, width: 1200, height: 630 }] } : undefined,
+    openGraph: first ? { ...OG_DEFAULTS, type: "website", images: [{ url: `/visuels/${first.slug}/og.png`, width: 1200, height: 630 }] } : undefined,
   };
 }
 
@@ -32,16 +32,8 @@ const toHero = (o: OutfitWithItems): HeroOutfit => ({
   items: o.items.map(({ name, category, imageUrl, position }) => ({ name, category, imageUrl, position })),
 });
 
-export default async function HomePage({ searchParams }: PageProps<"/">) {
-  const sp = await searchParams;
-  const filters = readFilters(sp);
-  const filtered = Object.values(filters).some(Boolean);
-  const [featured, outfits, all] = await Promise.all([
-    getFeaturedOutfits(),
-    getPublishedOutfits(filters),
-    filtered ? getPublishedOutfits() : null,
-  ]);
-  const published = all ?? outfits;
+export default async function HomePage() {
+  const [featured, published] = await Promise.all([getFeaturedOutfits(), getPublishedOutfits()]);
   // La tenue vedette : d'abord les tenues à la une, puis les autres (pour « Surprenez-moi »)
   const heroList = [...featured, ...published.filter((o) => !featured.some((f) => f.id === o.id))].map(toHero);
   const quoted = featured[0] ?? published[0];
@@ -79,16 +71,16 @@ export default async function HomePage({ searchParams }: PageProps<"/">) {
 
       {/* Toutes les tenues, avec filtres */}
       <section id="tenues" aria-labelledby="toutes" className="scroll-mt-28 pt-20 md:pt-[104px]">
-        <div className="flex flex-wrap items-end justify-between gap-4">
-          <h2 id="toutes" className="lv-reveal font-serif text-[44px] leading-[0.95] tracking-[-0.02em] md:text-[64px]">
-            Toutes les tenues
-          </h2>
-          <span className="text-[15px] font-bold text-ink-soft">
-            {outfits.length} tenue{outfits.length > 1 ? "s" : ""}
-          </span>
-        </div>
-        <FilterBar basePath="/" current={filters} anchor="#tenues" />
-        <PagedOutfitGrid outfits={outfits} searchParams={sp} basePath="/" anchor="#tenues" />
+        <OutfitBrowser
+          outfits={published}
+          basePath="/"
+          anchor="#tenues"
+          heading={
+            <h2 id="toutes" className="lv-reveal font-serif text-[44px] leading-[0.95] tracking-[-0.02em] md:text-[64px]">
+              Toutes les tenues
+            </h2>
+          }
+        />
       </section>
 
       {/* Pourquoi ça marche : extrait du conseil d'une tenue à la une */}

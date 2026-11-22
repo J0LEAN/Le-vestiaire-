@@ -70,7 +70,7 @@ export const COLLAGE_BG = "#FBF4F7";
  * douce, pour qu'un vêtement blanc reste visible sur le fond clair.
  */
 export function isCutout(src: string | null): boolean {
-  return !!src && src.startsWith("/produits/") && /\.(webp|png)$/i.test(src);
+  return !!src && !/^https?:/.test(src) && /\/produits\/[^/]+\.(webp|png)$/i.test(src);
 }
 
 /**

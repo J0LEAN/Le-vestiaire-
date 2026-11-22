@@ -7,7 +7,7 @@ function pinterestUrl(slug: string, title: string) {
     "https://www.pinterest.com/pin/create/button/?" +
     new URLSearchParams({
       url: absoluteUrl(`/tenues/${slug}`),
-      media: absoluteUrl(`/visuels/${slug}`),
+      media: absoluteUrl(`/visuels/${slug}/pin.png`),
       description: `${title} — tenue complète à copier`,
     }).toString()
   );

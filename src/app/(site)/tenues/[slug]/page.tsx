@@ -13,12 +13,18 @@ import { getOutfitBySlug, getPublishedOutfits } from "@/lib/queries";
 import { OG_DEFAULTS } from "@/lib/site";
 import { splitFirstSentence, splitLastWord } from "@/lib/text";
 
+// Une page par tenue publiée, fabriquée à l'avance.
+export const dynamicParams = false;
+export async function generateStaticParams() {
+  return (await getPublishedOutfits()).map((o) => ({ slug: o.slug }));
+}
+
 // Balises SEO propres à chaque tenue (titre, description, image de partage).
 export async function generateMetadata({ params }: PageProps<"/tenues/[slug]">): Promise<Metadata> {
   const { slug } = await params;
   const outfit = await getOutfitBySlug(slug);
   if (!outfit) return {};
-  const image = `/visuels/${slug}?format=og`;
+  const image = `/visuels/${slug}/og.png`;
   return {
     title: outfit.title,
     description: outfit.description,

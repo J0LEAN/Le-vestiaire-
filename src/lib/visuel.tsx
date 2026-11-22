@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element -- ImageResponse n'accepte que <img> */
 // Génère l'image PNG d'une tenue (collage ou image principale).
-//   /visuels/<slug>              → format vertical 1000x1500 (Pinterest)
-//   /visuels/<slug>?format=og    → format paysage 1200x630 (Facebook, WhatsApp, X…)
+//   /visuels/<slug>/pin.png   → format vertical 1000x1500 (Pinterest)
+//   /visuels/<slug>/og.png    → format paysage 1200x630 (Facebook, WhatsApp, X…)
+// Les deux adresses sont des fichiers fabriqués à l'avance (voir app/visuels/).
 
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
@@ -12,10 +13,7 @@ import { COLLAGE_BG, COLLAGE_PADDING, collageItems, collageLayout } from "@/lib/
 import { readImage, withSavedImages } from "@/lib/images";
 import { SITE } from "@/lib/site";
 
-export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const isOg = new URL(request.url).searchParams.get("format") === "og";
-
+export async function renderVisuel(slug: string, isOg: boolean): Promise<Response> {
   const row = await db.outfit.findFirst({
     where: { slug, status: "publiee" },
     include: { items: true },

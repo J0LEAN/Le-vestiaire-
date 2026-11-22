@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { FilterBar } from "@/components/FilterBar";
-import { PagedOutfitGrid } from "@/components/OutfitCard";
+import { OutfitBrowser } from "@/components/OutfitBrowser";
 import { STYLES } from "@/lib/constants";
-import { getPublishedOutfits, readFilters } from "@/lib/queries";
+import { getPublishedOutfits } from "@/lib/queries";
 
 export async function generateMetadata({ params }: PageProps<"/collections/[style]">): Promise<Metadata> {
   const { style } = await params;
@@ -17,14 +16,18 @@ export async function generateMetadata({ params }: PageProps<"/collections/[styl
   };
 }
 
-export default async function CollectionPage({ params, searchParams }: PageProps<"/collections/[style]">) {
+// Une page par style, fabriquée à l'avance.
+export const dynamicParams = false;
+export function generateStaticParams() {
+  return STYLES.map((s) => ({ style: s.value }));
+}
+
+export default async function CollectionPage({ params }: PageProps<"/collections/[style]">) {
   const { style } = await params;
   const s = STYLES.find((x) => x.value === style);
   if (!s) notFound();
 
-  const sp = await searchParams;
-  const filters = { ...readFilters(sp), style: s.value };
-  const outfits = await getPublishedOutfits(filters);
+  const outfits = await getPublishedOutfits({ style: s.value });
 
   return (
     <div className="pt-12">
@@ -33,8 +36,7 @@ export default async function CollectionPage({ params, searchParams }: PageProps
         Tenues <em>{s.label.toLowerCase()}</em>
       </h1>
       <p className="mt-3 max-w-xl text-lg text-ink-soft">{s.description}</p>
-      <FilterBar basePath={`/collections/${s.value}`} current={filters} hideStyle />
-      <PagedOutfitGrid outfits={outfits} searchParams={sp} basePath={`/collections/${s.value}`} />
+      <OutfitBrowser outfits={outfits} basePath={`/collections/${s.value}`} fixedStyle={s.value} />
     </div>
   );
 }

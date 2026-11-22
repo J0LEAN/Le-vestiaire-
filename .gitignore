@@ -49,3 +49,6 @@ next-env.d.ts
 
 # copies des images des articles (en local)
 /storage
+
+# Base jetable de la construction figée (GitHub Pages)
+/construction.db*

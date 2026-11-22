@@ -1,0 +1,54 @@
+# Publie le site sur GitHub Pages à chaque envoi de code.
+# (Réglage à faire une seule fois : Settings > Pages > Source : « GitHub Actions ».)
+name: Publier le site
+
+on:
+  push:
+    branches: [main, claude/admiring-cori-9cafqs]
+  workflow_dispatch: # permet aussi de le lancer à la main (onglet Actions)
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installer les outils du site
+        run: npm ci
+
+      - name: Construire le site figé
+        env:
+          # Adresse du site : https://<compte>.github.io/<nom-du-dépôt>
+          BASE_PATH: /${{ github.event.repository.name }}
+        run: |
+          OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          export SITE_URL="https://${OWNER}.github.io${BASE_PATH}"
+          bash scripts/construire-statique.sh
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  publier:
+    needs: construire
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
